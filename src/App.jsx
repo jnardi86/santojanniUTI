@@ -1,12 +1,17 @@
+import { RouterProvider } from "react-router-dom"
+import { appRouter } from "./core/router/AppRouter"
+import AuthProvider from "./auth/context/AuthProvider"
 
 
 function App() {
 
 
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">Proyecto UTI Santojanni</h1>
-    </>
+    <AuthProvider>
+      <RouterProvider router={appRouter} />
+    </AuthProvider>
+
+
   )
 }
 
