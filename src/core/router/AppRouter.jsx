@@ -4,7 +4,7 @@ import HomeView from "../../pages/home/view/HomeView";
 import LoginView from "../../pages/login/view/LoginView";
 import UserView from "../../pages/user/view/UserView";
 import PublicRoute from "./PublicRoute";
-import PrivateRouter from "./PrivateRouter";
+import PrivateRoute from "./PrivateRoute";
 
 
 export const appRouter = createBrowserRouter([
@@ -33,11 +33,11 @@ export const appRouter = createBrowserRouter([
     {
         path: "/user",
         element: (
-            <PrivateRouter>
+            <PrivateRoute>
                 <Layout>
                     <UserView />
                 </Layout>
-            </PrivateRouter>
+            </PrivateRoute>
         ),
     },
 
