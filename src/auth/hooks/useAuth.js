@@ -8,7 +8,8 @@ export const useAuth = () => {
         login,
         logout,
         signUp,
-        signIn
+        signIn,
+        signOut
     } = useContext(AuthContext)
 
     return {
@@ -17,6 +18,7 @@ export const useAuth = () => {
         login,
         logout,
         signUp,
-        signIn
+        signIn,
+        signOut
     }
 }
