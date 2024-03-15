@@ -1,8 +1,9 @@
+import Footer from "../components/Footer"
 
 
 const FooterView = () => {
   return (
-    <div>FooterView</div>
+    <Footer />
   )
 }
 
