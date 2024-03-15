@@ -1,3 +1,4 @@
+import useData from "../../useData"
 import ContentsDescription from "../components/descripcion/ContentsDescription"
 import ContentsAvailable from "../components/disponibilidad/ContentsAvailable"
 import ContentsHero from "../components/hero/ContentsHero"
@@ -7,6 +8,12 @@ import ContentsVideo from "../components/videos/ContentsVideo"
 
 
 const ContentsView = () => {
+
+  const {
+    pageContents
+  } = useData()
+
+
   return (
     <>
     <ContentsHero/>
