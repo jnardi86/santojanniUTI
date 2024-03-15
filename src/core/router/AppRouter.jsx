@@ -5,6 +5,7 @@ import LoginView from "../../pages/login/view/LoginView";
 import UserView from "../../pages/user/view/UserView";
 import PublicRoute from "./PublicRoute";
 import PrivateRoute from "./PrivateRoute";
+import ContentsView from "../../pages/contents/view/ContentsView";
 
 
 export const appRouter = createBrowserRouter([
@@ -36,6 +37,16 @@ export const appRouter = createBrowserRouter([
             <PrivateRoute>
                 <Layout>
                     <UserView />
+                </Layout>
+            </PrivateRoute>
+        ),
+    },
+    {
+        path: "/contents",
+        element: (
+            <PrivateRoute>
+                <Layout>
+                    <ContentsView/>
                 </Layout>
             </PrivateRoute>
         ),

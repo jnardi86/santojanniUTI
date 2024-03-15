@@ -1,0 +1,187 @@
+[
+    {
+      "id": "cnt1",
+      "module": "Sepsis",
+      "content": {
+        "headerImgDesktop": "../assets/Images_figma/header_sepsis_desktop_max.png",
+        "headerImgMobile": "../assets/Images_figma/header_sepsis_mobile_max.png",
+        "headerTitle": "Sepsis",
+        "description": "Descripción",
+        "availableTextTime": "Disponible a partir de fecha",
+        "speakerName": "Nombre y Apellido",
+        "speakerSpeciality": "Cargo y Especialidad",
+        "speakerDescritpion": "Descripción",
+        "urlVideoNro1": "url1",
+        "availableTextVideo1": "Disponible a partir de fecha",
+        "urlVideoNro2": "url2",
+        "availableTextVideo2": "Disponible a partir de fecha",
+        "urlVideoNro3": "url3",
+        "availableTextVideo3": "Disponible a partir de fecha",
+        "urlVideoNro4": "url4",
+        "availableTextVideo4": "Disponible a partir de fecha",
+        "quizzText": "Completar examén nro. 1"
+      }
+    },
+    {
+      "id": "cnt2",
+      "module": "Infectología Crítica",
+      "content": {
+        "headerImgDesktop": "../assets/Images_figma/header_infecto_desktop_max.png",
+        "headerImgMobile": "../assets/Images_figma/header_infecto_mobile_max.png",
+        "headerTitle": "Infectología Crítica",
+        "description": "Descripción",
+        "availableTextTime": "Disponible a partir de fecha",
+        "speakerName": "Nombre y Apellido",
+        "speakerSpeciality": "Cargo y Especialidad",
+        "speakerDescritpion": "Descripción",
+        "urlVideoNro1": "url1",
+        "availableTextVideo1": "Disponible a partir de fecha",
+        "urlVideoNro2": "url2",
+        "availableTextVideo2": "Disponible a partir de fecha",
+        "urlVideoNro3": "url3",
+        "availableTextVideo3": "Disponible a partir de fecha",
+        "urlVideoNro4": "url4",
+        "availableTextVideo4": "Disponible a partir de fecha",
+        "quizzText": "Completar examén nro. 1"
+      }
+    },
+    {
+      "id": "cnt3",
+      "module": "Cardiología",
+      "content": {
+        "headerImgDesktop": "../assets/Images_figma/header_cardio_desktop_max.png",
+        "headerImgMobile": "../assets/Images_figma/header_cardio_mobile_max.png",
+        "headerTitle": "Cardiología",
+        "description": "Descripción",
+        "availableTextTime": "Disponible a partir de fecha",
+        "speakerName": "Nombre y Apellido",
+        "speakerSpeciality": "Cargo y Especialidad",
+        "speakerDescritpion": "Descripción",
+        "urlVideoNro1": "url1",
+        "availableTextVideo1": "Disponible a partir de fecha",
+        "urlVideoNro2": "url2",
+        "availableTextVideo2": "Disponible a partir de fecha",
+        "urlVideoNro3": "url3",
+        "availableTextVideo3": "Disponible a partir de fecha",
+        "urlVideoNro4": "url4",
+        "availableTextVideo4": "Disponible a partir de fecha",
+        "quizzText": "Completar examén nro. 1"
+      }
+    },
+    {
+      "id": "cnt4",
+      "module": "Nutrición del paciente crítico",
+      "content": {
+        "headerImgDesktop": "../assets/Images_figma/header_nutri_desktop_max.png",
+        "headerImgMobile": "../assets/Images_figma/header_nutri_mobile_max.png",
+        "headerTitle": "Nutrición del paciente crítico",
+        "description": "Descripción",
+        "availableTextTime": "Disponible a partir de fecha",
+        "speakerName": "Nombre y Apellido",
+        "speakerSpeciality": "Cargo y Especialidad",
+        "speakerDescritpion": "Descripción",
+        "urlVideoNro1": "url1",
+        "availableTextVideo1": "Disponible a partir de fecha",
+        "urlVideoNro2": "url2",
+        "availableTextVideo2": "Disponible a partir de fecha",
+        "urlVideoNro3": "url3",
+        "availableTextVideo3": "Disponible a partir de fecha",
+        "urlVideoNro4": "url4",
+        "availableTextVideo4": "Disponible a partir de fecha",
+        "quizzText": "Completar examén nro. 1"
+      }
+    },
+    {
+      "id": "cnt5",
+      "module": "Respiratorio",
+      "content": {
+        "headerImgDesktop": "../assets/Images_figma/header_respi_desktop_max.png",
+        "headerImgMobile": "../assets/Images_figma/header_respi_mobile_max.png",
+        "headerTitle": "Respiratorio",
+        "description": "Descripción",
+        "availableTextTime": "Disponible a partir de fecha",
+        "speakerName": "Nombre y Apellido",
+        "speakerSpeciality": "Cargo y Especialidad",
+        "speakerDescritpion": "Descripción",
+        "urlVideoNro1": "url1",
+        "availableTextVideo1": "Disponible a partir de fecha",
+        "urlVideoNro2": "url2",
+        "availableTextVideo2": "Disponible a partir de fecha",
+        "urlVideoNro3": "url3",
+        "availableTextVideo3": "Disponible a partir de fecha",
+        "urlVideoNro4": "url4",
+        "availableTextVideo4": "Disponible a partir de fecha",
+        "quizzText": "Completar examén nro. 1"
+      }
+    },
+    {
+      "id": "cnt6",
+      "module": "Neurológico",
+      "content": {
+        "headerImgDesktop": "../assets/Images_figma/header_neuro_desktop_max.png",
+        "headerImgMobile": "../assets/Images_figma/header_neuro_mobile_max.png",
+        "headerTitle": "Neurológico",
+        "description": "Descripción",
+        "availableTextTime": "Disponible a partir de fecha",
+        "speakerName": "Nombre y Apellido",
+        "speakerSpeciality": "Cargo y Especialidad",
+        "speakerDescritpion": "Descripción",
+        "urlVideoNro1": "url1",
+        "availableTextVideo1": "Disponible a partir de fecha",
+        "urlVideoNro2": "url2",
+        "availableTextVideo2": "Disponible a partir de fecha",
+        "urlVideoNro3": "url3",
+        "availableTextVideo3": "Disponible a partir de fecha",
+        "urlVideoNro4": "url4",
+        "availableTextVideo4": "Disponible a partir de fecha",
+        "quizzText": "Completar examén nro. 1"
+      }
+    },
+    {
+      "id": "cnt7",
+      "module": "Renal y medio interno",
+      "content": {
+        "headerImgDesktop": "../assets/Images_figma/header_renal_desktop_max.png",
+        "headerImgMobile": "../assets/Images_figma/header_renal_mobile_max.png",
+        "headerTitle": "Renal y medio interno",
+        "description": "Descripción",
+        "availableTextTime": "Disponible a partir de fecha",
+        "speakerName": "Nombre y Apellido",
+        "speakerSpeciality": "Cargo y Especialidad",
+        "speakerDescritpion": "Descripción",
+        "urlVideoNro1": "url1",
+        "availableTextVideo1": "Disponible a partir de fecha",
+        "urlVideoNro2": "url2",
+        "availableTextVideo2": "Disponible a partir de fecha",
+        "urlVideoNro3": "url3",
+        "availableTextVideo3": "Disponible a partir de fecha",
+        "urlVideoNro4": "url4",
+        "availableTextVideo4": "Disponible a partir de fecha",
+        "quizzText": "Completar examén nro. 1"
+      }
+    },
+    {
+      "id": "cnt8",
+      "module": "Gastroenterología",
+      "content": {
+        "headerImgDesktop": "../assets/Images_figma/header_gastro_desktop_max.png",
+        "headerImgMobile": "../assets/Images_figma/header_gastro_mobile_max.png",
+        "headerTitle": "Gastroenterología",
+        "description": "Descripción",
+        "availableTextTime": "Disponible a partir de fecha",
+        "speakerName": "Nombre y Apellido",
+        "speakerSpeciality": "Cargo y Especialidad",
+        "speakerDescritpion": "Descripción",
+        "urlVideoNro1": "url1",
+        "availableTextVideo1": "Disponible a partir de fecha",
+        "urlVideoNro2": "url2",
+        "availableTextVideo2": "Disponible a partir de fecha",
+        "urlVideoNro3": "url3",
+        "availableTextVideo3": "Disponible a partir de fecha",
+        "urlVideoNro4": "url4",
+        "availableTextVideo4": "Disponible a partir de fecha",
+        "quizzText": "Completar examén nro. 1"
+      }
+    }
+  ]
+  
