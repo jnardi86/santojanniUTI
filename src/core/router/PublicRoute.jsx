@@ -6,7 +6,7 @@ const PublicRoute = ({children}) => {
   const { isLoggedIn } = useAuth()
 
   if (isLoggedIn) {
-    return <Navigate to='/user' />
+    return <Navigate to='/home' />
   }
 
   return children;
