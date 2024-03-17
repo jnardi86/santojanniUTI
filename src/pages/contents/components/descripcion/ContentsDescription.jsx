@@ -1,8 +1,13 @@
+import { useModulos } from "../../../../hooks/useModulos"
 
 
 const ContentsDescription = () => {
+
+  const { description } = useModulos()
+
   return (
-    <div>ContentsDescription</div>
+    <div>{description}</div>
+    
   )
 }
 

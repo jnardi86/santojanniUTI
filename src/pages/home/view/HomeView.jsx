@@ -7,14 +7,18 @@ import HomeCursosParte1 from "./components/primeraEtapa/HomeCursosParte1";
 import HomeCursosParte2 from "./components/segundaEtapa/HomeCursosParte2";
 import HomeColaboradores from "./components/colaboradores/HomeColaboradores";
 
+
 const HomeView = () => {
+
+
+
   return (
     <>
       <HomeHero />
       <HomeVideo />
       <HomeAbout />
       <HomeOradores />
-      <HomeCursosParte1 />
+      <HomeCursosParte1/>
       <HomeCursosParte2 />
       <HomeColaboradores />
     </>

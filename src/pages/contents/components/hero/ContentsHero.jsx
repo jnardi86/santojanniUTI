@@ -1,9 +1,9 @@
-import React, { useState } from "react"
+import { useModulos } from "../../../../hooks/useModulos"
 
 
 const ContentsHero = () => {
 
-  const [title, setTitle] = useState("Title Modulo 1");
+  const { title } = useModulos()
 
   return (
     <div>

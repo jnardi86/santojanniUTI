@@ -4,12 +4,22 @@ import { useHome } from '../pages/home/view/useHome'
 
 const ModulosProvider = ({ children }) => {
 
-    const { handleRenderModulo } = useHome();
+    const {
+        handleRenderModulo,
+        title,
+        setTitle,
+        description,
+        setDescription
+    } = useHome();
 
     return (
         <ModulosContext.Provider
             value={{
-                handleRenderModulo
+                handleRenderModulo,
+                title,
+                setTitle,
+                description,
+                setDescription
             }}>
             {children}
         </ModulosContext.Provider>
