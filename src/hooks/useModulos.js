@@ -6,7 +6,5 @@ export const useModulos = () => {
 
     return {
         handleRenderModulo,
-        title,
-        setTitle
     };
 }
