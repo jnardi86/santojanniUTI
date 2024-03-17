@@ -1,21 +1,19 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { ModulosContext } from '../context/ModulosContext'
-import { useHome } from '../pages/home/view/useHome'
+
 
 const ModulosProvider = ({ children }) => {
 
-    const {
-        handleRenderModulo,
-        title,
-        setTitle,
-        description,
-        setDescription
-    } = useHome();
+    //Declaracion de estados
+    const [title, setTitle] = useState("valor inicial")
+    const [description, setDescription] = useState("valor inicial")
+
+    //Declaracion de funciones
+
 
     return (
         <ModulosContext.Provider
             value={{
-                handleRenderModulo,
                 title,
                 setTitle,
                 description,

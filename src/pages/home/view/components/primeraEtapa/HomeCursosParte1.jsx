@@ -10,6 +10,7 @@ const HomeCursosParte1 = () => {
     const handleNavigateToContents = (moduleId) => {
         
         handleRenderModulo(moduleId)
+        
         navigate('/contents')
     }
 

@@ -1,0 +1,10 @@
+{
+  "cnt1": {
+    "moduleTitle": "Sepsis",
+    "moduleDescription": "descripción Sepsis"
+  },
+  "cnt2": {
+    "moduleTitle": "Cardiología",
+    "moduleDescription": "descripción Cardiología"
+  }
+}

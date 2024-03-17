@@ -1,45 +1,36 @@
-import { useState } from "react";
-import { dataContents } from "../../contents/dataContents"
-
+import arrayContents from "../../contents/dataContents.json";
+import { useModulos } from "../../../hooks/useModulos";
 
 
 export const useHome = () => {
 
-    const [title, setTitle] = useState("")
-    const [description, setDescription] = useState("")
+    const {setTitle, setDescription} = useModulos();
+    // Se parsea el json automaticamente en el objeto arrayContents
+    console.log("array contents is: ", arrayContents);
 
-    // Se parsea el json dataContents
-    const arrayContents = JSON.parse(JSON.stringify(dataContents));
 
     const handleRenderModulo = (moduleId) => {
 
-        // Se busca en el array de objetos de contenidos el Id recibido
-        const moduleContent = arrayContents.find(module => module.id === moduleId)
+        console.log(`El id del modulo es ${moduleId}`)
+        console.log("El contenido del modulo es", arrayContents[moduleId])
+        const moduleContent = arrayContents[moduleId]
 
         // Se mapea moduleContent para setear los elementos de la página de contenido que se renderiza
         if (moduleContent) {
 
-            const { moduleTitle, description } = moduleContent;
+            const { moduleTitle, moduleDescription } = moduleContent;
             setTitle(moduleTitle);
-            setDescription(description);
+            setDescription(moduleDescription);
             console.log(moduleTitle)
-            console.log(description)
+            console.log(moduleDescription)
         } else {
             console.log(`No existe un módulo con el id ${moduleId}`);
         }
-
-        console.log(moduleContent);
-        console.log(`El ID del modulo es: ${moduleId}`)
-        
 
     }
 
     return {
         handleRenderModulo,
-        title,
-        setTitle,
-        description,
-        setDescription
     }
 }
 

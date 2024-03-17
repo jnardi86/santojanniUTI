@@ -4,6 +4,8 @@ import { useModulos } from "../../../../hooks/useModulos"
 const ContentsHero = () => {
 
   const { title } = useModulos()
+  console.log("title del state is: ", title)
+
 
   return (
     <div>
