@@ -1,12 +1,15 @@
-{
-  "cnt1": {
+[
+  {
+    "id": "cnt1",
     "moduleTitle": "Sepsis",
     "moduleDescription": "descripción Sepsis",
     "moduleImageMobile": "/src/assets/Images_figma/header_sepsis_mobile_max.png"
   },
-  "cnt2": {
+  {
+    "id": "cnt2",
     "moduleTitle": "Cardiología",
     "moduleDescription": "descripción Cardiología",
     "moduleImageMobile": "/src/assets/Images_figma/header_cardio_mobile_max.png"
   }
-}
+]
+

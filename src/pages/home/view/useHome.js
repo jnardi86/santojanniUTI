@@ -4,11 +4,16 @@ import { useModulos } from "../../../hooks/useModulos";
 
 export const useHome = () => {
 
-    const {setTitle, setDescription, setImageMobile} = useModulos();
     // Se parsea el json automaticamente en el objeto arrayContents
     console.log("array contents is: ", arrayContents);
 
+    //Desestructuramos las variables globales del provider a traves del Hook useModulos
+    const { setTitle, setDescription, setImageMobile } = useModulos();
 
+
+/**
+ * HANDLE_REMOTE_MODULO
+ */
     const handleRenderModulo = (moduleId) => {
 
         console.log(`El id del modulo es ${moduleId}`)
@@ -32,7 +37,8 @@ export const useHome = () => {
     }
 
     return {
-        handleRenderModulo,
+        arrayContents,
+        handleRenderModulo
     }
 }
 
