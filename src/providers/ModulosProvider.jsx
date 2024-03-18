@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import { ModulosContext } from '../context/ModulosContext'
 
 
@@ -8,6 +8,7 @@ const ModulosProvider = ({ children }) => {
     const [title, setTitle] = useState("valor inicial")
     const [description, setDescription] = useState("valor inicial")
     const [imageMobile, setImageMobile] = useState("valor inicial")
+    const [imageDesktop, setImageDesktop] = useState("valor inicial")
 
     //Declaracion de funciones
 
@@ -20,7 +21,9 @@ const ModulosProvider = ({ children }) => {
                 description,
                 setDescription,
                 imageMobile,
-                setImageMobile
+                setImageMobile,
+                imageDesktop,
+                setImageDesktop
             }}>
             {children}
         </ModulosContext.Provider>

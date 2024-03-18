@@ -8,28 +8,38 @@ export const useHome = () => {
     console.log("array contents is: ", arrayContents);
 
     //Desestructuramos las variables globales del provider a traves del Hook useModulos
-    const { setTitle, setDescription, setImageMobile } = useModulos();
+    const {
+        setTitle,
+        setDescription,
+        setImageMobile,
+        setImageDesktop
+    } = useModulos();
 
 
-/**
- * HANDLE_REMOTE_MODULO
- */
+    /**
+     * HANDLE_REMOTE_MODULO
+     */
     const handleRenderModulo = (moduleId) => {
 
         console.log(`El id del modulo es ${moduleId}`)
-        console.log("El contenido del modulo es", arrayContents[moduleId])
-        const moduleContent = arrayContents[moduleId]
+
+        const moduleContent = arrayContents.find(object => object.id == moduleId)
+        console.log("El contenido del moduleContentFind es", moduleContent)
 
         // Se mapea moduleContent para setear los elementos de la página de contenido que se renderiza
         if (moduleContent) {
 
-            const { moduleTitle, moduleDescription, moduleImageMobile } = moduleContent;
+            const { moduleTitle, moduleDescription, moduleImageMobile, moduleImageDesktop } = moduleContent;
+
             setTitle(moduleTitle);
             setDescription(moduleDescription);
-            setImageMobile(moduleImageMobile)
-            console.log(moduleTitle)
-            console.log(moduleDescription)
-            console.log(moduleImageMobile)
+            setImageMobile(moduleImageMobile);
+            setImageDesktop(moduleImageDesktop);
+            // console.log(moduleTitle)
+            // console.log(moduleDescription)
+            // console.log(moduleImageMobile)
+
+
         } else {
             console.log(`No existe un módulo con el id ${moduleId}`);
         }
