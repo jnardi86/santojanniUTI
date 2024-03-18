@@ -4,7 +4,8 @@ import NavbarView from "../../components/navbar/view/NavbarView"
 
 const Layout = ({children}) => {
   return (
-    <div>
+    <div 
+  className="max-w-[1440px] mx-auto">
         <NavbarView/>
         {children}
         <FooterView/>
