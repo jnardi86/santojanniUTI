@@ -4,7 +4,7 @@ import { useModulos } from "../../../hooks/useModulos";
 
 export const useHome = () => {
 
-    const {setTitle, setDescription} = useModulos();
+    const {setTitle, setDescription, setImageMobile} = useModulos();
     // Se parsea el json automaticamente en el objeto arrayContents
     console.log("array contents is: ", arrayContents);
 
@@ -18,11 +18,13 @@ export const useHome = () => {
         // Se mapea moduleContent para setear los elementos de la página de contenido que se renderiza
         if (moduleContent) {
 
-            const { moduleTitle, moduleDescription } = moduleContent;
+            const { moduleTitle, moduleDescription, moduleImageMobile } = moduleContent;
             setTitle(moduleTitle);
             setDescription(moduleDescription);
+            setImageMobile(moduleImageMobile)
             console.log(moduleTitle)
             console.log(moduleDescription)
+            console.log(moduleImageMobile)
         } else {
             console.log(`No existe un módulo con el id ${moduleId}`);
         }

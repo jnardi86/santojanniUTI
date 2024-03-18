@@ -6,13 +6,17 @@ export const useModulos = () => {
         title,
         setTitle,
         description,
-        setDescription
+        setDescription,
+        imageMobile,
+        setImageMobile
     } = useContext(ModulosContext);
 
     return {
         title,
         setTitle,
         description,
-        setDescription
+        setDescription,
+        imageMobile,
+        setImageMobile
     };
 }

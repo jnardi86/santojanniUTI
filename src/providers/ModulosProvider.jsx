@@ -7,6 +7,7 @@ const ModulosProvider = ({ children }) => {
     //Declaracion de estados
     const [title, setTitle] = useState("valor inicial")
     const [description, setDescription] = useState("valor inicial")
+    const [imageMobile, setImageMobile] = useState("valor inicial")
 
     //Declaracion de funciones
 
@@ -17,7 +18,9 @@ const ModulosProvider = ({ children }) => {
                 title,
                 setTitle,
                 description,
-                setDescription
+                setDescription,
+                imageMobile,
+                setImageMobile
             }}>
             {children}
         </ModulosContext.Provider>

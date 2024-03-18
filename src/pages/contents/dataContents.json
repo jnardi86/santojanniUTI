@@ -1,10 +1,14 @@
+
+
 {
   "cnt1": {
     "moduleTitle": "Sepsis",
-    "moduleDescription": "descripción Sepsis"
+    "moduleDescription": "descripción Sepsis",
+    "moduleImageMobile":"../../../../assets/Images_figma/header_sepsis_mobile_max.png"
   },
   "cnt2": {
     "moduleTitle": "Cardiología",
-    "moduleDescription": "descripción Cardiología"
+    "moduleDescription": "descripción Cardiología",
+    "moduleImageMobile":"../../../../assets/Images_figma/header_cardio_mobile_max.png"
   }
 }
