@@ -6,7 +6,7 @@ const NavbarView = () => {
 
   return (
     <div
-      className="container mx-auto bg-Blue py-3 px-2 flex justify-between items-center">
+      className="navBarcontainer max-w-[1440px]  bg-Blue py-3 px-2 flex justify-between items-center">
       <Logo />
       <Login />
     </div>

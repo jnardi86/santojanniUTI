@@ -4,7 +4,7 @@ import footerImg from '../../../assets/Images_figma/footer_desktop_max.png'
 
 const Footer = () => {
     return (
-        <div className='container mx-auto relative'>
+        <div className='container max-w-[1440px] mx-auto relative'>
 
             {/* Image */}
             <div className='w-full'>
