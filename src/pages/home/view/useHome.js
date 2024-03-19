@@ -35,11 +35,7 @@ export const useHome = () => {
             setDescription(moduleDescription);
             setImageMobile(moduleImageMobile);
             setImageDesktop(moduleImageDesktop);
-            // console.log(moduleTitle)
-            // console.log(moduleDescription)
-            // console.log(moduleImageMobile)
-
-
+   
         } else {
             console.log(`No existe un módulo con el id ${moduleId}`);
         }

@@ -15,24 +15,9 @@ const ContentsHero = () => {
         <img src={`${imageMobile}`} alt="Flowers" style={{ width: 'auto' }} />
       </picture>
 
-      {/* <picture>
-        <source media="(max-width: 375px)" src={imageMobile} />
-      </picture> */}
-
 
     </div>
   )
 }
 
 export default ContentsHero
-
-
-{/* <div className="absolute inset-0 bg-cover bg-center" >
-
-        <img src={`${imageMobile}`} alt="" />
-        <p>En este div esta la uimagen en background</p>
-      </div>
-
-      <h1>ContentsHero</h1>
-      <h2>{title}</h2>
-     */}
