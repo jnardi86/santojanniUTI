@@ -26,7 +26,8 @@ export default {
       screens: {
         'mobile': '360px',
         'tablet': '768px',
-        'laptop': '1366px',
+        'laptop1': '1024px',
+        'laptop2': '1366px',
         'desktop': '1440px',
       },
     },
