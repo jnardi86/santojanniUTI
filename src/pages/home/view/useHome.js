@@ -4,9 +4,6 @@ import { useModulos } from "../../../hooks/useModulos";
 
 export const useHome = () => {
 
-    // Se parsea el json automaticamente en el objeto arrayContents
-    console.log("array contents is: ", arrayContents);
-
     //Desestructuramos las variables globales del provider a traves del Hook useModulos
     const {
         setTitle,
@@ -21,10 +18,10 @@ export const useHome = () => {
      */
     const handleRenderModulo = (moduleId) => {
 
-        console.log(`El id del modulo es ${moduleId}`)
+        // console.log(`El id del modulo es ${moduleId}`)
 
         const moduleContent = arrayContents.find(object => object.id == moduleId)
-        console.log("El contenido del moduleContentFind es", moduleContent)
+        // console.log("El contenido del moduleContentFind es", moduleContent)
 
         // Se mapea moduleContent para setear los elementos de la página de contenido que se renderiza
         if (moduleContent) {
