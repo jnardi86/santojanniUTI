@@ -13,10 +13,19 @@ const ContentsHero = () => {
           {/* Define the source for larger screens */}
           <source media="(min-width:550px)" srcSet={`${imageDesktop}`} />
           {/* Default image source */}
-          <img src={`${imageMobile}`} alt="Sepsis"/>
+          <img
+            src={`${imageMobile}`}
+            alt="Sepsis"
+            style=
+            {{
+              width: '100%',
+              height: '100%',
+              objectFit: 'cover'
+            }}
+          />
         </picture>
       </div>
-      <div className="heroContainer-title absolute w-full top-3/4 flex justify-center">
+      <div className="heroContainer-title absolute w-full top-[453px] bottom-[120px] flex justify-center">
         {/* <h1 className="font-poppins font-bold text-3xl">Laboratorio Sepsis</h1> */}
         <LogoRoemers
           color='#011C40'
