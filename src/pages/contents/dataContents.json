@@ -9,7 +9,10 @@
     "cardSpeakerPhoto": "/src/assets/speakers/speakerTest.png",
     "cardSpeakerName": "Dr. Nombre y Apellido",
     "cardSpeakerSpeciality": "Cargo y Especialidad",
-    "cardSpeakerDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, asperiores dolores! Aspernatur quasi perferendis fugiat beatae autem eligendi distinctio quisquam."
+    "cardSpeakerDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, asperiores dolores! Aspernatur quasi perferendis fugiat beatae autem eligendi distinctio quisquam.",
+    "moduleVideoNro1": "",
+    "moduleVideoNro2": "",
+    "moduleVideoNro3": ""
   },
   {
     "id": "cnt2",
@@ -21,7 +24,10 @@
     "cardSpeakerPhoto": "/src/assets/speakers/speakerTest.png",
     "cardSpeakerName": "Dr. Nombre y Apellido",
     "cardSpeakerSpeciality": "Cargo y Especialidad",
-    "cardSpeakerDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, asperiores dolores! Aspernatur quasi perferendis fugiat beatae autem eligendi distinctio quisquam."
+    "cardSpeakerDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, asperiores dolores! Aspernatur quasi perferendis fugiat beatae autem eligendi distinctio quisquam.",
+    "moduleVideoNro1": "",
+    "moduleVideoNro2": "",
+    "moduleVideoNro3": ""
   },
   {
     "id": "cnt3",
@@ -33,7 +39,10 @@
     "cardSpeakerPhoto": "/src/assets/speakers/speakerTest.png",
     "cardSpeakerName": "Dr. Nombre y Apellido",
     "cardSpeakerSpeciality": "Cargo y Especialidad",
-    "cardSpeakerDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, asperiores dolores! Aspernatur quasi perferendis fugiat beatae autem eligendi distinctio quisquam."
+    "cardSpeakerDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, asperiores dolores! Aspernatur quasi perferendis fugiat beatae autem eligendi distinctio quisquam.",
+    "moduleVideoNro1": "",
+    "moduleVideoNro2": "",
+    "moduleVideoNro3": ""
   }
 ]
 
