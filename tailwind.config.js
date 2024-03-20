@@ -10,7 +10,8 @@ export default {
       'White': '#FAFAFA',
       'Green': '#038C7F',
       'DarkGreen': '#025951',
-      'Black': '#000'
+      'Black': '#000',
+      'Cyan': '#7ED9D0'
     },
     fontFamily: {
       poppins: ['Poppins', 'sans-serif'],
@@ -30,6 +31,9 @@ export default {
         'laptop2': '1366px',
         'desktop': '1440px',
       },
+      boxShadow: {
+        'lightShadow': ' 0px 4px 4px 0px rgba(0, 0, 0, 0.25)',
+      }
     },
   },
   plugins: [],

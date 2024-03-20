@@ -10,7 +10,9 @@ export const useModulos = () => {
         imageMobile,
         setImageMobile,
         imageDesktop,
-        setImageDesktop
+        setImageDesktop,
+        textAvailable,
+        setTextAvailable
     } = useContext(ModulosContext);
 
     return {
@@ -21,6 +23,8 @@ export const useModulos = () => {
         imageMobile,
         setImageMobile,
         imageDesktop,
-        setImageDesktop
+        setImageDesktop,
+        textAvailable,
+        setTextAvailable
     };
 }

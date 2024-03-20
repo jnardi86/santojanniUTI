@@ -9,7 +9,8 @@ export const useHome = () => {
         setTitle,
         setDescription,
         setImageMobile,
-        setImageDesktop
+        setImageDesktop,
+        setTextAvailable
     } = useModulos();
 
 
@@ -26,12 +27,13 @@ export const useHome = () => {
         // Se mapea moduleContent para setear los elementos de la página de contenido que se renderiza
         if (moduleContent) {
 
-            const { moduleTitle, moduleDescription, moduleImageMobile, moduleImageDesktop } = moduleContent;
+            const { moduleTitle, moduleDescription, moduleImageMobile, moduleImageDesktop, moduleTextAvailable } = moduleContent;
 
             setTitle(moduleTitle);
             setDescription(moduleDescription);
             setImageMobile(moduleImageMobile);
             setImageDesktop(moduleImageDesktop);
+            setTextAvailable(moduleTextAvailable);
    
         } else {
             console.log(`No existe un módulo con el id ${moduleId}`);

@@ -9,6 +9,7 @@ const ModulosProvider = ({ children }) => {
     const [description, setDescription] = useState("valor inicial")
     const [imageMobile, setImageMobile] = useState("valor inicial")
     const [imageDesktop, setImageDesktop] = useState("valor inicial")
+    const [textAvailable, setTextAvailable] = useState("valor inicial")
 
     //Declaracion de funciones
 
@@ -23,7 +24,9 @@ const ModulosProvider = ({ children }) => {
                 imageMobile,
                 setImageMobile,
                 imageDesktop,
-                setImageDesktop
+                setImageDesktop,
+                textAvailable,
+                setTextAvailable
             }}>
             {children}
         </ModulosContext.Provider>
