@@ -20,7 +20,8 @@ export const useHome = () => {
         setVideoTitleTwo,
         setUrlVideoTwo,
         setVideoTitleThree,
-        setUrlVideoThree
+        setUrlVideoThree,
+        setVideoImg
     } = useModulos();
 
 
@@ -47,6 +48,7 @@ export const useHome = () => {
                 cardSpeakerName,
                 cardSpeakerSpeciality,
                 cardSpeakerDescription,
+                moduleVideImg,
                 moduleVideoTitle1,
                 moduleVideoNro1,
                 moduleVideoTitle2,
@@ -64,6 +66,7 @@ export const useHome = () => {
             setSpeakerName(cardSpeakerName);
             setSpeakerSpeciality(cardSpeakerSpeciality);
             setSpeakerDescription(cardSpeakerDescription);
+            setVideoImg(moduleVideImg);
             setVideoTitleOne(moduleVideoTitle1);
             setUrlVideoOne(moduleVideoNro1);
             setVideoTitleTwo(moduleVideoTitle2);

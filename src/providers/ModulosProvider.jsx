@@ -14,6 +14,7 @@ const ModulosProvider = ({ children }) => {
     const [speakerName, setSpeakerName] = useState("valor inicial")
     const [speakerSpeciality, setSpeakerSpeciality] = useState("valor inicial")
     const [speakerDescription, setSpeakerDescription] = useState("valor inicial")
+    const [videoImg, setVideoImg] = useState('valor inicial')
     const [videoTitleOne, setVideoTitleOne]= useState('valor inicial')
     const [urlVideoOne, setUrlVideoOne] = useState('valor inicial')
     const [videoTitleTwo, setVideoTitleTwo]= useState('valor inicial')
@@ -56,7 +57,9 @@ const ModulosProvider = ({ children }) => {
                 videoTitleThree, 
                 setVideoTitleThree,
                 urlVideoThree, 
-                setUrlVideoThree
+                setUrlVideoThree,
+                videoImg, 
+                setVideoImg
             }}>
             {children}
         </ModulosContext.Provider>
