@@ -1,7 +1,6 @@
 import { useHome } from "../../useHome"
 import Card from "../card/Card"
 
-
 const HomeCursosParte1 = () => {
 
     const {
@@ -12,16 +11,17 @@ const HomeCursosParte1 = () => {
     return (
         <div>
             <p>Primera Etapa</p>
-            {arrayContents.map((module, index) => {
-                return (
-                    <Card
-                        key={index}
-                        id={module.id}
-                        title={module.moduleTitle}
-                        description={module.moduleDescription}
-                    />
-                )
-            })}
+            <div className="flex justify-center">
+                {arrayContents.map((module, index) => {
+                    return (
+                        <Card
+                            key={index}
+                            data={module}
+                        />
+                    )
+                })}
+            </div>
+
         </div>
     )
 }
