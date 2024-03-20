@@ -10,8 +10,11 @@
     "cardSpeakerName": "Dr. Nombre y Apellido",
     "cardSpeakerSpeciality": "Cargo y Especialidad",
     "cardSpeakerDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, asperiores dolores! Aspernatur quasi perferendis fugiat beatae autem eligendi distinctio quisquam.",
+    "moduleVideoTitle1":"video n° 1",
     "moduleVideoNro1": "",
+    "moduleVideoTitle2":"video n° 2",
     "moduleVideoNro2": "",
+    "moduleVideoTitle3": "video n° 3",
     "moduleVideoNro3": ""
   },
   {
@@ -25,8 +28,11 @@
     "cardSpeakerName": "Dr. Nombre y Apellido",
     "cardSpeakerSpeciality": "Cargo y Especialidad",
     "cardSpeakerDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, asperiores dolores! Aspernatur quasi perferendis fugiat beatae autem eligendi distinctio quisquam.",
+    "moduleVideoTitle1":"video n° 1",
     "moduleVideoNro1": "",
+    "moduleVideoTitle2":"video n° 2",
     "moduleVideoNro2": "",
+    "moduleVideoTitle3": "video n° 3",
     "moduleVideoNro3": ""
   },
   {
@@ -40,8 +46,11 @@
     "cardSpeakerName": "Dr. Nombre y Apellido",
     "cardSpeakerSpeciality": "Cargo y Especialidad",
     "cardSpeakerDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, asperiores dolores! Aspernatur quasi perferendis fugiat beatae autem eligendi distinctio quisquam.",
+    "moduleVideoTitle1":"video n° 1",
     "moduleVideoNro1": "",
+    "moduleVideoTitle2":"video n° 2",
     "moduleVideoNro2": "",
+    "moduleVideoTitle3": "video n° 3",
     "moduleVideoNro3": ""
   }
 ]
