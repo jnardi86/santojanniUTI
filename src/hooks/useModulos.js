@@ -2,7 +2,7 @@ import { useContext } from "react";
 import { ModulosContext } from "../context/ModulosContext";
 
 export const useModulos = () => {
-    const { 
+    const {
         title,
         setTitle,
         description,
@@ -13,14 +13,27 @@ export const useModulos = () => {
         setImageDesktop,
         textAvailable,
         setTextAvailable,
-        speakerPhoto, 
+        speakerPhoto,
         setSpeakerPhoto,
-        speakerName, 
+        speakerName,
         setSpeakerName,
-        speakerSpeciality, 
+        speakerSpeciality,
         setSpeakerSpeciality,
-        speakerDescription, 
-        setSpeakerDescription
+        speakerDescription,
+        setSpeakerDescription,
+        videoTitleOne,
+        setVideoTitleOne,
+        urlVideoOne,
+        setUrlVideoOne,
+        videoTitleTwo,
+        setVideoTitleTwo,
+        urlVideoTwo,
+        setUrlVideoTwo,
+        videoTitleThree,
+        setVideoTitleThree,
+        urlVideoThree,
+        setUrlVideoThree
+
     } = useContext(ModulosContext);
 
     return {
@@ -34,13 +47,25 @@ export const useModulos = () => {
         setImageDesktop,
         textAvailable,
         setTextAvailable,
-        speakerPhoto, 
+        speakerPhoto,
         setSpeakerPhoto,
-        speakerName, 
+        speakerName,
         setSpeakerName,
-        speakerSpeciality, 
+        speakerSpeciality,
         setSpeakerSpeciality,
-        speakerDescription, 
-        setSpeakerDescription
+        speakerDescription,
+        setSpeakerDescription,
+        videoTitleOne,
+        setVideoTitleOne,
+        urlVideoOne,
+        setUrlVideoOne,
+        videoTitleTwo,
+        setVideoTitleTwo,
+        urlVideoTwo,
+        setUrlVideoTwo,
+        videoTitleThree,
+        setVideoTitleThree,
+        urlVideoThree,
+        setUrlVideoThree
     };
 }

@@ -14,7 +14,13 @@ export const useHome = () => {
         setSpeakerPhoto,
         setSpeakerName,
         setSpeakerSpeciality,
-        setSpeakerDescription
+        setSpeakerDescription,
+        setVideoTitleOne,
+        setUrlVideoOne,
+        setVideoTitleTwo,
+        setUrlVideoTwo,
+        setVideoTitleThree,
+        setUrlVideoThree
     } = useModulos();
 
 
@@ -31,16 +37,22 @@ export const useHome = () => {
         // Se mapea moduleContent para setear los elementos de la página de contenido que se renderiza
         if (moduleContent) {
 
-            const { 
-                moduleTitle, 
-                moduleDescription, 
-                moduleImageMobile, 
-                moduleImageDesktop, 
+            const {
+                moduleTitle,
+                moduleDescription,
+                moduleImageMobile,
+                moduleImageDesktop,
                 moduleTextAvailable,
                 cardSpeakerPhoto,
                 cardSpeakerName,
                 cardSpeakerSpeciality,
-                cardSpeakerDescription
+                cardSpeakerDescription,
+                moduleVideoTitle1,
+                moduleVideoNro1,
+                moduleVideoTitle2,
+                moduleVideoNro2,
+                moduleVideoTitle3,
+                moduleVideoNro3
             } = moduleContent;
 
             setTitle(moduleTitle);
@@ -48,11 +60,17 @@ export const useHome = () => {
             setImageMobile(moduleImageMobile);
             setImageDesktop(moduleImageDesktop);
             setTextAvailable(moduleTextAvailable);
-            setSpeakerPhoto(cardSpeakerPhoto)
-            setSpeakerName(cardSpeakerName)
-            setSpeakerSpeciality(cardSpeakerSpeciality)
-            setSpeakerDescription(cardSpeakerDescription)
-   
+            setSpeakerPhoto(cardSpeakerPhoto);
+            setSpeakerName(cardSpeakerName);
+            setSpeakerSpeciality(cardSpeakerSpeciality);
+            setSpeakerDescription(cardSpeakerDescription);
+            setVideoTitleOne(moduleVideoTitle1);
+            setUrlVideoOne(moduleVideoNro1);
+            setVideoTitleTwo(moduleVideoTitle2);
+            setUrlVideoTwo(moduleVideoNro2);
+            setVideoTitleThree(moduleVideoTitle3);
+            setUrlVideoThree(moduleVideoNro3);
+
         } else {
             console.log(`No existe un módulo con el id ${moduleId}`);
         }

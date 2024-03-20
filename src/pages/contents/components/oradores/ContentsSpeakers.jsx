@@ -6,7 +6,7 @@ const ContentsSpeakers = () => {
   const { speakerPhoto, speakerName, speakerSpeciality, speakerDescription } = useModulos()
 
   return (
-    <div className="speakersContainer w-full h-auto p-2 laptop1:px-20">
+    <div className="speakersContainer w-full h-auto p-2 mb-20 laptop1:px-20">
       <div className="speakerCard w-full h-auto flex-col justify-center content-center">
         <div className="speakerCard-header flex gap-4 mb-6">
           <div className="speakerCard-photo w-[120px] h-auto flex content-center justify-center laptop1:w-[204px]">
