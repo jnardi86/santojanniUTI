@@ -9,16 +9,19 @@ const ContentsVideo = () => {
     videoImg,
     videoTitleOne,
     urlVideoOne,
+    videoTimeAvailableOne,
     videoTitleTwo,
     urlVideoTwo,
+    videoTimeAvailableTwo,
     videoTitleThree,
-    urlVideoThree
+    urlVideoThree,
+    videoTimeAvailableThree
   } = useModulos()
 
   const videos = [
-    { title: videoTitleOne, url: urlVideoOne, imgVideo: videoImg },
-    { title: videoTitleTwo, url: urlVideoTwo, imgVideo: videoImg },
-    { title: videoTitleThree, url: urlVideoThree, imgVideo: videoImg }
+    { title: videoTitleOne, url: urlVideoOne, imgVideo: videoImg, timeAvailble: videoTimeAvailableOne },
+    { title: videoTitleTwo, url: urlVideoTwo, imgVideo: videoImg, timeAvailble: videoTimeAvailableTwo },
+    { title: videoTitleThree, url: urlVideoThree, imgVideo: videoImg, timeAvailble: videoTimeAvailableThree }
   ];
 
   return (
@@ -30,6 +33,7 @@ const ContentsVideo = () => {
           title={video.title}
           url={video.url}
           imgVideo={video.imgVideo}
+          availableTime={video.timeAvailble}
         />
       ))}
     </div>

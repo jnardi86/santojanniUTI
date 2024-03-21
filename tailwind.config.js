@@ -32,7 +32,8 @@ export default {
         'desktop': '1440px',
       },
       boxShadow: {
-        'lightShadow': ' 0px 4px 4px 0px rgba(0, 0, 0, 0.25)',
+        'lightShadow': '0px 4px 4px 0px rgba(0, 0, 0, 0.25)',
+        'darkShadow': '8px 8px 12px rgba(0, 0, 0, 0.4)',
       }
     },
   },

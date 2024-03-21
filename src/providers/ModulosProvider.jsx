@@ -21,6 +21,9 @@ const ModulosProvider = ({ children }) => {
     const [urlVideoTwo, setUrlVideoTwo] = useState('valor inicial')
     const [videoTitleThree, setVideoTitleThree]= useState('valor inicial')
     const [urlVideoThree, setUrlVideoThree] = useState('valor inicial')
+    const [videoTimeAvailableOne, setVideoTimeAvailableOne] = useState('valor inicial')
+    const [videoTimeAvailableTwo, setVideoTimeAvailableTwo] = useState('valor inicial')
+    const [videoTimeAvailableThree, setVideoTimeAvailableThree] = useState('valor inicial')
 
     //Declaracion de funciones
 
@@ -59,7 +62,10 @@ const ModulosProvider = ({ children }) => {
                 urlVideoThree, 
                 setUrlVideoThree,
                 videoImg, 
-                setVideoImg
+                setVideoImg,
+                videoTimeAvailableOne, setVideoTimeAvailableOne,
+                videoTimeAvailableTwo, setVideoTimeAvailableTwo,
+                videoTimeAvailableThree, setVideoTimeAvailableThree
             }}>
             {children}
         </ModulosContext.Provider>

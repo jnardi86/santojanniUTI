@@ -21,7 +21,10 @@ export const useHome = () => {
         setUrlVideoTwo,
         setVideoTitleThree,
         setUrlVideoThree,
-        setVideoImg
+        setVideoImg,
+        setVideoTimeAvailableOne,
+        setVideoTimeAvailableTwo,
+        setVideoTimeAvailableThree
     } = useModulos();
 
 
@@ -51,10 +54,13 @@ export const useHome = () => {
                 moduleVideImg,
                 moduleVideoTitle1,
                 moduleVideoNro1,
+                moduleVideoTimeAvailable1,
                 moduleVideoTitle2,
                 moduleVideoNro2,
+                moduleVideoTimeAvailable2,
                 moduleVideoTitle3,
-                moduleVideoNro3
+                moduleVideoNro3,
+                moduleVideoTimeAvailable3
             } = moduleContent;
 
             setTitle(moduleTitle);
@@ -73,6 +79,9 @@ export const useHome = () => {
             setUrlVideoTwo(moduleVideoNro2);
             setVideoTitleThree(moduleVideoTitle3);
             setUrlVideoThree(moduleVideoNro3);
+            setVideoTimeAvailableOne(moduleVideoTimeAvailable1);
+            setVideoTimeAvailableTwo(moduleVideoTimeAvailable2);
+            setVideoTimeAvailableThree(moduleVideoTimeAvailable3);
 
         } else {
             console.log(`No existe un módulo con el id ${moduleId}`);
