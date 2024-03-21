@@ -1,30 +1,42 @@
+import Play from "../../../../components/svg/Play"
 import { useModulos } from "../../../../hooks/useModulos"
+import VideoItem from "./VideoItem";
 
 
 const ContentsVideo = () => {
 
-  const { 
+  const {
+    videoImg,
     videoTitleOne,
     urlVideoOne,
+    videoTimeAvailableOne,
     videoTitleTwo,
     urlVideoTwo,
+    videoTimeAvailableTwo,
     videoTitleThree,
-    urlVideoThree
-   } = useModulos()
+    urlVideoThree,
+    videoTimeAvailableThree
+  } = useModulos()
+
+  const videos = [
+    { title: videoTitleOne, url: urlVideoOne, imgVideo: videoImg, timeAvailble: videoTimeAvailableOne },
+    { title: videoTitleTwo, url: urlVideoTwo, imgVideo: videoImg, timeAvailble: videoTimeAvailableTwo },
+    { title: videoTitleThree, url: urlVideoThree, imgVideo: videoImg, timeAvailble: videoTimeAvailableThree }
+  ];
 
   return (
-    <div className="videoContainer w-full h-auto mb-[70px] laptop1:px-20">
-    <div className="videoContainer-title w-[335px] h-[40px] bg-Cyan border-solid border-2 border-Cyan rounded-r-full py-2 px-4 shadow-lightShadow">
-      <div className="flex gap-2">
-        <Calendar 
-          width='24'
-          height='24'
-          color='#011C40'
+    <div>
+      {videos.map((video, index) => (
+        // <VideoItem key={index} title={video.title} url={video.url} />
+        <VideoItem
+          key={index}
+          title={video.title}
+          url={video.url}
+          imgVideo={video.imgVideo}
+          availableTime={video.timeAvailble}
         />
-      <p className="font-poppins text-sm font-semiBold">{textAvailable}</p>
-      </div>
+      ))}
     </div>
-  </div>
   )
 }
 

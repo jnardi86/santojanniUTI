@@ -13,12 +13,16 @@
     "cardSpeakerName": "Dr. Nombre y Apellido",
     "cardSpeakerSpeciality": "Cargo y Especialidad",
     "cardSpeakerDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, asperiores dolores! Aspernatur quasi perferendis fugiat beatae autem eligendi distinctio quisquam.",
-    "moduleVideoTitle1": "video n° 1",
-    "moduleVideoNro1": "",
-    "moduleVideoTitle2": "video n° 2",
-    "moduleVideoNro2": "",
+    "moduleVideImg":"/src/assets/Images_figma/marco_video_max.png",
+    "moduleVideoTitle1":"video n° 1",
+    "moduleVideoNro1": "https://www.youtube.com/watch?v=Mb37ily9WuY&ab_channel=TheCoderCaveesp",
+    "moduleVideoTimeAvailable1": "Disponible a partir del 3 de mayo",
+    "moduleVideoTitle2":"video n° 2",
+    "moduleVideoNro2": "https://www.youtube.com/watch?v=Mb37ily9WuY&ab_channel=TheCoderCaveesp",
+    "moduleVideoTimeAvailable2": "Disponible a partir del 3 de junio",
     "moduleVideoTitle3": "video n° 3",
-    "moduleVideoNro3": ""
+    "moduleVideoNro3": "",
+    "moduleVideoTimeAvailable3": "Disponible a partir del 3 de julio"
   },
   {
     "id": "cnt2",
@@ -34,12 +38,16 @@
     "cardSpeakerName": "Dr. Nombre y Apellido",
     "cardSpeakerSpeciality": "Cargo y Especialidad",
     "cardSpeakerDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, asperiores dolores! Aspernatur quasi perferendis fugiat beatae autem eligendi distinctio quisquam.",
-    "moduleVideoTitle1": "video n° 1",
-    "moduleVideoNro1": "",
-    "moduleVideoTitle2": "video n° 2",
-    "moduleVideoNro2": "",
+    "moduleVideImg":"/src/assets/Images_figma/marco_video_max.png",
+    "moduleVideoTitle1":"video n° 1",
+    "moduleVideoNro1": "https://www.youtube.com/watch?v=Mb37ily9WuY&ab_channel=TheCoderCaveesp",
+    "moduleVideoTimeAvailable1": "Disponible a partir del 3 de mayo",
+    "moduleVideoTitle2":"video n° 2",
+    "moduleVideoNro2": "https://www.youtube.com/watch?v=Mb37ily9WuY&ab_channel=TheCoderCaveesp",
+    "moduleVideoTimeAvailable2": "Disponible a partir del 3 de junio",
     "moduleVideoTitle3": "video n° 3",
-    "moduleVideoNro3": ""
+    "moduleVideoNro3": "",
+    "moduleVideoTimeAvailable3": "Disponible a partir del 3 de julio"
   },
   {
     "id": "cnt3",
@@ -55,11 +63,15 @@
     "cardSpeakerName": "Dr. Nombre y Apellido",
     "cardSpeakerSpeciality": "Cargo y Especialidad",
     "cardSpeakerDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, asperiores dolores! Aspernatur quasi perferendis fugiat beatae autem eligendi distinctio quisquam.",
-    "moduleVideoTitle1": "video n° 1",
-    "moduleVideoNro1": "",
-    "moduleVideoTitle2": "video n° 2",
-    "moduleVideoNro2": "",
+    "moduleVideImg":"/src/assets/Images_figma/marco_video_max.png",
+    "moduleVideoTitle1":"video n° 1",
+    "moduleVideoNro1": "https://www.youtube.com/watch?v=Mb37ily9WuY&ab_channel=TheCoderCaveesp",
+    "moduleVideoTimeAvailable1": "Disponible a partir del 3 de mayo",
+    "moduleVideoTitle2":"video n° 2",
+    "moduleVideoNro2": "https://www.youtube.com/watch?v=Mb37ily9WuY&ab_channel=TheCoderCaveesp",
+    "moduleVideoTimeAvailable2": "Disponible a partir del 3 de junio",
     "moduleVideoTitle3": "video n° 3",
-    "moduleVideoNro3": ""
+    "moduleVideoNro3": "",
+    "moduleVideoTimeAvailable3": "Disponible a partir del 3 de julio"
   }
 ]

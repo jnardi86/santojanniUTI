@@ -32,7 +32,15 @@ export const useModulos = () => {
         videoTitleThree,
         setVideoTitleThree,
         urlVideoThree,
-        setUrlVideoThree
+        setUrlVideoThree,
+        videoImg,
+        setVideoImg,
+        videoTimeAvailableOne, 
+        setVideoTimeAvailableOne,
+        videoTimeAvailableTwo, 
+        setVideoTimeAvailableTwo,
+        videoTimeAvailableThree, 
+        setVideoTimeAvailableThree
 
     } = useContext(ModulosContext);
 
@@ -66,6 +74,14 @@ export const useModulos = () => {
         videoTitleThree,
         setVideoTitleThree,
         urlVideoThree,
-        setUrlVideoThree
+        setUrlVideoThree,
+        videoImg,
+        setVideoImg,
+        videoTimeAvailableOne, 
+        setVideoTimeAvailableOne,
+        videoTimeAvailableTwo, 
+        setVideoTimeAvailableTwo,
+        videoTimeAvailableThree, 
+        setVideoTimeAvailableThree
     };
 }
