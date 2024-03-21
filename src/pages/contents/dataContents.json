@@ -1,8 +1,11 @@
 [
   {
     "id": "cnt1",
+    "moduleIcon": "/src/assets/iconos_modulos/sepsis_icon.svg",
     "moduleTitle": "Sepsis",
-    "moduleDescription": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla, laudantium!Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid consequatur cumque voluptates earum consectetur voluptate, praesentium eius animi rerum facilis",
+    "moduleNumber": "Módulo 1",
+    "startDate": "22 de abril",
+    "moduleDescription": "Breve descripción del módulo",
     "moduleImageMobile": "/src/assets/Images_figma/header_sepsis_mobile_max.png",
     "moduleImageDesktop": "/src/assets/Images_figma/header_sepsis_desktop_max.png",
     "moduleTextAvailable": "Disponible a partir del 22 de abril",
@@ -20,8 +23,11 @@
   },
   {
     "id": "cnt2",
-    "moduleTitle": "Cardiología",
-    "moduleDescription": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla, laudantium!Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid consequatur cumque voluptates earum consectetur voluptate, praesentium eius animi rerum facilis",
+    "moduleIcon": "/src/assets/iconos_modulos/infecto_icon.svg",
+    "moduleTitle": "Infectología",
+    "moduleNumber": "Módulo 2",
+    "startDate": "13 de mayo",
+    "moduleDescription": "Breve descripción del módulo",
     "moduleImageMobile": "/src/assets/Images_figma/header_cardio_mobile_max.png",
     "moduleImageDesktop": "/src/assets/Images_figma/header_cardio_desktop_max.png",
     "moduleTextAvailable": "Disponible a partir del 22 de abril",
@@ -39,8 +45,11 @@
   },
   {
     "id": "cnt3",
-    "moduleTitle": "Kinesiología",
-    "moduleDescription": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla, laudantium!Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid consequatur cumque voluptates earum consectetur voluptate, praesentium eius animi rerum facilis",
+    "moduleIcon": "/src/assets/iconos_modulos/cardio_icon.svg",
+    "moduleTitle": "Cardiología",
+    "moduleNumber": "Módulo 3",
+    "startDate": "3 de junio",
+    "moduleDescription": "Breve descripción del módulo",
     "moduleImageMobile": "/src/assets/Images_figma/header_cardio_mobile_max.png",
     "moduleImageDesktop": "/src/assets/Images_figma/header_cardio_desktop_max.png",
     "moduleTextAvailable": "Disponible a partir del 22 de abril",
@@ -57,4 +66,3 @@
     "moduleVideoNro3": ""
   }
 ]
-
