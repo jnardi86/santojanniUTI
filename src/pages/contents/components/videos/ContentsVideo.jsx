@@ -6,22 +6,13 @@ import VideoItem from "./VideoItem";
 const ContentsVideo = () => {
 
   const {
-    videoImg,
-    videoTitleOne,
-    urlVideoOne,
-    videoTimeAvailableOne,
-    videoTitleTwo,
-    urlVideoTwo,
-    videoTimeAvailableTwo,
-    videoTitleThree,
-    urlVideoThree,
-    videoTimeAvailableThree
+    moduleData
   } = useModulos()
 
   const videos = [
-    { title: videoTitleOne, url: urlVideoOne, imgVideo: videoImg, timeAvailble: videoTimeAvailableOne },
-    { title: videoTitleTwo, url: urlVideoTwo, imgVideo: videoImg, timeAvailble: videoTimeAvailableTwo },
-    { title: videoTitleThree, url: urlVideoThree, imgVideo: videoImg, timeAvailble: videoTimeAvailableThree }
+    { title: moduleData.videoTitleOne, url: moduleData.urlVideoOne, imgVideo: moduleData.videoImg, timeAvailble: moduleData.videoTimeAvailableOne },
+    { title: moduleData.videoTitleTwo, url: moduleData.urlVideoTwo, imgVideo: moduleData.videoImg, timeAvailble: moduleData.videoTimeAvailableTwo },
+    { title: moduleData.videoTitleThree, url: moduleData.urlVideoThree, imgVideo: moduleData.videoImg, timeAvailble: moduleData.videoTimeAvailableThree }
   ];
 
   return (

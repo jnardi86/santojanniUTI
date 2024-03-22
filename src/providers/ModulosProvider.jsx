@@ -4,72 +4,42 @@ import { ModulosContext } from '../context/ModulosContext'
 
 const ModulosProvider = ({ children }) => {
 
-    //Declaracion de estados
-    const [title, setTitle] = useState("valor inicial")
-    const [description, setDescription] = useState("valor inicial")
-    const [imageMobile, setImageMobile] = useState("valor inicial")
-    const [imageDesktop, setImageDesktop] = useState("valor inicial")
-    const [textAvailable, setTextAvailable] = useState("valor inicial")
-    const [speakerPhoto, setSpeakerPhoto] = useState("")
-    const [speakerName, setSpeakerName] = useState("valor inicial")
-    const [speakerSpeciality, setSpeakerSpeciality] = useState("valor inicial")
-    const [speakerDescription, setSpeakerDescription] = useState("valor inicial")
-    const [videoImg, setVideoImg] = useState('valor inicial')
-    const [videoTitleOne, setVideoTitleOne]= useState('valor inicial')
-    const [urlVideoOne, setUrlVideoOne] = useState('valor inicial')
-    const [videoTitleTwo, setVideoTitleTwo]= useState('valor inicial')
-    const [urlVideoTwo, setUrlVideoTwo] = useState('valor inicial')
-    const [videoTitleThree, setVideoTitleThree]= useState('valor inicial')
-    const [urlVideoThree, setUrlVideoThree] = useState('valor inicial')
-    const [videoTimeAvailableOne, setVideoTimeAvailableOne] = useState('valor inicial')
-    const [videoTimeAvailableTwo, setVideoTimeAvailableTwo] = useState('valor inicial')
-    const [videoTimeAvailableThree, setVideoTimeAvailableThree] = useState('valor inicial')
+    const initialModuleState = {
+        title: "valor inicial",
+        description: "valor inicial",
+        imageMobile: "valor inicial",
+        imageDesktop: "valor inicial",
+        textAvailable: "valor inicial",
+        speakerPhoto: "",
+        speakerName: "valor inicial",
+        speakerSpeciality: "valor inicial",
+        speakerDescription: "valor inicial",
+        videoImg: "valor inicial",
+        videoTitleOne: "valor inicial",
+        urlVideoOne: "valor inicial",
+        videoTitleTwo: "valor inicial",
+        urlVideoTwo: "valor inicial",
+        videoTitleThree: "valor inicial",
+        urlVideoThree: "valor inicial",
+        videoTimeAvailableOne: "valor inicial",
+        videoTimeAvailableTwo: "valor inicial",
+        videoTimeAvailableThree: "valor inicial"
+    }
 
-    //Declaracion de funciones
 
+    // Use a single state to manage all module data
+    const [moduleData, setModuleData] = useState(initialModuleState);
 
     return (
         <ModulosContext.Provider
             value={{
-                title,
-                setTitle,
-                description,
-                setDescription,
-                imageMobile,
-                setImageMobile,
-                imageDesktop,
-                setImageDesktop,
-                textAvailable,
-                setTextAvailable,
-                speakerPhoto, 
-                setSpeakerPhoto,
-                speakerName, 
-                setSpeakerName,
-                speakerSpeciality, 
-                setSpeakerSpeciality,
-                speakerDescription, 
-                setSpeakerDescription,
-                videoTitleOne, 
-                setVideoTitleOne,
-                urlVideoOne, 
-                setUrlVideoOne,
-                videoTitleTwo, 
-                setVideoTitleTwo,
-                urlVideoTwo, 
-                setUrlVideoTwo,
-                videoTitleThree, 
-                setVideoTitleThree,
-                urlVideoThree, 
-                setUrlVideoThree,
-                videoImg, 
-                setVideoImg,
-                videoTimeAvailableOne, setVideoTimeAvailableOne,
-                videoTimeAvailableTwo, setVideoTimeAvailableTwo,
-                videoTimeAvailableThree, setVideoTimeAvailableThree
-            }}>
+                moduleData,
+                setModuleData
+            }}
+        >
             {children}
         </ModulosContext.Provider>
-    )
+    );
 }
 
-export default ModulosProvider
+export default ModulosProvider;
