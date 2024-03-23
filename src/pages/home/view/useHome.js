@@ -34,7 +34,8 @@ export const useHome = () => {
                 moduleVideoTimeAvailable2,
                 moduleVideoTitle3,
                 moduleVideoNro3,
-                moduleVideoTimeAvailable3
+                moduleVideoTimeAvailable3,
+                moduleQuizzText
             } = moduleContent;
 
             // Create an object containing all the new values
@@ -57,7 +58,8 @@ export const useHome = () => {
                 urlVideoThree: moduleVideoNro3,
                 videoTimeAvailableOne: moduleVideoTimeAvailable1,
                 videoTimeAvailableTwo: moduleVideoTimeAvailable2,
-                videoTimeAvailableThree: moduleVideoTimeAvailable3
+                videoTimeAvailableThree: moduleVideoTimeAvailable3,
+                quizzText: moduleQuizzText,
             };
             console.log(updatedValues)
 

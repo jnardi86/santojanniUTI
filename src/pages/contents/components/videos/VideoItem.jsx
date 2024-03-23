@@ -1,9 +1,9 @@
 import React from 'react'
 import Play from '../../../../components/svg/Play'
 
-const VideoItem = ({ title, url, imgVideo, availableTime }) => {
+const VideoItem = ({ title, url, imgVideo, availableTime, isLocked }) => {
     return (
-        <div className="videoContainer w-full h-auto mb-[70px] laptop1:px-20">
+        <div className={`videoContainer w-full h-auto mb-[80px] laptop1:px-20 ${isLocked ? 'opacity-50' : '' } `}>
             <div className="videoContainer-title w-[166px] h-auto bg-Cyan border-solid border-2 border-Cyan rounded-r-full mb-10 py-2 px-4 shadow-lightShadow">
                 <div className="flex content-center gap-2">
                     <Play
