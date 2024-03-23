@@ -9,9 +9,9 @@ const ContentsVideo = () => {
   } = useModulos()
 
   const videos = [
-    { title: videoTitleOne, url: urlVideoOne, imgVideo: videoImg, timeAvailble: videoTimeAvailableOne, isLocked: false },
-    { title: videoTitleTwo, url: urlVideoTwo, imgVideo: videoImg, timeAvailble: videoTimeAvailableTwo, isLocked: false },
-    { title: videoTitleThree, url: urlVideoThree, imgVideo: videoImg, timeAvailble: videoTimeAvailableThree, isLocked: true}
+    { title: moduleData.videoTitleOne, url: moduleData.urlVideoOne, imgVideo: moduleData.videoImg, timeAvailble: moduleData.videoTimeAvailableOne, isLocked: false },
+    { title: moduleData.videoTitleTwo, url: moduleData.urlVideoTwo, imgVideo: moduleData.videoImg, timeAvailble: moduleData.videoTimeAvailableTwo, isLocked: false },
+    { title: moduleData.videoTitleThree, url: moduleData.urlVideoThree, imgVideo: moduleData.videoImg, timeAvailble: moduleData.videoTimeAvailableThree, isLocked: true}
   ];
 
   return (

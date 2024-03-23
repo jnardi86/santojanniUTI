@@ -23,7 +23,7 @@
     "moduleVideoTitle3": "video n° 3",
     "moduleVideoNro3": "",
     "moduleVideoTimeAvailable3": "Disponible a partir del 3 de julio",
-    "quizzText": "Completar el quizz del Módulo nro. 1"
+    "moduleQuizzText": "Completar el quizz del Módulo nro. 1"
   },
   {
     "id": "cnt2",
@@ -49,7 +49,7 @@
     "moduleVideoTitle3": "video n° 3",
     "moduleVideoNro3": "",
     "moduleVideoTimeAvailable3": "Disponible a partir del 3 de julio",
-    "quizzText": "Completar el quizz del Módulo nro. 2"
+    "moduleQuizzText": "Completar el quizz del Módulo nro. 2"
   },
   {
     "id": "cnt3",
@@ -75,6 +75,6 @@
     "moduleVideoTitle3": "video n° 3",
     "moduleVideoNro3": "",
     "moduleVideoTimeAvailable3": "Disponible a partir del 3 de julio",
-    "quizzText": "Completar el quizz del Módulo nro. 3"
+    "moduleQuizzText": "Completar el quizz del Módulo nro. 3"
   }
 ]

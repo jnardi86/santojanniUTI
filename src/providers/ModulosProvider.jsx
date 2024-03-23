@@ -23,7 +23,8 @@ const ModulosProvider = ({ children }) => {
         urlVideoThree: "valor inicial",
         videoTimeAvailableOne: "valor inicial",
         videoTimeAvailableTwo: "valor inicial",
-        videoTimeAvailableThree: "valor inicial"
+        videoTimeAvailableThree: "valor inicial",
+        quizzText:"valor inicial"
     }
 
 
