@@ -26,7 +26,7 @@ const ContentsVideo = () => {
   return (
     <div>
       {videos.map((video, index) => (
-        // <VideoItem key={index} title={video.title} url={video.url} />
+        
         <VideoItem
           key={index}
           title={video.title}
@@ -35,6 +35,7 @@ const ContentsVideo = () => {
           availableTime={video.timeAvailble}
           isLocked={video.isLocked}
         />
+        
       ))}
     </div>
   )
