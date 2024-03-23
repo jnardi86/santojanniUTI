@@ -4,7 +4,7 @@ import { useModulos } from "../../../../hooks/useModulos"
 
 const ContentsAvailable = () => {
 
-  const { textAvailable } = useModulos()
+  const { moduleData } = useModulos()
 
   return (
     <div className="availableContainer w-full h-auto mb-[70px] laptop1:px-20">
@@ -15,7 +15,7 @@ const ContentsAvailable = () => {
             height='24'
             color='#011C40'
           />
-        <p className="font-poppins text-sm font-semiBold">{textAvailable}</p>
+        <p className="font-poppins text-sm font-semiBold">{moduleData.textAvailable}</p>
         </div>
       </div>
     </div>

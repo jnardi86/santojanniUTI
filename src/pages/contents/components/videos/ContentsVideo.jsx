@@ -5,16 +5,7 @@ import VideoItem from "./VideoItem";
 const ContentsVideo = () => {
 
   const {
-    videoImg,
-    videoTitleOne,
-    urlVideoOne,
-    videoTimeAvailableOne,
-    videoTitleTwo,
-    urlVideoTwo,
-    videoTimeAvailableTwo,
-    videoTitleThree,
-    urlVideoThree,
-    videoTimeAvailableThree
+    moduleData
   } = useModulos()
 
   const videos = [

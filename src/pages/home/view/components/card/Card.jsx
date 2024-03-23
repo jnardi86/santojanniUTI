@@ -1,18 +1,22 @@
 import React from 'react'
 import { useNavigate } from "react-router-dom"
 import { useHome } from "../../useHome"
+import { useModulos } from "../../../../../hooks/useModulos";
 import CustomButton from '../../../../../components/customComponents/CustomButton'
 
 const Card = ({ data }) => {
-
+    const navigate = useNavigate();
+    const {
+        moduleData,
+        setModuleData
+    } = useModulos();
     const {
         handleRenderModulo
     } = useHome();
 
-    const navigate = useNavigate();
 
-    const handleNavigateToContents = (id) => {
-        handleRenderModulo(id)
+    const handleNavigateToContents = (id, setModuleData, handleRenderModulo) => {
+        handleRenderModulo(id, setModuleData )
         navigate('/contents')
     }
 
@@ -36,7 +40,8 @@ const Card = ({ data }) => {
             <div className="mb-3">
                 <CustomButton
                     label={"Acceder"}
-                    onClick={() => handleNavigateToContents(data.id)}>Acceder</CustomButton>
+        setModuleData
+                    onClick={() => handleNavigateToContents(data.id, setModuleData, handleRenderModulo)}>Acceder</CustomButton>
             </div>
 
         </div>

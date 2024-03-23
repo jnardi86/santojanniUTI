@@ -1,37 +1,11 @@
 import arrayContents from "../../contents/dataContents.json";
-import { useModulos } from "../../../hooks/useModulos";
-
-
 export const useHome = () => {
-
-    //Desestructuramos las variables globales del provider a traves del Hook useModulos
-    const {
-        setTitle,
-        setDescription,
-        setImageMobile,
-        setImageDesktop,
-        setTextAvailable,
-        setSpeakerPhoto,
-        setSpeakerName,
-        setSpeakerSpeciality,
-        setSpeakerDescription,
-        setVideoTitleOne,
-        setUrlVideoOne,
-        setVideoTitleTwo,
-        setUrlVideoTwo,
-        setVideoTitleThree,
-        setUrlVideoThree,
-        setVideoImg,
-        setVideoTimeAvailableOne,
-        setVideoTimeAvailableTwo,
-        setVideoTimeAvailableThree
-    } = useModulos();
 
 
     /**
      * HANDLE_REMOTE_MODULO
      */
-    const handleRenderModulo = (moduleId) => {
+    const handleRenderModulo = (moduleId, setModuleData) => {
 
         // console.log(`El id del modulo es ${moduleId}`)
 
@@ -63,25 +37,37 @@ export const useHome = () => {
                 moduleVideoTimeAvailable3
             } = moduleContent;
 
-            setTitle(moduleTitle);
-            setDescription(moduleDescription);
-            setImageMobile(moduleImageMobile);
-            setImageDesktop(moduleImageDesktop);
-            setTextAvailable(moduleTextAvailable);
-            setSpeakerPhoto(cardSpeakerPhoto);
-            setSpeakerName(cardSpeakerName);
-            setSpeakerSpeciality(cardSpeakerSpeciality);
-            setSpeakerDescription(cardSpeakerDescription);
-            setVideoImg(moduleVideImg);
-            setVideoTitleOne(moduleVideoTitle1);
-            setUrlVideoOne(moduleVideoNro1);
-            setVideoTitleTwo(moduleVideoTitle2);
-            setUrlVideoTwo(moduleVideoNro2);
-            setVideoTitleThree(moduleVideoTitle3);
-            setUrlVideoThree(moduleVideoNro3);
-            setVideoTimeAvailableOne(moduleVideoTimeAvailable1);
-            setVideoTimeAvailableTwo(moduleVideoTimeAvailable2);
-            setVideoTimeAvailableThree(moduleVideoTimeAvailable3);
+            // Create an object containing all the new values
+            const updatedValues = {
+                title: moduleTitle,
+                description: moduleDescription,
+                imageMobile: moduleImageMobile,
+                imageDesktop: moduleImageDesktop,
+                textAvailable: moduleTextAvailable,
+                speakerPhoto: cardSpeakerPhoto,
+                speakerName: cardSpeakerName,
+                speakerSpeciality: cardSpeakerSpeciality,
+                speakerDescription: cardSpeakerDescription,
+                videoImg: moduleVideImg,
+                videoTitleOne: moduleVideoTitle1,
+                urlVideoOne: moduleVideoNro1,
+                videoTitleTwo: moduleVideoTitle2,
+                urlVideoTwo: moduleVideoNro2,
+                videoTitleThree: moduleVideoTitle3,
+                urlVideoThree: moduleVideoNro3,
+                videoTimeAvailableOne: moduleVideoTimeAvailable1,
+                videoTimeAvailableTwo: moduleVideoTimeAvailable2,
+                videoTimeAvailableThree: moduleVideoTimeAvailable3
+            };
+            console.log(updatedValues)
+
+            // Update the state with the new values object
+            setModuleData(prevModuleData => ({
+                ...prevModuleData,
+                ...updatedValues
+            }));
+
+
 
         } else {
             console.log(`No existe un módulo con el id ${moduleId}`);

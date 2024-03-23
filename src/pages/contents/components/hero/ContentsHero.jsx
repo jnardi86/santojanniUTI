@@ -2,13 +2,13 @@ import { useModulos } from "../../../../hooks/useModulos"
 
 const ContentsHero = () => {
 
-  const { title, imageMobile, imageDesktop } = useModulos()
+  const { moduleData } = useModulos()
 
 
   return (
     <div className="heroContainer relative w-full overflow-hidden mb-20">
-      <img src={imageMobile} alt={title} className="w-full h-full object-cover border-solid tablet:hidden" />
-      <img src={imageDesktop} alt={title} className="hidden tablet:block"/>
+      <img src={moduleData.imageMobile} alt={moduleData.title} className="w-full h-full object-cover border-solid tablet:hidden" />
+      <img src={moduleData.imageDesktop} alt={moduleData.title} className="hidden tablet:block"/>
     </div>
   )
 }
