@@ -38,6 +38,7 @@ const Card = ({ data }) => {
             <p className="mb-3 px-5 mb-5">{data.moduleDescription}</p>
             <div className="mb-3">
                 <CustomButton
+                    type={"button"}
                     label={"Acceder"}
                     setModuleData
                     onClick={() => handleNavigateToContents(data.id, setModuleData, handleRenderModulo)}>Acceder</CustomButton>

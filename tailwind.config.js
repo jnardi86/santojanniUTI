@@ -10,6 +10,7 @@ export default {
       'White': '#FAFAFA',
       'Green': '#038C7F',
       'DarkGreen': '#025951',
+      'DarkGreenLayer': 'rgba(2, 89, 81, 0.9)',
       'Black': '#000',
       'Cyan': '#7ED9D0'
     },

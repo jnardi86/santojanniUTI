@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useAuth } from "../../../auth/hooks/useAuth"
+import CustomButton from "../../../components/customComponents/CustomButton";
 
 
 const SigninForm = () => {
@@ -25,10 +26,6 @@ const SigninForm = () => {
             console.log("Error during sign in:", error.message);
             setError(error.message);
         }
-
-
-
-
     }
 
 
@@ -36,17 +33,27 @@ const SigninForm = () => {
         <form onSubmit={handleSubmit}>
             {error && <div style={{ color: 'red' }}>{error}</div>}
             <div>
-                Email
-                <input type="email" name="email" className='border-solid border-2 border-Blue' required />
+                <input
+                    type="email"
+                    name="email"
+                    className='w-full border-none px-2 py-2 mb-2'
+                    placeholder="Correo electrónico"
+                    required />
             </div>
             <div>
-                Password
-                <input type="password" name="password" className='border-solid border-2 border-Blue' required />
+                <input
+                    type="password"
+                    name="password"
+                    className='w-full border-none px-2 py-2 mb-5'
+                    placeholder="Contraseña"
+                    required />
             </div>
-            <button type="submit" className='border-solid border-2 border-Blue'>
-                Iniciar Sesión
-            </button>
-        </form>
+            <div className="w-full  flex justify-center">
+                <CustomButton
+                    type={"submit"}
+                    label={"Iniciar Sesión"}>
+                </CustomButton></div>
+        </form >
     )
 }
 
