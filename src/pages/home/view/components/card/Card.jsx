@@ -7,7 +7,6 @@ import CustomButton from '../../../../../components/customComponents/CustomButto
 const Card = ({ data }) => {
     const navigate = useNavigate();
     const {
-        moduleData,
         setModuleData
     } = useModulos();
     const {
@@ -16,7 +15,7 @@ const Card = ({ data }) => {
 
 
     const handleNavigateToContents = (id, setModuleData, handleRenderModulo) => {
-        handleRenderModulo(id, setModuleData )
+        handleRenderModulo(id, setModuleData)
         navigate('/contents')
     }
 
@@ -24,7 +23,7 @@ const Card = ({ data }) => {
         <div className="
         max-w-[300px]
         bg-Blue text-White rounded-lg 
-         mx-2 my-2 pe-2 py-2 
+         mx-5 my-2 py-5 
          flex flex-col justify-center items-center">
             <img className="w-10 pb-2" src={data.moduleIcon} alt="icon" />
             <p className="pb-10">{data.moduleNumber}</p>
@@ -36,11 +35,11 @@ const Card = ({ data }) => {
             </div>
             <p className="mb-3">{data.moduleTitle}</p>
 
-            <p className="mb-3">{data.moduleDescription}</p>
+            <p className="mb-3 px-5 mb-5">{data.moduleDescription}</p>
             <div className="mb-3">
                 <CustomButton
                     label={"Acceder"}
-        setModuleData
+                    setModuleData
                     onClick={() => handleNavigateToContents(data.id, setModuleData, handleRenderModulo)}>Acceder</CustomButton>
             </div>
 

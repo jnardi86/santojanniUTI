@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { ModulosContext } from '../context/ModulosContext'
 
 
@@ -30,12 +30,27 @@ const ModulosProvider = ({ children }) => {
 
     // Use a single state to manage all module data
     const [moduleData, setModuleData] = useState(initialModuleState);
+    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+    const [desktopView, setDesktopView] = useState(false);
+
+    useEffect(() => {
+        function handleResize() {
+            setWindowWidth(window.innerWidth);
+        }
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
+
+    useEffect(() => {
+        setDesktopView((windowWidth > 768) ? true : false)
+    }, [windowWidth]);
 
     return (
         <ModulosContext.Provider
             value={{
                 moduleData,
-                setModuleData
+                setModuleData,
+                desktopView
             }}
         >
             {children}

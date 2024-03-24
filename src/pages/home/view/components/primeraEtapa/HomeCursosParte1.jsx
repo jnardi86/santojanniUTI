@@ -9,19 +9,22 @@ const HomeCursosParte1 = () => {
 
 
     return (
-        <div>
-            <p>Primera Etapa</p>
-            <div className="flex justify-center">
-                {arrayContents.map((module, index) => {
-                    return (
-                        <Card
-                            key={index}
-                            data={module}
-                        />
-                    )
-                })}
+        <div className="modulosContainer w-full h-auto flex-column justify-center content-center mb-20">
+            <div className="modulosContainerHeader w-full h-auto text-center p-2 mb-10">
+                <h1 className="font-poppins font-medium text-Blue text-[52px]">Primera etapa</h1>
             </div>
-
+            <div className="flex justify-center flex-wrap">
+                {arrayContents
+                    .filter((module, index) => index < 4)
+                    .map((module, index) => {
+                        return (
+                            <Card
+                                key={index}
+                                data={module}
+                            />
+                        )
+                    })}
+            </div>
         </div>
     )
 }

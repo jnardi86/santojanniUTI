@@ -1,0 +1,26 @@
+[
+    {
+        "image": "/src/assets/speakers/speakerTest.png",
+        "name": "Dr. Nombre y Apellido",
+        "cargo": "Cargo",
+        "especialidad": "infectólogo"
+    },
+    {
+        "image": "/src/assets/speakers/speakerTest1.png",
+        "name": "Dr. Nombre y Apellido",
+        "cargo": "Cargo",
+        "especialidad": "infectólogo"
+    },
+    {
+        "image": "/src/assets/speakers/speakerTest2.png",
+        "name": "Dr. Nombre y Apellido",
+        "cargo": "Cargo",
+        "especialidad": "infectólogo"
+    },
+    {
+        "image": "/src/assets/speakers/speakerTest3.png",
+        "name": "Dr. Nombre y Apellido",
+        "cargo": "Cargo",
+        "especialidad": "infectólogo"
+    }
+]
