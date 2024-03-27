@@ -2,6 +2,7 @@ import { useNavigate } from "react-router-dom"
 import { useState } from "react";
 import { useAuth } from "../../../auth/hooks/useAuth";
 import CustomButton from "../../../components/customComponents/CustomButton";
+import { createDocument, setDocument, COLECTIONS } from "../../../core/db/firestore.db";
 
 const SignupForm = ({ setShowLogin }) => {
 
@@ -21,6 +22,14 @@ const SignupForm = ({ setShowLogin }) => {
     try {
       const response = await signUp(email, password);
       console.log(response)
+      const data = {
+        email: response.user.email,
+        name: response.user.displayName,
+      }
+      // const res = await createDocument("perfiles", data)
+      //setDocument (COLECTION, data, id)
+      const res = await setDocument(COLECTIONS.PERFILES, data, response.user.email)
+      console.log(res)
 
     } catch (error) {
       console.log(error.message);
