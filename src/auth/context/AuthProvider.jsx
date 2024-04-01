@@ -2,7 +2,7 @@ import { useReducer } from 'react'
 import { AuthContext } from "./AuthContext"
 import { AUTH_KEY_LOCAL_STORAGE, AUTH_TYPES, authInitialState, authInitializer, authReducer } from '../reducer/authReducer';
 import { auth } from "../../core/config/firebase.config";
-import { createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut } from "firebase/auth";
+import { createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, sendEmailVerification} from "firebase/auth";
 
 
 const AuthProvider = ({ children }) => {
@@ -43,25 +43,24 @@ const AuthProvider = ({ children }) => {
   }
 
 
-  
+
   const signUp = async (email, password) => {
-        
     const response = await createUserWithEmailAndPassword(auth, email, password);
-    // console.log(response);
-}
+    await sendEmailVerification(auth.currentUser)
+    return response;
+  }
 
-const signIn = async (email, password) => {
-
+  const signIn = async (email, password) => {
     const response = await signInWithEmailAndPassword(auth, email, password);
-    // console.log(response);
-}
+    return response;
+  }
 
-//Deslogueo de Firebase
-const signOut = async (auth) => {
+  //Deslogueo de Firebase
+  const signOut = async (auth) => {
 
-  const response = await signOut(auth);
-  console.log(response);
-}
+    const response = await signOut(auth);
+    console.log(response);
+  }
 
 
 

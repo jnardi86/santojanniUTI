@@ -7,6 +7,7 @@ const SigninForm = () => {
 
     const [error, setError] = useState(null);
     const { login, signIn } = useAuth();
+    const [forgotPassword, setForgotPassword] = useState(false)
 
 
     const handleSubmit = async (event) => {
@@ -16,7 +17,11 @@ const SigninForm = () => {
 
         try {
 
-            await signIn(email, password)
+            const response = await signIn(email, password)
+            console.log(response)
+            if (!response.user.emailVerified) {
+                throw new Error("Debes validar el correo.")
+            }
 
             login({
                 email,
