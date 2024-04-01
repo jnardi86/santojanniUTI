@@ -42,7 +42,7 @@ const ModulosProvider = ({ children }) => {
     }, []);
 
     useEffect(() => {
-        setDesktopView((windowWidth > 768) ? true : false)
+        setDesktopView((windowWidth >= 768) ? true : false)
     }, [windowWidth]);
 
     return (

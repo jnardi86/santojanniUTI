@@ -35,6 +35,11 @@ export default {
       boxShadow: {
         'lightShadow': '0px 4px 4px 0px rgba(0, 0, 0, 0.25)',
         'darkShadow': '8px 8px 12px rgba(0, 0, 0, 0.4)',
+      },
+      backgroundImage: {
+        // 'hero-pattern': "url('/img/hero-pattern.svg')"
+        'footerMobile': "url('/src/assets/images_figma/footer_mobile_max.png')",
+        'footerDesktop': "url('/src/assets/images_figma/footer_desktop_max.png')"
       }
     },
   },
