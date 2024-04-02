@@ -13,19 +13,15 @@ const NavbarMobile = () => {
 
     useEffect(() => {
         const body = document.body;
-        if (isOpen) {
-            // Deshabilitar el desplazamiento cuando el menú está abierto
-            body.style.overflow = 'hidden';
-        } else {
-            // Habilitar el desplazamiento cuando el menú está cerrado
-            body.style.overflow = 'visible';
-        }
+
+        isOpen ? body.style.overflow = 'hidden' : body.style.overflow = 'visible';
+
     }, [isOpen]);
 
 
 
     return (
-        <div className='navBarMobile-Container w-full bg-Blue flex justify-between sticky top-0 z-50'>
+        <div className='navBarMobile-Container py-4 px-2 w-full bg-Blue flex justify-between sticky top-0 z-50'>
             <div className=''>
                 <Logo/>
             </div>
@@ -37,15 +33,13 @@ const NavbarMobile = () => {
                     isOpen ? <HamburguerClose /> : <Hamburger />
                 }
             </div>
-            <ul className={`w-full h-auto py-6 bg-Blue text-White font-poppins text-center text-xl z-[-1] absolute transition-opacity duration-700 ease-in-out ${isOpen ? 'top-12 h-screen opacity-95' : 'top-[-490px] opacity-0'}`}>
-                <li className='py-3'>Nosotros</li>
+            <ul className={`w-full h-auto py-6 bg-Blue text-White font-poppins text-center text-xl z-[-1] absolute left-0 transition-opacity duration-700 ease-in-out ${isOpen ? 'top-12 h-screen opacity-95' : 'top-[-490px] opacity-0'}`}>
+                <li className='py-3'>Inicio</li>
                 <li className='py-3'>Oradores</li>
                 <li className='py-3'>Cursos</li>
                 <li className='py-3'>Mi Perfil</li>
                 <li className='mt-3'><Login/></li>
             </ul>
-            
-
         </div>
     )
 }

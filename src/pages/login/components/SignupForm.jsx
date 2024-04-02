@@ -4,6 +4,7 @@ import { useAuth } from "../../../auth/hooks/useAuth";
 import CustomButton from "../../../components/customComponents/CustomButton";
 import { createDocument, setDocument, COLECTIONS } from "../../../core/db/firestore.db";
 
+
 const SignupForm = ({ setShowLogin }) => {
 
   const [error, setError] = useState('');
@@ -39,6 +40,7 @@ const SignupForm = ({ setShowLogin }) => {
     if (!error) {
       navigate("/login", { replace: true });
     }
+
 
     setShowLogin(true);
 
