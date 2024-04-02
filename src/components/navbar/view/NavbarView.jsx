@@ -1,15 +1,21 @@
 import React, { useState } from 'react'
 import Logo from '../components/Logo'
 import Login from '../components/Login'
+import NavbarMobile from '../components/NavbarMobile'
+import { useModulos } from '../../../hooks/useModulos'
+import NavbarDesktop from '../components/NavbarDesktop'
 
 const NavbarView = () => {
 
+  const { desktopView } = useModulos()
+
   return (
-    <div
-      className="navBarcontainer max-w-[1440px]  bg-Blue py-3 px-2 flex justify-between items-center">
-      <Logo />
-      <Login />
-    </div>
+    <div>
+      {
+        (desktopView) ? <NavbarDesktop/> : <NavbarMobile/>
+      }
+    </div>    
+
   )
 }
 
