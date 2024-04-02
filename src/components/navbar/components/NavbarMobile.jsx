@@ -1,0 +1,53 @@
+import React, { useState, useEffect } from 'react'
+import Hamburger from '../../svg/Hamburger'
+import HamburguerClose from '../../svg/HamburguerClose'
+import Login from './Login'
+import Logo from './Logo'
+
+
+const NavbarMobile = () => {
+
+    const [isOpen, setIsOpen] = useState(false)
+
+    const handleHamburguer = () => setIsOpen(!isOpen)
+
+    useEffect(() => {
+        const body = document.body;
+        if (isOpen) {
+            // Deshabilitar el desplazamiento cuando el menú está abierto
+            body.style.overflow = 'hidden';
+        } else {
+            // Habilitar el desplazamiento cuando el menú está cerrado
+            body.style.overflow = 'visible';
+        }
+    }, [isOpen]);
+
+
+
+    return (
+        <div className='navBarMobile-Container w-full bg-Blue flex justify-between sticky top-0 z-50'>
+            <div className=''>
+                <Logo/>
+            </div>
+            <div className='text-center content-center'>
+                <h1 className='text-White font-poppins text-lg font-semiBold'>Hospital Santojanni</h1>
+            </div>
+            <div onClick={handleHamburguer} className='content-center'>
+                {
+                    isOpen ? <HamburguerClose /> : <Hamburger />
+                }
+            </div>
+            <ul className={`w-full h-auto py-6 bg-Blue text-White font-poppins text-center text-xl z-[-1] absolute transition-opacity duration-700 ease-in-out ${isOpen ? 'top-12 h-screen opacity-95' : 'top-[-490px] opacity-0'}`}>
+                <li className='py-3'>Nosotros</li>
+                <li className='py-3'>Oradores</li>
+                <li className='py-3'>Cursos</li>
+                <li className='py-3'>Mi Perfil</li>
+                <li className='mt-3'><Login/></li>
+            </ul>
+            
+
+        </div>
+    )
+}
+
+export default NavbarMobile

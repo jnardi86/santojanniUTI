@@ -30,16 +30,13 @@ const LoginView = () => {
             />
           )
         }
-        <p
-          className="py-5 text-White text-center">
-
           {showLogin ? (
             <React.Fragment>
-              <div className="mb-2 flex justify-center">
+              <div className="mb-2 flex justify-center text-White">
                 <p className="pe-2">Aún no tenes una cuenta?</p>
                 <button onClick={toggleForm}>Crear cuenta</button>
               </div>
-              <div className="flex justify-center">
+              <div className="flex justify-center text-White">
                 <p className="pe-2">Olvidaste tu contraseña?</p>
                 <Link to={'/resetPassword'}>Restablecer contraseña</Link></div>
 
@@ -56,9 +53,6 @@ const LoginView = () => {
           <button onClick={toggleForm}>
             {showLogin ? 'Crear cuenta' : 'Iniciar sesión'}
           </button> */}
-
-
-        </p>
       </div>
 
     </div>
