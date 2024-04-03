@@ -3,6 +3,7 @@ import Hamburger from '../../svg/Hamburger'
 import HamburguerClose from '../../svg/HamburguerClose'
 import Login from './Login'
 import Logo from './Logo'
+import { Link } from 'react-router-dom'
 
 
 const NavbarMobile = () => {
@@ -34,11 +35,11 @@ const NavbarMobile = () => {
                 }
             </div>
             <ul className={`w-full h-auto py-6 bg-Blue text-White font-poppins text-center text-xl z-[-1] absolute left-0 transition-opacity duration-700 ease-in-out ${isOpen ? 'top-12 h-screen opacity-95' : 'top-[-490px] opacity-0'}`}>
-                <li className='py-3'>Inicio</li>
-                <li className='py-3'>Oradores</li>
+            <li className='py-3' onClick={handleHamburguer}><Link to="/">Inicio</Link></li>
+                {/* <li className='py-3'>Oradores</li>
                 <li className='py-3'>Cursos</li>
-                <li className='py-3'>Mi Perfil</li>
-                <li className='mt-3'><Login/></li>
+                <li className='py-3'>Mi Perfil</li> */}
+                <li className='mt-3' onClick={handleHamburguer}><Login/></li>
             </ul>
         </div>
     )
