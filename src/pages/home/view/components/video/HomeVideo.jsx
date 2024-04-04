@@ -1,6 +1,6 @@
 import React from 'react'
-import videoImgDesktop from "./Images_figma/fondo_video_max.png"
-import marcoVideo from "./Images_figma/marco_video_max.png"
+import videoImgDesktop from "/Images_figma/fondo_video_max.png"
+import marcoVideo from "/Images_figma/marco_video_max.png"
 import { useModulos } from '../../../../../hooks/useModulos'
 
 const HomeVideo = () => {

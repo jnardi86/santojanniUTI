@@ -4,8 +4,8 @@ import FooterMobile from "../components/FooterMobile"
 import Location from "../../svg/Location"
 import Phone from "../../svg/Phone"
 import Email from "../../svg/Email"
-import footerImageMobile from "./Images_figma/footer_mobile_max.png"
-import footerImageDesktop from "./Images_figma/footer_desktop_max.png"
+import footerImageMobile from "/Images_figma/footer_mobile_max.png"
+import footerImageDesktop from "/Images_figma/footer_desktop_max.png"
 
 const footerData = {
   footerImageMobile: footerImageMobile,
