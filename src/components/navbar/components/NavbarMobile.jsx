@@ -26,7 +26,7 @@ const NavbarMobile = () => {
             <div className=''>
                 <Logo/>
             </div>
-            <div className='text-center content-center'>
+            <div className='text-center content-center flex items-center'>
                 <h1 className='text-White font-poppins text-lg font-semiBold'>Hospital Santojanni</h1>
             </div>
             <div onClick={handleHamburguer} className='content-center'>
