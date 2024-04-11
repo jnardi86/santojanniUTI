@@ -23,9 +23,7 @@ const SigninForm = () => {
                 throw new Error("Debes validar el correo.")
             }
 
-            login({
-                email,
-            })
+            login(email)
 
         } catch (error) {
             console.log("Error during sign in:", error.message);

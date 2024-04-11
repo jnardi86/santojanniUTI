@@ -32,6 +32,7 @@ const ModulosProvider = ({ children }) => {
     const [moduleData, setModuleData] = useState(initialModuleState);
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
     const [desktopView, setDesktopView] = useState(false);
+    const [userProfile, setUserProfile] = useState({});
 
     useEffect(() => {
         function handleResize() {
@@ -50,7 +51,9 @@ const ModulosProvider = ({ children }) => {
             value={{
                 moduleData,
                 setModuleData,
-                desktopView
+                desktopView,
+                userProfile,
+                setUserProfile
             }}
         >
             {children}

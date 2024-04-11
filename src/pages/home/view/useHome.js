@@ -2,6 +2,17 @@ import arrayContents from "../../contents/dataContents.json";
 export const useHome = () => {
 
 
+
+    const getUserProfile = async (getDocumentById, id, name, setUserProfile) => {
+        try {
+            const userData = await getDocumentById(id, name);
+            console.log("userData from useHome is: ", userData)
+            setUserProfile(prevData => userData);
+        } catch (error) {
+            return error
+        }
+    }
+
     /**
      * HANDLE_REMOTE_MODULO
      */
@@ -79,7 +90,8 @@ export const useHome = () => {
 
     return {
         arrayContents,
-        handleRenderModulo
+        handleRenderModulo,
+        getUserProfile
     }
 }
 

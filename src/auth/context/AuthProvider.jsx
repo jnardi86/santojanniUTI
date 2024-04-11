@@ -19,6 +19,7 @@ const AuthProvider = ({ children }) => {
     localStorage.setItem(
       AUTH_KEY_LOCAL_STORAGE, JSON.stringify({
         isLoggedIn: true,
+        user: user
       })
     )
 

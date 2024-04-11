@@ -5,12 +5,16 @@ export const useModulos = () => {
     const {
         moduleData,
         setModuleData,
-        desktopView
+        desktopView,
+        userProfile,
+        setUserProfile
     } = useContext(ModulosContext);
 
     return {
         moduleData,
         setModuleData,
-        desktopView
+        desktopView,
+        userProfile,
+        setUserProfile
     };
 }
