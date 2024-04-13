@@ -39,7 +39,7 @@ const SigninForm = () => {
                 <input
                     type="email"
                     name="email"
-                    className='w-full border-none px-2 py-2 mb-2'
+                    className='w-full font-poppins font-medium text-lg text-DarkGreen border-none rounded-md px-2 py-2 mb-2'
                     placeholder="Correo electrónico"
                     required />
             </div>
@@ -47,15 +47,20 @@ const SigninForm = () => {
                 <input
                     type="password"
                     name="password"
-                    className='w-full border-none px-2 py-2 mb-5'
+                    className='w-full font-poppins font-medium text-lg text-DarkGreen border-none rounded-md px-2 py-2 mb-5'
                     placeholder="Contraseña"
-                    required />
+                    required 
+                />
             </div>
-            <div className="w-full  flex justify-center">
+            <div className="w-full flex justify-center">
                 <CustomButton
                     type={"submit"}
-                    label={"Iniciar Sesión"}>
-                </CustomButton></div>
+                    label={"Iniciar Sesión"}
+                    style={"bg-Blue py-2 px-4 text-White font-poppins font-semiBold text-lg rounded-lg hover:bg-White hover:text-DarkGreen focus:outline-none focus:shadow-outline"}
+                    // bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline
+                >
+                </CustomButton>
+            </div>
         </form >
     )
 }

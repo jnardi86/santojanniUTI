@@ -54,7 +54,7 @@ const SignupForm = ({ setShowLogin }) => {
         <input
           type="email"
           name="email"
-          className='w-full border-none px-2 py-2 mb-2'
+          className='w-full font-poppins font-medium text-lg text-DarkGreen border-none rounded-md px-2 py-2 mb-2'
           placeholder="Correo electrónico"
           required />
       </div>
@@ -62,14 +62,16 @@ const SignupForm = ({ setShowLogin }) => {
         <input
           type="password"
           name="password"
-          className='w-full border-none px-2 py-2 mb-5'
+          className='w-full font-poppins font-medium text-lg text-DarkGreen border-none rounded-md px-2 py-2 mb-5'
           placeholder="Contraseña"
           required />
       </div>
-      <div className="w-full  flex justify-center">
+      <div className="w-full flex justify-center">
         <CustomButton
           type={"submit"}
-          label={"Registarse"}>
+          label={"Registarse"}
+          style={"bg-Green py-2 px-4 text-White font-poppins font-semiBold text-lg rounded-lg hover:bg-White hover:text-DarkGreen focus:outline-none focus:shadow-outline"}
+        >
         </CustomButton>
       </div>
 

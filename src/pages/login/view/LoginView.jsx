@@ -14,13 +14,10 @@ const LoginView = () => {
 
   return (
     <div
-      className="bg-DarkGreen rounded-lg
-    w-[95%]
-    flex justify-center
-    laptop1:w-[50%] max-w-[400px] mx-auto py-10 my-20">
+      className={`rounded-lg w-[95%] flex justify-center laptop1:w-[50%] max-w-[400px] mx-auto py-10 my-20 ${showLogin ? 'bg-DarkGreen' : 'bg-Blue'}`}>
       <div className="w-full px-5">
         <h2
-          className="pb-5 text-White text-center font-poppins font-medium text-[24px]" >{showLogin ? 'Iniciar sesión' : 'Registrarse'}</h2>
+          className="pb-5 mb-5 font-poppins font-medium text-White text-center text-2xl laptop1:text-4xl" >{showLogin ? 'Iniciar sesión' : 'Registrarse'}</h2>
         {
           showLogin ? (
             <SigninForm />
@@ -30,31 +27,26 @@ const LoginView = () => {
             />
           )
         }
-          {showLogin ? (
-            <React.Fragment>
-              <div className="mb-2 flex justify-center text-White">
-                <p className="pe-2">Aún no tenes una cuenta?</p>
-                <button onClick={toggleForm}>Crear cuenta</button>
-              </div>
-              <div className="flex justify-center text-White">
-                <p className="pe-2">Olvidaste tu contraseña?</p>
-                <Link to={'/resetPassword'}>Restablecer contraseña</Link></div>
-
-            </React.Fragment>
-          ) : (
-            <React.Fragment>
-              Tenes cuenta?
+        {showLogin ? (
+          <>
+            <div className="mt-6 text-center text-White">
+              <span className="font-poppins font-semiBold text-sm mr-1 laptop1:text-base">Aún no tenes una cuenta?</span>
+              <button className="font-poppins font-regular text-sm laptop1:text-base" onClick={toggleForm}>Crear cuenta</button>
+            </div>
+            <div className="mt-6 text-center text-White">
+              <span className="font-poppins font-semiBold text-sm mr-1 laptop1:text-base">Olvidaste tu contraseña?</span>
+              <span className="font-poppins font-regular text-sm mr-1 laptop1:text-base"><Link to={'/resetPassword'}>Hace click acá</Link></span>
+            </div>
+          </>
+        ) : (
+          <>
+            <div className="mt-6 text-center text-White">
+              <span className="font-poppins font-semiBold text-sm mr-1">Tenes cuenta?</span>
               <button onClick={toggleForm}>Iniciar sesión</button>
-
-            </React.Fragment>
-          )}
-
-          {/* {showLogin ? 'Aún no tenes una cuenta? ' : 'Tenes cuenta? '}
-          <button onClick={toggleForm}>
-            {showLogin ? 'Crear cuenta' : 'Iniciar sesión'}
-          </button> */}
+            </div>
+          </>
+        )}
       </div>
-
     </div>
   )
 }
