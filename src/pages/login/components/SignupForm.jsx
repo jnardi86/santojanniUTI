@@ -3,6 +3,7 @@ import { useState } from "react";
 import { useAuth } from "../../../auth/hooks/useAuth";
 import CustomButton from "../../../components/customComponents/CustomButton";
 import { createDocument, setDocument, COLECTIONS } from "../../../core/db/firestore.db";
+import Swal from 'sweetalert2'
 
 
 const SignupForm = ({ setShowLogin }) => {
