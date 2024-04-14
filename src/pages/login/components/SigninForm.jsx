@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { useAuth } from "../../../auth/hooks/useAuth"
 import CustomButton from "../../../components/customComponents/CustomButton";
+import Swal from 'sweetalert2'
+
 
 
 const SigninForm = () => {
@@ -8,6 +10,25 @@ const SigninForm = () => {
     const [error, setError] = useState(null);
     const { login, signIn } = useAuth();
     const [forgotPassword, setForgotPassword] = useState(false)
+
+    const showAlert = (email) => {
+
+        const Toast = Swal.mixin({
+            toast: true,
+            position: "top-end",
+            showConfirmButton: false,
+            timer: 2000,
+            timerProgressBar: true,
+            didOpen: (toast) => {
+              toast.onmouseenter = Swal.stopTimer;
+              toast.onmouseleave = Swal.resumeTimer;
+            }
+          });
+          Toast.fire({
+            icon: "success",
+            title: `Bienvenido ${email} !`
+          });
+    }
 
 
     const handleSubmit = async (event) => {
@@ -24,6 +45,7 @@ const SigninForm = () => {
             }
 
             login(email)
+            showAlert(email)
 
         } catch (error) {
             console.log("Error during sign in:", error.message);
@@ -57,7 +79,6 @@ const SigninForm = () => {
                     type={"submit"}
                     label={"Iniciar Sesión"}
                     style={"bg-Blue py-2 px-4 text-White font-poppins font-semiBold text-lg rounded-lg hover:bg-White hover:text-DarkGreen focus:outline-none focus:shadow-outline"}
-                    // bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline
                 >
                 </CustomButton>
             </div>
