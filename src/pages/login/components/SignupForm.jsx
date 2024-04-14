@@ -14,6 +14,19 @@ const SignupForm = ({ setShowLogin }) => {
     signUp
   } = useAuth();
 
+  const showAlertSignUpSucces = (userEmail) => {
+    Swal.fire({
+      title: "Registración Exitosa",
+      text: `Por favor, valida tu usuario a través del link que recibiste a tu correo ${userEmail}`,
+      icon: "success",
+      background: "#011C40",
+      color: "#FAFAFA",
+      iconColor: "#FAFAFA",
+      confirmButtonText: "Aceptar",
+      confirmButtonColor: "#038C7F"
+    });
+  }
+
 
   const handleSubmit = async (event) => {
 
@@ -39,6 +52,7 @@ const SignupForm = ({ setShowLogin }) => {
     }
 
     if (!error) {
+      showAlertSignUpSucces(email);
       navigate("/login", { replace: true });
     }
 

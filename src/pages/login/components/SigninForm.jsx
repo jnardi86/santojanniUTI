@@ -11,7 +11,7 @@ const SigninForm = () => {
     const { login, signIn } = useAuth();
     const [forgotPassword, setForgotPassword] = useState(false)
 
-    const showAlertLoginSucces = (email) => {
+    const showAlertSignInSucces = (email) => {
 
         const Toast = Swal.mixin({
             toast: true,
@@ -48,7 +48,7 @@ const SigninForm = () => {
             }
 
             login(email)
-            showAlertLoginSucces(email)
+            showAlertSignInSucces(email)
 
         } catch (error) {
             console.log("Error during sign in:", error.message);
