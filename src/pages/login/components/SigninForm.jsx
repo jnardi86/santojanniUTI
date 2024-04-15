@@ -13,23 +13,15 @@ const SigninForm = () => {
 
     const showAlertSignInSucces = (email) => {
 
-        const Toast = Swal.mixin({
-            toast: true,
-            position: "top-end",
-            showConfirmButton: false,
-            timer: 4000,
-            timerProgressBar: true,
-            didOpen: (toast) => {
-              toast.onmouseenter = Swal.stopTimer;
-              toast.onmouseleave = Swal.resumeTimer;
-            }
-          });
-          Toast.fire({
-            icon: "success",
+        Swal.fire({
             title: `Bienvenido ${email} !`,
-            color: "#011C40",
             background: "#FAFAFA",
-            position: "top-end"
+            color: "#025951",
+            iconColor: "#025951",
+            icon: "success",
+            width: "36em",
+            confirmButtonText: "Aceptar",
+            confirmButtonColor: "#038C7F"
           });
     }
 
