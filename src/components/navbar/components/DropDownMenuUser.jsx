@@ -1,20 +1,50 @@
-import React from 'react'
+import React, { useState } from 'react';
+import User from '../../svg/User';
+import { useAuth } from '../../../auth/hooks/useAuth';
+import Login from './Login';
+import { Link } from 'react-router-dom';
 
 const DropDownMenuUser = () => {
-  return (
-    <div>
-        <div className='flex gap-2'>
-            <img src="" alt="" />
-            <span>nombre_usuario</span>
-        </div>
-        <div>
-            <ul>
-                <li>Mi perfil</li>
-                <li>Salir</li>
-            </ul>
-        </div>
-    </div>
-  )
-}
 
-export default DropDownMenuUser
+  const { user } = useAuth()
+
+  const [showMenuUser, setShowMenuUser] = useState(false);
+
+
+
+  const handleToggleMenuUser = () => {
+    setShowMenuUser(prevShowMenuUser => !prevShowMenuUser);
+  };
+
+  const menuItems = ['Mi Perfil', 'Salir'];
+
+  return (
+    <div className='relative'>
+      <div className='flex gap-2 items-center cursor-pointer' onClick={handleToggleMenuUser}>
+        <div className=' w-10 h-10 flex items-center justify-center border-2 border-solid border-White rounded-full'>
+          <User
+            width={36}
+            height={36}
+            color="#FAFAFA"
+          />
+        </div>
+        <span>{user}</span>
+      </div>
+      {
+        showMenuUser && (
+          <div className="absolute right-0 mt-2 bg-white border rounded shadow-lg">
+            <ul className='bg-White font-poppins font-medium text-lg text-Blue'>
+                <li className="py-2 px-4 hover:bg-gray-100"> 
+                <Link to="/user">Mi Perfil</Link>
+                </li>
+                <Login/>
+            </ul>
+          </div>
+        )
+      }
+
+    </div>
+  );
+};
+
+export default DropDownMenuUser;
