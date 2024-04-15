@@ -8,23 +8,20 @@ const ContentsVideo = () => {
     moduleData
   } = useModulos()
 
-  const videos = [
-    { title: moduleData.videoTitleOne, url: moduleData.urlVideoOne, imgVideo: moduleData.videoImg, timeAvailble: moduleData.videoTimeAvailableOne, isLocked: false },
-    { title: moduleData.videoTitleTwo, url: moduleData.urlVideoTwo, imgVideo: moduleData.videoImg, timeAvailble: moduleData.videoTimeAvailableTwo, isLocked: false },
-    { title: moduleData.videoTitleThree, url: moduleData.urlVideoThree, imgVideo: moduleData.videoImg, timeAvailble: moduleData.videoTimeAvailableThree, isLocked: true}
-  ];
+  console.log(moduleData.multimedia)
+
 
   return (
     <div>
-      {videos.map((video, index) => (
+      {moduleData.multimedia.map((item, index) => (
         
         <VideoItem
           key={index}
-          title={video.title}
-          url={video.url}
-          imgVideo={video.imgVideo}
-          availableTime={video.timeAvailble}
-          isLocked={video.isLocked}
+          title={item.moduleVideoTitle}
+          url={item.moduleVideoUrl}
+          imgVideo={item.moduleVideoImg}
+          availableTime={item.moduleVideoTimeAvailable}
+          isLocked={item.isLocked == "true" ? true : false}
         />
         
       ))}

@@ -14,16 +14,7 @@ const ModulosProvider = ({ children }) => {
         speakerName: "valor inicial",
         speakerSpeciality: "valor inicial",
         speakerDescription: "valor inicial",
-        videoImg: "valor inicial",
-        videoTitleOne: "valor inicial",
-        urlVideoOne: "valor inicial",
-        videoTitleTwo: "valor inicial",
-        urlVideoTwo: "valor inicial",
-        videoTitleThree: "valor inicial",
-        urlVideoThree: "valor inicial",
-        videoTimeAvailableOne: "valor inicial",
-        videoTimeAvailableTwo: "valor inicial",
-        videoTimeAvailableThree: "valor inicial",
+        multimedia: [],
         quizzText:"valor inicial"
     }
 

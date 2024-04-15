@@ -36,16 +36,7 @@ export const useHome = () => {
                 cardSpeakerName,
                 cardSpeakerSpeciality,
                 cardSpeakerDescription,
-                moduleVideImg,
-                moduleVideoTitle1,
-                moduleVideoNro1,
-                moduleVideoTimeAvailable1,
-                moduleVideoTitle2,
-                moduleVideoNro2,
-                moduleVideoTimeAvailable2,
-                moduleVideoTitle3,
-                moduleVideoNro3,
-                moduleVideoTimeAvailable3,
+                multimedia,
                 moduleQuizzText
             } = moduleContent;
 
@@ -60,16 +51,7 @@ export const useHome = () => {
                 speakerName: cardSpeakerName,
                 speakerSpeciality: cardSpeakerSpeciality,
                 speakerDescription: cardSpeakerDescription,
-                videoImg: moduleVideImg,
-                videoTitleOne: moduleVideoTitle1,
-                urlVideoOne: moduleVideoNro1,
-                videoTitleTwo: moduleVideoTitle2,
-                urlVideoTwo: moduleVideoNro2,
-                videoTitleThree: moduleVideoTitle3,
-                urlVideoThree: moduleVideoNro3,
-                videoTimeAvailableOne: moduleVideoTimeAvailable1,
-                videoTimeAvailableTwo: moduleVideoTimeAvailable2,
-                videoTimeAvailableThree: moduleVideoTimeAvailable3,
+                multimedia: multimedia,
                 quizzText: moduleQuizzText,
             };
             console.log(updatedValues)
