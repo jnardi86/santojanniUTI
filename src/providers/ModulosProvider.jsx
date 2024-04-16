@@ -1,8 +1,23 @@
 import React, { useState, useEffect } from 'react'
 import { ModulosContext } from '../context/ModulosContext'
-
+const KEY_LOCAL_STORAGE_MODULE_DATA = "moduleDataId";
+const MODULE_DATA_INITIAL_VALUE = "cnt1";
 
 const ModulosProvider = ({ children }) => {
+
+    const setModuleDataLocalStorage = (value) => {
+        localStorage.setItem(
+            KEY_LOCAL_STORAGE_MODULE_DATA, JSON.stringify({
+                moduleId: value
+            })
+        )
+    }
+
+
+    const getModuleDataLocalStorage = () => {
+        const moduleDataId = JSON.parse(localStorage.getItem(KEY_LOCAL_STORAGE_MODULE_DATA)) || MODULE_DATA_INITIAL_VALUE;
+        return moduleDataId;
+    }
 
     const initialModuleState = {
         title: "valor inicial",
@@ -15,7 +30,7 @@ const ModulosProvider = ({ children }) => {
         speakerSpeciality: "valor inicial",
         speakerDescription: "valor inicial",
         multimedia: [],
-        quizzText:"valor inicial"
+        quizzText: "valor inicial"
     }
 
 
@@ -40,6 +55,8 @@ const ModulosProvider = ({ children }) => {
     return (
         <ModulosContext.Provider
             value={{
+                setModuleDataLocalStorage,
+                getModuleDataLocalStorage,
                 moduleData,
                 setModuleData,
                 desktopView,

@@ -55,11 +55,11 @@ export const appRouter = createBrowserRouter([
     {
         path: "/contents",
         element: (
-            <PublicRoute>
+            <PrivateRoute>
                 <Layout>
                     <ContentsView/>
                 </Layout>
-            </PublicRoute>
+            </PrivateRoute>
         ),
     },
     {
