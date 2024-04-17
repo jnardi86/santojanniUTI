@@ -10,35 +10,34 @@ const DropDownMenuUser = () => {
 
   const [showMenuUser, setShowMenuUser] = useState(false);
 
-
-
   const handleToggleMenuUser = () => {
     setShowMenuUser(prevShowMenuUser => !prevShowMenuUser);
   };
 
-  const menuItems = ['Mi Perfil', 'Salir'];
 
   return (
     <div className='relative'>
       <div className='flex gap-2 items-center cursor-pointer' onClick={handleToggleMenuUser}>
-        <div className=' w-10 h-10 flex items-center justify-center border-2 border-solid border-White rounded-full'>
+        <div className=' w-10 h-10 flex items-center justify-center border-2 border-solid border-Green rounded-full'>
           <User
             width={36}
             height={36}
-            color="#FAFAFA"
+            color="#038C7F"
           />
         </div>
         <span>{user}</span>
       </div>
       {
         showMenuUser && (
-          <div className="absolute right-0 mt-2 bg-white border rounded shadow-lg">
-            <ul className='bg-White font-poppins font-medium text-lg text-Blue'>
-                <li className="py-2 px-4 hover:bg-gray-100"> 
-                <Link to="/user">Mi Perfil</Link>
-                </li>
-                <Login/>
-            </ul>
+          <div className="absolute right-0 mt-2 bg-White border rounded shadow-lg">
+            <div className='bg-White font-poppins font-medium text-lg text-Blue flex flex-col'>
+              <div>
+                <Link to="/user" className="py-2 px-4 hover:bg-gray-100">Mi Perfil</Link>
+              </div>
+              <div className=' z-10' >
+                <Login />
+              </div>
+            </div>
           </div>
         )
       }

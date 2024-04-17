@@ -8,15 +8,15 @@ import Calendar from '../../../../../components/svg/Calendar';
 const Card = ({ data }) => {
     const navigate = useNavigate();
     const {
-        setModuleData
+        setModuleDataLocalStorage,
     } = useModulos();
-    const {
-        handleRenderModulo
-    } = useHome();
 
 
-    const handleNavigateToContents = (id, setModuleData, handleRenderModulo) => {
-        handleRenderModulo(id, setModuleData)
+    // const handleNavigateToContents = (id, setModuleData, handleRenderModulo) => {
+    // handleRenderModulo(id, setModuleData)
+
+    const handleNavigateToContents = (id) => {
+        setModuleDataLocalStorage(id)
         navigate('/contents')
     }
 
@@ -37,14 +37,14 @@ const Card = ({ data }) => {
                     <p className='font-poppins text-2xl font-semiBold text-Blue '>{data.startDate}</p>
                 </div>
             </div>
-            <h2 className="font-poppins text-4xl text-White font-medium mb-3">{data.moduleTitle}</h2>
+            <h2 className="font-poppins text-4xl text-White font-medium mb-3 text-center">{data.moduleTitle}</h2>
             <p className="font-poppins text-base text-White font-regular my-5 p-5">{data.moduleDescription}</p>
             <div className="mb-3">
                 <CustomButton
                     type={"button"}
                     label={"Acceder"}
                     setModuleData
-                    onClick={() => handleNavigateToContents(data.id, setModuleData, handleRenderModulo)}></CustomButton>
+                    onClick={() => handleNavigateToContents(data.id)}></CustomButton>
             </div>
         </div>
     )

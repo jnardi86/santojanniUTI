@@ -3,6 +3,8 @@ import { ModulosContext } from "../context/ModulosContext";
 
 export const useModulos = () => {
     const {
+        setModuleDataLocalStorage,
+        getModuleDataLocalStorage,
         moduleData,
         setModuleData,
         desktopView,
@@ -11,6 +13,8 @@ export const useModulos = () => {
     } = useContext(ModulosContext);
 
     return {
+        setModuleDataLocalStorage,
+        getModuleDataLocalStorage,
         moduleData,
         setModuleData,
         desktopView,

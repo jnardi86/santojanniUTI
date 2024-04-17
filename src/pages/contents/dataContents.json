@@ -2,10 +2,10 @@
   {
     "id": "cnt1",
     "moduleIcon": "./iconos_modulos/sepsis_icon.svg",
-    "moduleTitle": "Sepsis",
+    "moduleTitle": "Sepsis e Infectología crítica",
     "moduleNumber": "Módulo 1",
-    "startDate": "22 de abril",
-    "moduleDescription": "Breve descripción del módulo",
+    "startDate": "29 de abril",
+    "moduleDescription": "Es uno de los principales motivos de ingreso al Servicio de Terapia Intensiva. Los pacientes pueden  llegar a requerir ARM y drogas inotrópicas, además de antibióticos dirigidos al cuadro desencadenante.",
     "moduleImageMobile": "./Images_figma/header_sepsis_mobile_max.png",
     "moduleImageDesktop": "./Images_figma/header_sepsis_desktop_max.png",
     "moduleTextAvailable": "Disponible a partir del 22 de abril",
@@ -17,21 +17,21 @@
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
         "moduleVideoTitle": "video n° 1",
-        "moduleVideoUrl": "https://www.youtube.com/watch?v=Mb37ily9WuY&ab_channel=TheCoderCaveesp",
+        "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
         "moduleVideoTimeAvailable": "Disponible a partir del 3 de mayo",
         "isLocked": "false"
       },
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
         "moduleVideoTitle": "video n° 1",
-        "moduleVideoUrl": "https://www.youtube.com/watch?v=Mb37ily9WuY&ab_channel=TheCoderCaveesp",
+        "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
         "moduleVideoTimeAvailable": "Disponible a partir del 3 de mayo",
         "isLocked": "false"
       },
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
         "moduleVideoTitle": "video n° 1",
-        "moduleVideoUrl": "https://www.youtube.com/watch?v=Mb37ily9WuY&ab_channel=TheCoderCaveesp",
+        "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
         "moduleVideoTimeAvailable": "Disponible a partir del 3 de mayo",
         "isLocked": "true"
       }
