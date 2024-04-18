@@ -1,14 +1,10 @@
 [
     {
-        "name": "Dr. Nombre y Apellido",
-        "cargo": "Cargo"
+        "name": "Dr. Ahmad Sanbra",
+        "cargo": "Director"
     },
     {
-        "name": "Dr. Nombre y Apellido",
-        "cargo": "Cargo"
-    },
-    {
-        "name": "Dr. Nombre y Apellido",
+        "name": "Dra. Sandra Arcieri",
         "cargo": "Cargo"
     }
 ]

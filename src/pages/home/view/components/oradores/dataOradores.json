@@ -1,26 +1,61 @@
 [
     {
-        "image": "./speakers/speakerTest.png",
-        "name": "Dr. Nombre y Apellido",
-        "cargo": "Cargo",
-        "especialidad": "infectólogo"
+        "image": "./speakers/Antonio_Pilipek.png",
+        "name": "Dr. Antonio Pilipek",
+        "cargo": "",
+        "especialidad": "Terapia Intensiva"
     },
     {
-        "image": "./speakers/speakerTest1.png",
-        "name": "Dr. Nombre y Apellido",
-        "cargo": "Cargo",
-        "especialidad": "infectólogo"
+        "image": "./speakers/Ana_Kunst.png",
+        "name": "Dra. Ana Kunst",
+        "cargo": "",
+        "especialidad": "Infectóloga"
     },
     {
-        "image": "./speakers/speakerTest2.png",
-        "name": "Dr. Nombre y Apellido",
-        "cargo": "Cargo",
-        "especialidad": "infectólogo"
+        "image": "./speakers/Marcelo_Minghetti.png",
+        "name": "Dr. Marcelo Minghetti",
+        "cargo": "",
+        "especialidad": "Cardiólogo"
+    },
+    {
+        "image": "./speakers/Vanina_Wasiuchnik.png",
+        "name": "Dra. Vanina Wasiuchnik",
+        "cargo": "",
+        "especialidad": "Nefróloga"
     },
     {
         "image": "./speakers/speakerTest3.png",
-        "name": "Dr. Nombre y Apellido",
-        "cargo": "Cargo",
-        "especialidad": "infectólogo"
+        "name": "Dra. Marina Calabrese",
+        "cargo": "",
+        "especialidad": "Nutricionista"
+    },
+    {
+        "image": "./speakers/speakerTest3.png",
+        "name": "Dr. Marcelo Kalousek",
+        "cargo": "",
+        "especialidad": "Gastroenterólogo"
+    },
+    {
+        "image": "./speakers/Pablo_Santangelo.png",
+        "name": "Dr. Pablo Santangelo",
+        "cargo": "",
+        "especialidad": "Gastroenterólogo"
+    },
+    {
+        "image": "./speakers/Fernando_Saldarini.jpg",
+        "name": "Dr. Fernando Saldarini",
+        "cargo": "",
+        "especialidad": "Neumonólogo"
+    },
+    {
+        "image": "./speakers/speakerTest3.png",
+        "name": "Dr. Marco Bezzi",
+        "cargo": "",
+        "especialidad": "Neumonólogo"
+    },    {
+        "image": "./speakers/Laura_Pirra.png",
+        "name": "Dra. Laura Pirra",
+        "cargo": "",
+        "especialidad": "Neuróloga"
     }
 ]
