@@ -8,30 +8,33 @@
     "moduleDescription": "Es uno de los principales motivos de ingreso al Servicio de Terapia Intensiva. Los pacientes pueden  llegar a requerir ARM y drogas inotrópicas, además de antibióticos dirigidos al cuadro desencadenante.",
     "moduleImageMobile": "./Images_figma/header_sepsis_mobile_max.png",
     "moduleImageDesktop": "./Images_figma/header_sepsis_desktop_max.png",
-    "moduleTextAvailable": "Disponible a partir del 22 de abril",
-    "cardSpeakerPhoto": "./speakers/speakerTest.png",
-    "cardSpeakerName": "Dr. Nombre y Apellido",
-    "cardSpeakerSpeciality": "Cargo y Especialidad",
-    "cardSpeakerDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, asperiores dolores! Aspernatur quasi perferendis fugiat beatae autem eligendi distinctio quisquam.",
+    "moduleTextAvailable": "Disponible a partir del 29 de abril",
+    "cardSpeakerPhoto": "./speakers/Antonio_Pilipek.png",
+    "cardSpeakerName": "Dr. Pilipek Antonio",
+    "cardSpeakerSpeciality": "Terapia Intensiva",
+    "cardSpeakerDescription": "El CV del Médico",
     "multimedia": [
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
         "moduleVideoTitle": "video n° 1",
         "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
-        "moduleVideoTimeAvailable": "Disponible a partir del 3 de mayo",
+        "moduleVideoDescription" : "Descripcion a completar video 1",
+        "moduloVideoTimeAvailable": "Disponible a partir del 3 de mayo",
         "isLocked": "false"
       },
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
         "moduleVideoTitle": "video n° 1",
         "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
+        "moduleVideoDescription" : "Descripcion a completar",
         "moduleVideoTimeAvailable": "Disponible a partir del 3 de mayo",
-        "isLocked": "false"
+        "isLocked": "true"
       },
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
         "moduleVideoTitle": "video n° 1",
         "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
+        "moduleVideoDescription" : "Descripcion a completar",
         "moduleVideoTimeAvailable": "Disponible a partir del 3 de mayo",
         "isLocked": "true"
       }
@@ -40,37 +43,40 @@
   },
   {
     "id": "cnt2",
-    "moduleIcon": "./iconos_modulos/infecto_icon.svg",
-    "moduleTitle": "Infectología",
+    "moduleIcon": "./iconos_modulos/cardio_icon.svg",
+    "moduleTitle": "Cardiología",
     "moduleNumber": "Módulo 2",
-    "startDate": "13 de mayo",
-    "moduleDescription": "Breve descripción del módulo",
+    "startDate": "Próximamente",
+    "moduleDescription": "Las intercurrencias Cardiológicas son muy frecuentes, tanto la Hipertensión arterial como las taquiarritmias suelen complicar  los cuadros de base de los pacientes.",
     "moduleImageMobile": "./Images_figma/header_cardio_mobile_max.png",
     "moduleImageDesktop": "./Images_figma/header_cardio_desktop_max.png",
-    "moduleTextAvailable": "Disponible a partir del 22 de abril",
-    "cardSpeakerPhoto": "./speakers/speakerTest.png",
-    "cardSpeakerName": "Dr. Nombre y Apellido",
-    "cardSpeakerSpeciality": "Cargo y Especialidad",
-    "cardSpeakerDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, asperiores dolores! Aspernatur quasi perferendis fugiat beatae autem eligendi distinctio quisquam.",
+    "moduleTextAvailable": "Próximamente",
+    "cardSpeakerPhoto": "./speakers/Marcelo_Minghetti.png",
+    "cardSpeakerName": "Dr. Minghetti Marcelo",
+    "cardSpeakerSpeciality": "Cardiólogo",
+    "cardSpeakerDescription": "El CV del Médico",
     "multimedia": [
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
         "moduleVideoTitle": "video n° 1",
         "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
-        "moduleVideoTimeAvailable": "Disponible a partir del 3 de mayo",
-        "isLocked": "false"
+        "moduleVideoDescription" : "Descripcion a completar",
+        "moduloVideoTimeAvailable": "Disponible a partir del 3 de mayo",
+        "isLocked": "true"
       },
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
         "moduleVideoTitle": "video n° 1",
-        "moduleVideoUrl": "https://www.youtube.com/embed/Mb37ily9WuY?si=AiUR6EFyHUBFPphK",
+        "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
+        "moduleVideoDescription" : "Descripcion a completar",
         "moduleVideoTimeAvailable": "Disponible a partir del 3 de mayo",
-        "isLocked": "false"
+        "isLocked": "true"
       },
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
         "moduleVideoTitle": "video n° 1",
-        "moduleVideoUrl": "https://www.youtube.com/watch?v=Mb37ily9WuY&ab_channel=TheCoderCaveesp",
+        "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
+        "moduleVideoDescription" : "Descripcion a completar",
         "moduleVideoTimeAvailable": "Disponible a partir del 3 de mayo",
         "isLocked": "true"
       }
@@ -79,37 +85,250 @@
   },
   {
     "id": "cnt3",
-    "moduleIcon": "./iconos_modulos/cardio_icon.svg",
-    "moduleTitle": "Cardiología",
+    "moduleIcon": "./iconos_modulos/nefro_icon.svg",
+    "moduleTitle": "Nefrología y medio interno",
     "moduleNumber": "Módulo 3",
-    "startDate": "3 de junio",
-    "moduleDescription": "Breve descripción del módulo",
-    "moduleImageMobile": "./Images_figma/header_cardio_mobile_max.png",
-    "moduleImageDesktop": "./Images_figma/header_cardio_desktop_max.png",
-    "moduleTextAvailable": "Disponible a partir del 22 de abril",
-    "cardSpeakerPhoto": "./speakers/speakerTest.png",
-    "cardSpeakerName": "Dr. Nombre y Apellido",
-    "cardSpeakerSpeciality": "Cargo y Especialidad",
-    "cardSpeakerDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, asperiores dolores! Aspernatur quasi perferendis fugiat beatae autem eligendi distinctio quisquam.",
+    "startDate": "Próximamente",
+    "moduleDescription": "Las complicaciones de la función renal y que a su vez  motivan la alteración del medio interno son muy frecuentes ya que  atraviesan todas las patologías que vemos en el Servicio requiriendo en algunos pacientes diálisis.",
+    "moduleImageMobile": "./Images_figma/header_renal_mobile_max.png",
+    "moduleImageDesktop": "./Images_figma/header_renal_desktop_max.png",
+    "moduleTextAvailable": "Próximamente",
+    "cardSpeakerPhoto": "./speakers/Vanina_Wasiuchnik.png",
+    "cardSpeakerName": "Dra. Vanina Wasiuchnik",
+    "cardSpeakerSpeciality": "Nefróloga",
+    "cardSpeakerDescription": "CV del médico",
     "multimedia": [
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
         "moduleVideoTitle": "video n° 1",
-        "moduleVideoUrl": "https://www.youtube.com/watch?v=Mb37ily9WuY&ab_channel=TheCoderCaveesp",
-        "moduleVideoTimeAvailable": "Disponible a partir del 3 de mayo",
-        "isLocked": "false"
+        "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
+        "moduleVideoDescription" : "Descripcion a completar",
+        "moduloVideoTimeAvailable": "Disponible a partir del 3 de mayo",
+        "isLocked": "true"
       },
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
         "moduleVideoTitle": "video n° 1",
-        "moduleVideoUrl": "https://www.youtube.com/watch?v=Mb37ily9WuY&ab_channel=TheCoderCaveesp",
+        "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
+        "moduleVideoDescription" : "Descripcion a completar",
         "moduleVideoTimeAvailable": "Disponible a partir del 3 de mayo",
-        "isLocked": "false"
+        "isLocked": "true"
       },
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
         "moduleVideoTitle": "video n° 1",
-        "moduleVideoUrl": "https://www.youtube.com/watch?v=Mb37ily9WuY&ab_channel=TheCoderCaveesp",
+        "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
+        "moduleVideoDescription" : "Descripcion a completar",
+        "moduleVideoTimeAvailable": "Disponible a partir del 3 de mayo",
+        "isLocked": "true"
+      }
+    ],
+    "moduleQuizzText": "Completar el quizz del Módulo nro. 3"
+  },
+  {
+    "id": "cnt4",
+    "moduleIcon": "./iconos_modulos/nutricion_icon.svg",
+    "moduleTitle": "Endocrinología y Nutrición",
+    "moduleNumber": "Módulo 4",
+    "startDate": "Próximamente",
+    "moduleDescription": "La cetoacidosis diabética generada por múltiples causas  sigue siendo motivo de ingreso a Terapia Intensiva.",
+    "moduleImageMobile": "./Images_figma/header_nutri_mobile_max.png",
+    "moduleImageDesktop": "./Images_figma/header_nutri_desktop_max.png",
+    "moduleTextAvailable": "Próximamente",
+    "cardSpeakerPhoto": "./speakers/Marina_Calabrese.jpeg",
+    "cardSpeakerName": "Dra. Marina Calabrese",
+    "cardSpeakerSpeciality": "Endocrinóloga",
+    "cardSpeakerDescription": "CV del médico",
+    "multimedia": [
+      {
+        "moduleVideoImg": "./Images_figma/marco_video_max.png",
+        "moduleVideoTitle": "video n° 1",
+        "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
+        "moduleVideoDescription" : "Descripcion a completar",
+        "moduleVideoTimeAvailable": "Disponible a partir del 3 de mayo",
+        "isLocked": "true"
+      },
+      {
+        "moduleVideoImg": "./Images_figma/marco_video_max.png",
+        "moduleVideoTitle": "video n° 1",
+        "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
+        "moduleVideoDescription" : "Descripcion a completar",
+        "moduleVideoTimeAvailable": "Disponible a partir del 3 de mayo",
+        "isLocked": "true"
+      },
+      {
+        "moduleVideoImg": "./Images_figma/marco_video_max.png",
+        "moduleVideoTitle": "video n° 1",
+        "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
+        "moduleVideoDescription" : "Descripcion a completar",
+        "moduleVideoTimeAvailable": "Disponible a partir del 3 de mayo",
+        "isLocked": "true"
+      }
+    ],
+    "moduleQuizzText": "Completar el quizz del Módulo nro. 3"
+  },
+  {
+    "id": "cnt5",
+    "moduleIcon": "./iconos_modulos/gastro_icon.svg",
+    "moduleTitle": "Gastro",
+    "moduleNumber": "Módulo 5",
+    "startDate": "Próximamente",
+    "moduleDescription": "El stress que sufren los pacientes de Terapia Intensiva ya sea por la medicación que se les administra o el psicológico por la permanencia en el Servicio , les generan cuadros de Hemorragias digestivas altas o bajas en muchos casos con descompensación requiriendo la intervención de los especialistas.",
+    "moduleImageMobile": "./Images_figma/header_gastro_mobile_max.png",
+    "moduleImageDesktop": "./Images_figma/header_gastro_desktop_max.png",
+    "moduleTextAvailable": "Próximamente",
+    "cardSpeakerPhoto": "./speakers/speakerTest.png",
+    "cardSpeakerName": "Dr. Kalousek Marcelo",
+    "cardSpeakerSpeciality": "Gastroenterología",
+    "cardSpeakerDescription": "CV del médico",
+    "multimedia": [
+      {
+        "moduleVideoImg": "./Images_figma/marco_video_max.png",
+        "moduleVideoTitle": "video n° 1",
+        "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
+        "moduleVideoDescription" : "Descripcion a completar",
+        "moduleVideoTimeAvailable": "Disponible a partir del 3 de mayo",
+        "isLocked": "true"
+      },
+      {
+        "moduleVideoImg": "./Images_figma/marco_video_max.png",
+        "moduleVideoTitle": "video n° 1",
+        "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
+        "moduleVideoDescription" : "Descripcion a completar",
+        "moduleVideoTimeAvailable": "Disponible a partir del 3 de mayo",
+        "isLocked": "true"
+      },
+      {
+        "moduleVideoImg": "./Images_figma/marco_video_max.png",
+        "moduleVideoTitle": "video n° 1",
+        "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
+        "moduleVideoDescription" : "Descripcion a completar",
+        "moduleVideoTimeAvailable": "Disponible a partir del 3 de mayo",
+        "isLocked": "true"
+      }
+    ],
+    "moduleQuizzText": "Completar el quizz del Módulo nro. 3"
+  },
+  {
+    "id": "cnt6",
+    "moduleIcon": "./iconos_modulos/neuro_icon.svg",
+    "moduleTitle": "Neurocirugía / Neurología",
+    "moduleNumber": "Módulo 6",
+    "startDate": "Próximamente",
+    "moduleDescription": "El stress que sufren los pacientes de Terapia Intensiva ya sea por la medicación que se les administra o el psicológico por la permanencia en el Servicio , les generan cuadros de Hemorragias digestivas altas o bajas en muchos casos con descompensación requiriendo la intervención de los especialistas.",
+    "moduleImageMobile": "./Images_figma/header_neuro_mobile_max.png",
+    "moduleImageDesktop": "./Images_figma/header_neuro_desktop_max.png",
+    "moduleTextAvailable": "Próximamente",
+    "cardSpeakerPhoto": "./speakers/Laura_Pirra.png",
+    "cardSpeakerName": "Dra. Laura Pirra",
+    "cardSpeakerSpeciality": "Neuróloga",
+    "cardSpeakerDescription": "CV del médico",
+    "multimedia": [
+      {
+        "moduleVideoImg": "./Images_figma/marco_video_max.png",
+        "moduleVideoTitle": "video n° 1",
+        "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
+        "moduleVideoDescription" : "Descripcion a completar",
+        "moduloVideoTimeAvailable": "Disponible a partir del 3 de mayo",
+        "isLocked": "true"
+      },
+      {
+        "moduleVideoImg": "./Images_figma/marco_video_max.png",
+        "moduleVideoTitle": "video n° 1",
+        "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
+        "moduleVideoDescription" : "Descripcion a completar",
+        "moduleVideoTimeAvailable": "Disponible a partir del 3 de mayo",
+        "isLocked": "true"
+      },
+      {
+        "moduleVideoImg": "./Images_figma/marco_video_max.png",
+        "moduleVideoTitle": "video n° 1",
+        "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
+        "moduleVideoDescription" : "Descripcion a completar",
+        "moduleVideoTimeAvailable": "Disponible a partir del 3 de mayo",
+        "isLocked": "true"
+      }
+    ],
+    "moduleQuizzText": "Completar el quizz del Módulo nro. 3"
+  },
+  {
+    "id": "cnt7",
+    "moduleIcon": "./iconos_modulos/neumo_icon.svg",
+    "moduleTitle": "Respiratorio",
+    "moduleNumber": "Módulo 7",
+    "startDate": "Próximamente",
+    "moduleDescription": "Los cuadros respiratorios tanto infecciosos como los generados por el hábito tabáquico suelen ingresar a la Terapia para su tratamiento, requiriendo en muchos casos instrumentación de la vía aérea tanto ARM como diagnóstica.",
+    "moduleImageMobile": "./Images_figma/header_respi_mobile_max.png",
+    "moduleImageDesktop": "./Images_figma/header_respi_desktop_max.png",
+    "moduleTextAvailable": "Próximamente",
+    "cardSpeakerPhoto": "./speakers/Fernando_Saldarini.jpg",
+    "cardSpeakerName": "Dr. Fernando Saldarini",
+    "cardSpeakerSpeciality": "Neumonólogo",
+    "cardSpeakerDescription": "CV del médico",
+    "multimedia": [
+      {
+        "moduleVideoImg": "./Images_figma/marco_video_max.png",
+        "moduleVideoTitle": "video n° 1",
+        "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
+        "moduleVideoDescription" : "Descripcion a completar",
+        "moduloVideoTimeAvailable": "Disponible a partir del 3 de mayo",
+        "isLocked": "true"
+      },
+      {
+        "moduleVideoImg": "./Images_figma/marco_video_max.png",
+        "moduleVideoTitle": "video n° 1",
+        "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
+        "moduleVideoDescription" : "Descripcion a completar",
+        "moduleVideoTimeAvailable": "Disponible a partir del 3 de mayo",
+        "isLocked": "true"
+      },
+      {
+        "moduleVideoImg": "./Images_figma/marco_video_max.png",
+        "moduleVideoTitle": "video n° 1",
+        "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
+        "moduleVideoDescription" : "Descripcion a completar",
+        "moduleVideoTimeAvailable": "Disponible a partir del 3 de mayo",
+        "isLocked": "true"
+      }
+    ],
+    "moduleQuizzText": "Completar el quizz del Módulo nro. 3"
+  },
+  {
+    "id": "cnt8",
+    "moduleIcon": "./iconos_modulos/miscelanea_icon.svg",
+    "moduleTitle": "Miscelanea",
+    "moduleNumber": "Módulo 8",
+    "startDate": "Próximamente",
+    "moduleDescription": "Descripción Miscelanea en progreso",
+    "moduleImageMobile": "./Images_figma/header_miscelanea_mobile_max.png",
+    "moduleImageDesktop": "./Images_figma/header_miscelanea_desktop_max.png",
+    "moduleTextAvailable": "Próximamente",
+    "cardSpeakerPhoto": "./speakers/Pablo_Santangelo.png",
+    "cardSpeakerName": "Dr. Pablo Santangelo",
+    "cardSpeakerSpeciality": "Neurocirujano",
+    "cardSpeakerDescription": "CV del médico",
+    "multimedia": [
+      {
+        "moduleVideoImg": "./Images_figma/marco_video_max.png",
+        "moduleVideoTitle": "video n° 1",
+        "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
+        "moduleVideoDescription" : "Descripcion a completar",
+        "moduloVideoTimeAvailable": "Disponible a partir del 3 de mayo",
+        "isLocked": "true"
+      },
+      {
+        "moduleVideoImg": "./Images_figma/marco_video_max.png",
+        "moduleVideoTitle": "video n° 1",
+        "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
+        "moduleVideoDescription" : "Descripcion a completar",
+        "moduleVideoTimeAvailable": "Disponible a partir del 3 de mayo",
+        "isLocked": "true"
+      },
+      {
+        "moduleVideoImg": "./Images_figma/marco_video_max.png",
+        "moduleVideoTitle": "video n° 1",
+        "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
+        "moduleVideoDescription" : "Descripcion a completar",
         "moduleVideoTimeAvailable": "Disponible a partir del 3 de mayo",
         "isLocked": "true"
       }

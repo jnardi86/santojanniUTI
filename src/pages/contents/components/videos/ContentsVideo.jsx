@@ -18,6 +18,7 @@ const ContentsVideo = () => {
         <VideoItem
           key={index}
           title={item.moduleVideoTitle}
+          description={item.moduleVideoDescription}
           url={item.moduleVideoUrl}
           imgVideo={item.moduleVideoImg}
           availableTime={item.moduleVideoTimeAvailable}

@@ -38,7 +38,7 @@ const Card = ({ data }) => {
                 </div>
             </div>
             <h2 className="font-poppins text-4xl text-White font-medium mb-3 text-center">{data.moduleTitle}</h2>
-            <p className="font-poppins text-base text-White font-regular my-5 p-5">{data.moduleDescription}</p>
+            <p className="font-poppins text-sm text-White font-thin my-5 p-5">{data.moduleDescription}</p>
             <div className="mb-3">
                 <CustomButton
                     type={"button"}

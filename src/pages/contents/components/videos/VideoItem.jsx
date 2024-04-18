@@ -1,7 +1,7 @@
 import React from 'react'
 import Play from '../../../../components/svg/Play'
 
-const VideoItem = ({ title, url, imgVideo, availableTime, isLocked }) => {
+const VideoItem = ({ title, url, imgVideo, availableTime, isLocked, description }) => {
 
     console.log(isLocked)
 
@@ -17,6 +17,10 @@ const VideoItem = ({ title, url, imgVideo, availableTime, isLocked }) => {
                     <p className="font-poppins text-lg font-semiBold">{title}</p>
                 </div>
             </div>
+
+            <div>
+                <p>{description}</p>
+                </div>
             <div className="videoContainer-body">
                 {
                     isLocked ? (
