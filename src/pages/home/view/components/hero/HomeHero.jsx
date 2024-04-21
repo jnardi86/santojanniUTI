@@ -1,5 +1,5 @@
 import React from 'react'
-import heroImgDesktop from '/Images_figma/banner_home_desktop_max.png'
+import heroImgDesktop from '/Images_figma/banner_home_desktop_max_sin_logo.png'
 import heroImgMobile from '/Images_figma/banner_home_mobile_max.png'
 import { useModulos } from '../../../../../hooks/useModulos'
 
