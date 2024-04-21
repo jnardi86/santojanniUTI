@@ -25,10 +25,7 @@ const ModulosProvider = ({ children }) => {
         imageMobile: "valor inicial",
         imageDesktop: "valor inicial",
         textAvailable: "valor inicial",
-        speakerPhoto: "",
-        speakerName: "valor inicial",
-        speakerSpeciality: "valor inicial",
-        speakerDescription: "valor inicial",
+        oradores: [],
         multimedia: [],
         quizzText: "valor inicial"
     }

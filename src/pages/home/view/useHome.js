@@ -1,4 +1,5 @@
 import arrayContents from "../../contents/dataContents.json";
+import arrayOradores from "../../home/view/components/oradores/dataOradores.json"
 export const useHome = () => {
 
 
@@ -32,13 +33,21 @@ export const useHome = () => {
                 moduleImageMobile,
                 moduleImageDesktop,
                 moduleTextAvailable,
-                cardSpeakerPhoto,
-                cardSpeakerName,
-                cardSpeakerSpeciality,
-                cardSpeakerDescription,
+                oradores,
                 multimedia,
                 moduleQuizzText
             } = moduleContent;
+
+
+            const oradoresContent = oradores.map(orador => {
+                const oradorContent = arrayOradores.find(object => object.id == orador.id)
+                return{
+                    image: oradorContent.image,
+                    name: oradorContent.name,
+                    cargo: oradorContent.cargo,
+                    especialidad: oradorContent.especialidad
+                }
+            })
 
             // Create an object containing all the new values
             const updatedValues = {
@@ -47,10 +56,7 @@ export const useHome = () => {
                 imageMobile: moduleImageMobile,
                 imageDesktop: moduleImageDesktop,
                 textAvailable: moduleTextAvailable,
-                speakerPhoto: cardSpeakerPhoto,
-                speakerName: cardSpeakerName,
-                speakerSpeciality: cardSpeakerSpeciality,
-                speakerDescription: cardSpeakerDescription,
+                oradores: oradoresContent,
                 multimedia: multimedia,
                 quizzText: moduleQuizzText,
             };

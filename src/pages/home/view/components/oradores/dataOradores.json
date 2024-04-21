@@ -1,61 +1,79 @@
 [
     {
+        "id": "1",
         "image": "./speakers/Antonio_Pilipek.png",
         "name": "Dr. Antonio Pilipek",
         "cargo": "Médico Especialista en Medicina Critica y Terapia Intensiva | Médico de Planta del Hospital General de Agudos Donacion Santojanni",
-        "especialidad": "Terapia Intensiva"
+        "especialidad": "Terapista"
     },
     {
+        "id": "2",
         "image": "./speakers/Ana_Kunst.png",
         "name": "Dra. Ana Kunst",
         "cargo": "",
         "especialidad": "Infectóloga"
     },
     {
+        "id": "3",
         "image": "./speakers/Marcelo_Minghetti.png",
         "name": "Dr. Marcelo Minghetti",
         "cargo": "Especialista en Terapia Intensiva y Cardiologia | UBA | UTI Hospital Santojanni | UTI y UCO Swiss Medical | Director de Carrera de Terapia Intensiva UCA | Co autor libro Paciente en Emergencias",
         "especialidad": "Cardiólogo"
     },
     {
+        "id": "4",
         "image": "./speakers/Vanina_Wasiuchnik.png",
         "name": "Dra. Vanina Wasiuchnik",
         "cargo": "",
         "especialidad": "Nefróloga"
     },
     {
-        "image": "./speakers/Marina_Calabrese.png",
-        "name": "Dra. Marina Calabrese",
+        "id": "5",
+        "image": "./speakers/Adriana_Suarez.png",
+        "name": "Dra. Adriana Suarez",
         "cargo": "Licenciada en Nutrición (UBA) | Experta en Soporte Nutricional (AANEP) | Nutricionista Planta Hospital Santojanni | Coordinadora Local del Programa de la Residencia de Nutrición | Docente de Práctica Pre Profesional (UAI)",
         "especialidad": "Nutricionista"
     },
     {
+        "id": "6",
         "image": "./speakers/Marcelo_Kalousek.png",
         "name": "Dr. Marcelo Kalousek",
         "cargo": "Jefe de Unidad de Gastroenterología Hospital Santojanni | Docente de la carrera de especialista SAGE-UBA Y USAL",
         "especialidad": "Gastroenterólogo"
     },
     {
+        "id": "7",
         "image": "./speakers/Pablo_Santangelo.png",
         "name": "Dr. Pablo Santangelo",
         "cargo": "Médico egresado de la Universidad de Buenos Aires (2018) | Residencia de Neurocirugía en el hospital Santojanni (2018 - 2023) | Jefe de Residentes de Neurocirugía, hospital Santojanni (2023 - actualidad)",
-        "especialidad": "Neurología"
+        "especialidad": "Neurocirujano"
     },
     {
+        "id": "8",
         "image": "./speakers/Fernando_Saldarini.jpg",
         "name": "Dr. Fernando Saldarini",
         "cargo": "Jefe Unidada Neumotisiología Hospital Santojanni | Director adscripto carrera de posgrado UBA Neumonología y docente pregrado de la UBA ",
         "especialidad": "Neumonólogo"
     },
     {
+        "id": "9",
         "image": "./speakers/speakerTest3.png",
         "name": "Dr. Marco Bezzi",
         "cargo": "",
         "especialidad": "Neumonólogo"
-    },    {
+    },    
+    {
+        "id": "10",
         "image": "./speakers/Laura_Pirra.png",
         "name": "Dra. Laura Pirra",
         "cargo": "Médica neuróloga. Entre 1994 y 1998 hizo su Residencia de Neurología en el Centro Neurológico “Dr. Alfredo Thomson”, Hospital Francés, obteniendo el título de Especialista en Neurología. Entre 1998 y 2004 completó su formación en el área de Enfermedades Neuromusculares y Electromiografía en el Centro Neurológico a cargo del Profesor Dr. Alberto Dubrovsky. Entre el 31/05/05 y 04/06/06 realizó un Training en técnicas moleculares para diagnóstico e investigación en Enfermedades Neuromusculares en el Research Center for Genetic Medicine, Children’s National Medical Center. Washington DC, USA. Jefe: Eric P. Hoffman, PhD director. Actualmente se desempeña como médica neuróloga coordinadora del Área de Enfermedades Neuromusculares y Electromiografía del Hospital General de Agudos “Francisco Donación Santojanni”. Es Profesora Adjunta del Departamento de Neurociencias de la Universidad Favaloro. Asimismo, se desempeña como Secretaria General del Comité Directivo de SOLANE (Sociedad Latinoamericana de Enfermedades Neuromusculares) y es miembro del grupo de trabajo de Sistema Nervioso Periférico de la Sociedad Neurológica Argentina (SNA)",
         "especialidad": "Neuróloga"
+    },
+    {
+        "id": "11",
+        "image": "./speakers/speakerTest3.png",
+        "name": "Dra. Marina Calabrese",
+        "cargo": "Médica egresada de la UBA | Especialista en medicina interna y en endocrinología | Médica de planta de la Sección Endocrinología del Hospital Santojanni.",
+        "especialidad": "Endocrinóloga"
     }
 ]

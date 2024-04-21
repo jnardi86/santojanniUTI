@@ -9,16 +9,20 @@
     "moduleImageMobile": "./Images_figma/header_sepsis_mobile_max.png",
     "moduleImageDesktop": "./Images_figma/header_sepsis_desktop_max.png",
     "moduleTextAvailable": "Disponible a partir del 29 de abril",
-    "cardSpeakerPhoto": "./speakers/Antonio_Pilipek.png",
-    "cardSpeakerName": "Dr. Pilipek Antonio",
-    "cardSpeakerSpeciality": "Terapia Intensiva",
-    "cardSpeakerDescription": "Médico Especialista en Medicina Critica y Terapia Intensiva | Médico de Planta del Hospital General de Agudos Donacion Santojanni",
+    "oradores": [
+      {
+        "id": "1"
+      },
+      {
+        "id": "2"
+      }
+    ],
     "multimedia": [
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
         "moduleVideoTitle": "video n° 1",
         "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
-        "moduleVideoDescription" : "Descripcion a completar video 1",
+        "moduleVideoDescription": "Descripcion a completar video 1",
         "moduloVideoTimeAvailable": "Disponible a partir del 3 de mayo",
         "isLocked": "false"
       },
@@ -26,7 +30,7 @@
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
         "moduleVideoTitle": "video n° 1",
         "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
-        "moduleVideoDescription" : "Descripcion a completar",
+        "moduleVideoDescription": "Descripcion a completar",
         "moduleVideoTimeAvailable": "Disponible a partir del 3 de mayo",
         "isLocked": "true"
       },
@@ -34,7 +38,7 @@
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
         "moduleVideoTitle": "video n° 1",
         "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
-        "moduleVideoDescription" : "Descripcion a completar",
+        "moduleVideoDescription": "Descripcion a completar",
         "moduleVideoTimeAvailable": "Disponible a partir del 3 de mayo",
         "isLocked": "true"
       }
@@ -51,16 +55,17 @@
     "moduleImageMobile": "./Images_figma/header_cardio_mobile_max.png",
     "moduleImageDesktop": "./Images_figma/header_cardio_desktop_max.png",
     "moduleTextAvailable": "Próximamente",
-    "cardSpeakerPhoto": "./speakers/Marcelo_Minghetti.png",
-    "cardSpeakerName": "Dr. Minghetti Marcelo",
-    "cardSpeakerSpeciality": "Cardiólogo",
-    "cardSpeakerDescription": "El CV del Médico",
+    "oradores": [
+      {
+        "id": "3"
+      }
+    ],
     "multimedia": [
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
         "moduleVideoTitle": "video n° 1",
         "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
-        "moduleVideoDescription" : "Descripcion a completar",
+        "moduleVideoDescription": "Descripcion a completar",
         "moduloVideoTimeAvailable": "Disponible a partir del 3 de mayo",
         "isLocked": "true"
       },
@@ -68,7 +73,7 @@
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
         "moduleVideoTitle": "video n° 1",
         "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
-        "moduleVideoDescription" : "Descripcion a completar",
+        "moduleVideoDescription": "Descripcion a completar",
         "moduleVideoTimeAvailable": "Disponible a partir del 3 de mayo",
         "isLocked": "true"
       },
@@ -76,7 +81,7 @@
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
         "moduleVideoTitle": "video n° 1",
         "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
-        "moduleVideoDescription" : "Descripcion a completar",
+        "moduleVideoDescription": "Descripcion a completar",
         "moduleVideoTimeAvailable": "Disponible a partir del 3 de mayo",
         "isLocked": "true"
       }
@@ -93,16 +98,17 @@
     "moduleImageMobile": "./Images_figma/header_renal_mobile_max.png",
     "moduleImageDesktop": "./Images_figma/header_renal_desktop_max.png",
     "moduleTextAvailable": "Próximamente",
-    "cardSpeakerPhoto": "./speakers/Vanina_Wasiuchnik.png",
-    "cardSpeakerName": "Dra. Vanina Wasiuchnik",
-    "cardSpeakerSpeciality": "Nefróloga",
-    "cardSpeakerDescription": "CV del médico",
+    "oradores": [
+      {
+        "id": "4"
+      }
+    ],
     "multimedia": [
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
         "moduleVideoTitle": "video n° 1",
         "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
-        "moduleVideoDescription" : "Descripcion a completar",
+        "moduleVideoDescription": "Descripcion a completar",
         "moduloVideoTimeAvailable": "Disponible a partir del 3 de mayo",
         "isLocked": "true"
       },
@@ -110,7 +116,7 @@
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
         "moduleVideoTitle": "video n° 1",
         "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
-        "moduleVideoDescription" : "Descripcion a completar",
+        "moduleVideoDescription": "Descripcion a completar",
         "moduleVideoTimeAvailable": "Disponible a partir del 3 de mayo",
         "isLocked": "true"
       },
@@ -118,7 +124,7 @@
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
         "moduleVideoTitle": "video n° 1",
         "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
-        "moduleVideoDescription" : "Descripcion a completar",
+        "moduleVideoDescription": "Descripcion a completar",
         "moduleVideoTimeAvailable": "Disponible a partir del 3 de mayo",
         "isLocked": "true"
       }
@@ -135,16 +141,20 @@
     "moduleImageMobile": "./Images_figma/header_nutri_mobile_max.png",
     "moduleImageDesktop": "./Images_figma/header_nutri_desktop_max.png",
     "moduleTextAvailable": "Próximamente",
-    "cardSpeakerPhoto": "./speakers/Marina_Calabrese.jpeg",
-    "cardSpeakerName": "Dra. Marina Calabrese",
-    "cardSpeakerSpeciality": "Endocrinóloga",
-    "cardSpeakerDescription": "CV del médico",
+    "oradores": [
+      {
+        "id": "5"
+      },
+      {
+        "id": "11"
+      }
+    ],
     "multimedia": [
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
         "moduleVideoTitle": "video n° 1",
         "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
-        "moduleVideoDescription" : "Descripcion a completar",
+        "moduleVideoDescription": "Descripcion a completar",
         "moduleVideoTimeAvailable": "Disponible a partir del 3 de mayo",
         "isLocked": "true"
       },
@@ -152,7 +162,7 @@
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
         "moduleVideoTitle": "video n° 1",
         "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
-        "moduleVideoDescription" : "Descripcion a completar",
+        "moduleVideoDescription": "Descripcion a completar",
         "moduleVideoTimeAvailable": "Disponible a partir del 3 de mayo",
         "isLocked": "true"
       },
@@ -160,7 +170,7 @@
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
         "moduleVideoTitle": "video n° 1",
         "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
-        "moduleVideoDescription" : "Descripcion a completar",
+        "moduleVideoDescription": "Descripcion a completar",
         "moduleVideoTimeAvailable": "Disponible a partir del 3 de mayo",
         "isLocked": "true"
       }
@@ -177,16 +187,17 @@
     "moduleImageMobile": "./Images_figma/header_gastro_mobile_max.png",
     "moduleImageDesktop": "./Images_figma/header_gastro_desktop_max.png",
     "moduleTextAvailable": "Próximamente",
-    "cardSpeakerPhoto": "./speakers/speakerTest.png",
-    "cardSpeakerName": "Dr. Kalousek Marcelo",
-    "cardSpeakerSpeciality": "Gastroenterología",
-    "cardSpeakerDescription": "CV del médico",
+    "oradores": [
+      {
+        "id": "6"
+      }
+    ],
     "multimedia": [
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
         "moduleVideoTitle": "video n° 1",
         "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
-        "moduleVideoDescription" : "Descripcion a completar",
+        "moduleVideoDescription": "Descripcion a completar",
         "moduleVideoTimeAvailable": "Disponible a partir del 3 de mayo",
         "isLocked": "true"
       },
@@ -194,7 +205,7 @@
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
         "moduleVideoTitle": "video n° 1",
         "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
-        "moduleVideoDescription" : "Descripcion a completar",
+        "moduleVideoDescription": "Descripcion a completar",
         "moduleVideoTimeAvailable": "Disponible a partir del 3 de mayo",
         "isLocked": "true"
       },
@@ -202,7 +213,7 @@
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
         "moduleVideoTitle": "video n° 1",
         "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
-        "moduleVideoDescription" : "Descripcion a completar",
+        "moduleVideoDescription": "Descripcion a completar",
         "moduleVideoTimeAvailable": "Disponible a partir del 3 de mayo",
         "isLocked": "true"
       }
@@ -219,16 +230,17 @@
     "moduleImageMobile": "./Images_figma/header_neuro_mobile_max.png",
     "moduleImageDesktop": "./Images_figma/header_neuro_desktop_max.png",
     "moduleTextAvailable": "Próximamente",
-    "cardSpeakerPhoto": "./speakers/Laura_Pirra.png",
-    "cardSpeakerName": "Dra. Laura Pirra",
-    "cardSpeakerSpeciality": "Neuróloga",
-    "cardSpeakerDescription": "CV del médico",
+    "oradores": [
+      {
+        "id": "10"
+      }
+    ],
     "multimedia": [
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
         "moduleVideoTitle": "video n° 1",
         "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
-        "moduleVideoDescription" : "Descripcion a completar",
+        "moduleVideoDescription": "Descripcion a completar",
         "moduloVideoTimeAvailable": "Disponible a partir del 3 de mayo",
         "isLocked": "true"
       },
@@ -236,7 +248,7 @@
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
         "moduleVideoTitle": "video n° 1",
         "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
-        "moduleVideoDescription" : "Descripcion a completar",
+        "moduleVideoDescription": "Descripcion a completar",
         "moduleVideoTimeAvailable": "Disponible a partir del 3 de mayo",
         "isLocked": "true"
       },
@@ -244,7 +256,7 @@
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
         "moduleVideoTitle": "video n° 1",
         "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
-        "moduleVideoDescription" : "Descripcion a completar",
+        "moduleVideoDescription": "Descripcion a completar",
         "moduleVideoTimeAvailable": "Disponible a partir del 3 de mayo",
         "isLocked": "true"
       }
@@ -261,16 +273,20 @@
     "moduleImageMobile": "./Images_figma/header_respi_mobile_max.png",
     "moduleImageDesktop": "./Images_figma/header_respi_desktop_max.png",
     "moduleTextAvailable": "Próximamente",
-    "cardSpeakerPhoto": "./speakers/Fernando_Saldarini.jpg",
-    "cardSpeakerName": "Dr. Fernando Saldarini",
-    "cardSpeakerSpeciality": "Neumonólogo",
-    "cardSpeakerDescription": "CV del médico",
+    "oradores": [
+      {
+        "id": "8"
+      },
+      {
+        "id": "9"
+      }
+    ],
     "multimedia": [
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
         "moduleVideoTitle": "video n° 1",
         "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
-        "moduleVideoDescription" : "Descripcion a completar",
+        "moduleVideoDescription": "Descripcion a completar",
         "moduloVideoTimeAvailable": "Disponible a partir del 3 de mayo",
         "isLocked": "true"
       },
@@ -278,7 +294,7 @@
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
         "moduleVideoTitle": "video n° 1",
         "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
-        "moduleVideoDescription" : "Descripcion a completar",
+        "moduleVideoDescription": "Descripcion a completar",
         "moduleVideoTimeAvailable": "Disponible a partir del 3 de mayo",
         "isLocked": "true"
       },
@@ -286,7 +302,7 @@
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
         "moduleVideoTitle": "video n° 1",
         "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
-        "moduleVideoDescription" : "Descripcion a completar",
+        "moduleVideoDescription": "Descripcion a completar",
         "moduleVideoTimeAvailable": "Disponible a partir del 3 de mayo",
         "isLocked": "true"
       }
@@ -303,16 +319,17 @@
     "moduleImageMobile": "./Images_figma/header_miscelanea_mobile_max.png",
     "moduleImageDesktop": "./Images_figma/header_miscelanea_desktop_max.png",
     "moduleTextAvailable": "Próximamente",
-    "cardSpeakerPhoto": "./speakers/Pablo_Santangelo.png",
-    "cardSpeakerName": "Dr. Pablo Santangelo",
-    "cardSpeakerSpeciality": "Neurocirujano",
-    "cardSpeakerDescription": "CV del médico",
+    "oradores": [
+      {
+        "id": "7"
+      }
+    ],
     "multimedia": [
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
         "moduleVideoTitle": "video n° 1",
         "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
-        "moduleVideoDescription" : "Descripcion a completar",
+        "moduleVideoDescription": "Descripcion a completar",
         "moduloVideoTimeAvailable": "Disponible a partir del 3 de mayo",
         "isLocked": "true"
       },
@@ -320,7 +337,7 @@
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
         "moduleVideoTitle": "video n° 1",
         "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
-        "moduleVideoDescription" : "Descripcion a completar",
+        "moduleVideoDescription": "Descripcion a completar",
         "moduleVideoTimeAvailable": "Disponible a partir del 3 de mayo",
         "isLocked": "true"
       },
@@ -328,7 +345,7 @@
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
         "moduleVideoTitle": "video n° 1",
         "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
-        "moduleVideoDescription" : "Descripcion a completar",
+        "moduleVideoDescription": "Descripcion a completar",
         "moduleVideoTimeAvailable": "Disponible a partir del 3 de mayo",
         "isLocked": "true"
       }
