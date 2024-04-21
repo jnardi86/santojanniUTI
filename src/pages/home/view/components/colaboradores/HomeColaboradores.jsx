@@ -1,7 +1,5 @@
 import React from 'react'
-import Bayer from "../../../../../assets/colaboradores/Bayer.svg"
-import Bago from "../../../../../assets/colaboradores/Bago.svg"
-import Andromaco from "../../../../../assets/colaboradores/Andromaco.svg"
+import Medicar from "../../../../../assets/colaboradores/Medicar.png"
 import Roemmers from "../../../../../assets/colaboradores/Roemmers.svg"
 
 const HomeColaboradores = () => {
@@ -11,10 +9,8 @@ const HomeColaboradores = () => {
                 <h1 className="font-poppins font-medium text-Blue text-[52px]">Nos acompañan</h1>
             </div>
             <div className="bg-DarkGreen py-5 flex justify-center flex-wrap">
-                <img className="px-5 py-5" src={Bayer} alt="Bayer" />
-                <img className="px-5 py-5" src={Bago} alt="Bago" />
-                <img className="px-5 py-5" src={Andromaco} alt="Andromaco" />
-                <img className="px-5 py-5" src={Roemmers} alt="Roemmers" />
+                <img className="px-5 py-5 mx-10 w-[300px]" src={Roemmers} alt="Roemmers" />
+                <img className="px-5 py-5 w-[200px]" src={Medicar} alt="Roemmers" />
             </div>
             <div className="bg-Cyan h-[50px] flex justify-center flex-wrap">
 
