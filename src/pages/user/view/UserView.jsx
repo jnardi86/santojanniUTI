@@ -17,6 +17,7 @@ const UserView = () => {
   const { userProfile, setUserProfile } = useModulos();
   const { user } = useAuth();
   const { getUserProfile } = useHome()
+  const [showEdit, setShowEdit] = useState(false)
 
   useEffect(() => {
     console.log("user is: ", user)
@@ -36,15 +37,15 @@ const UserView = () => {
 
 
 
-  const handleCalificaciones = async () =>{
+  const handleCalificaciones = async () => {
 
     // addCalificacion('julian.nardi@gmail.com', calificacionData);
-    const response= await getDocumentByIdWithSubCollection('rigottijp@gmail.com', COLECTIONS.PERFILES)
+    const response = await getDocumentByIdWithSubCollection('rigottijp@gmail.com', COLECTIONS.PERFILES)
     console.log("Respues de calificaciones: ", response)
   }
 
   const handleEditProfile = () => {
-
+    setShowEdit(!showEdit)
   }
 
   return (
@@ -76,9 +77,10 @@ const UserView = () => {
         label={"Editar"}
         onClick={handleEditProfile}>
       </CustomButton>
-      <button className=' bg-White text-Blue' onClick={handleCalificaciones}>Calificaciones</button>
+      {/* <button className=' bg-White text-Blue' onClick={handleCalificaciones}>Calificaciones</button> */}
 
-      <EditProfileForm />
+      {showEdit && <EditProfileForm />}
+
     </div>
   )
 }

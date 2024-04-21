@@ -83,6 +83,7 @@ const EditProfileForm = () => {
                         name="email"
                         value={userProfile?.email || ''}
                         onChange={handleChange}
+                        disabled
                     />
                 </div>
 
