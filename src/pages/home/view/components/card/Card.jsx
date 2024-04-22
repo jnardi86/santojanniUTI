@@ -21,12 +21,12 @@ const Card = ({ data }) => {
     }
 
     return (
-        <div className="max-w-[300px] bg-Blue text-White rounded-lg mx-5 my-2 py-5 flex flex-col justify-center items-center">
+        <div className="max-w-[300px] bg-Blue text-White rounded-lg mx-5 my-2 py-5 flex flex-col justify-between items-center overflow-hidden">
             <img className="w-10 pb-4" src={data.moduleIcon} alt="icon" />
             <h2 className="font-poppins text-4xl font-medium text-White text-center pb-10">{data.moduleNumber}</h2>
             <p className="w-full font-poppins text-base font-regular text-start pl-5 pb-2">A partir del</p>
             <div className='w-full'>
-                <div className='bg-White rounded-r-full w-[200px] p-2 mb-5 flex items-center gap-3'>
+                <div className='bg-White rounded-r-full w-[250px] p-2 mb-5 flex items-center gap-3'>
                     <span>
                         <Calendar
                             width="32px"
@@ -37,8 +37,12 @@ const Card = ({ data }) => {
                     <p className='font-poppins text-2xl font-semiBold text-Blue '>{data.startDate}</p>
                 </div>
             </div>
-            <h2 className="font-poppins text-4xl text-White font-medium mb-3 text-center">{data.moduleTitle}</h2>
-            <p className="font-poppins text-sm text-White font-thin my-5 p-5">{data.moduleDescription}</p>
+            <div className='w-full h-16 flex justify-center items-center mt-6'>
+                <h2 className="font-poppins text-4xl text-White font-medium mb-3 text-center">{data.moduleTitle}</h2>
+            </div>
+            <div className='w-full h-60 flex justify-center items-start'>
+                <p className="font-poppins text-sm text-White font-thin my-5 p-5">{data.moduleDescription}</p>
+            </div>
             <div className="mb-3">
                 <CustomButton
                     type={"button"}
