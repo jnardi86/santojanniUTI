@@ -56,8 +56,8 @@ const HomeVideo = () => {
           height={videoHight}
           src={URL_VIDEO}
           style={{ border: "0" }}
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; web-share" referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; web-share" referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
         >
         </iframe>
 
