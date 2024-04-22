@@ -31,7 +31,7 @@ const Login = () => {
                         label='Salir'
                         onClick={handleLogout}
                         type='button'
-
+                        style='w-full py-1 px-4 font-poppins font-medium text-lg text-Blue text-start hover:text-Green'
                     />
                 ) : (
                     // <CustomLink to="/login"

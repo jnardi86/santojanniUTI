@@ -47,7 +47,7 @@ const UserView = () => {
   const handleEditProfile = () => {
     setShowEdit(!showEdit)
   }
-
+  
   return (
 
     <div className='flex flex-col

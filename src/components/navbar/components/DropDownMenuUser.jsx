@@ -29,16 +29,14 @@ const DropDownMenuUser = () => {
       </div>
       {
         showMenuUser && (
-          <div className="absolute right-0 mt-2 bg-White border rounded shadow-lg">
-            <div className='bg-White font-poppins font-medium text-lg text-Blue flex flex-col'>
-              <div>
-                <Link to="/user" className="py-2 px-4 hover:bg-gray-100">Mi Perfil</Link>
+          <div className="absolute flex flex-col gap-2 w-40 h-20 right-0 mt-2 bg-White rounded-xl shadow-lg z-50"> 
+              <div className='w-full text-start mt-2'>
+                <Link to="/user" className="py-1 px-4 font-poppins font-medium text-xl text-Blue  hover:text-Green">Mi Perfil</Link>
               </div>
-              <div className=' z-10' >
+              <div className='z-10' >
                 <Login />
               </div>
             </div>
-          </div>
         )
       }
 
