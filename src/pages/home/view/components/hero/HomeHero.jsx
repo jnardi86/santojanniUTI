@@ -10,9 +10,7 @@ const HomeHero = () => {
         <div className='w-full relative mb-20'>
             <img className="w-full" src={desktopView ? heroImgDesktop : heroImgMobile} alt="Hero Image" />
             <p className='absolute font-poppins font-bold text-Blue text-[50px] w-[250px] bottom-[12%] right-[10%] 
-            tablet:top-[20%] tablet:left-auto right-[10%]
-            desktop:text-[40px] desktop:w-[300px]
-            text-end'>
+            tablet:top-[20%] tablet:left-auto desktop:text-[40px] desktop:w-[300px] text-end'>
                 Ciclo de charlas 2024
             </p>
         </div>
