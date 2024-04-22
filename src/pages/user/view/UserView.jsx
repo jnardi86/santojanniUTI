@@ -21,10 +21,10 @@ const UserView = () => {
   const { getUserProfile } = useHome()
   const [showEdit, setShowEdit] = useState(false)
 
-  useEffect(() => {
-    console.log("user is: ", user)
-    getUserProfile(getDocumentById, user, COLECTIONS.PERFILES, setUserProfile)
-  }, []);
+  // useEffect(() => {
+  //   console.log("user is: ", user)
+  //   getUserProfile(getDocumentById, user, COLECTIONS.PERFILES, setUserProfile)
+  // }, []);
 
 
   // // const [showEdit, setShowEdit] = useState(false)

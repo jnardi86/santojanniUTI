@@ -1,10 +1,24 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import { useModulos } from '../../../hooks/useModulos'
 import CustomButton from '../../../components/customComponents/CustomButton'
+import { useHome } from '../../home/view/useHome'
+import { useAuth } from '../../../auth/hooks/useAuth'
+import {
+    COLECTIONS,
+    getDocumentById,
+  } from "../../../core/db/firestore.db"
 
 const UserProfileData = ({handleEditProfile}) => {
 
-    const { userProfile } = useModulos()
+    const { userProfile, setUserProfile } = useModulos()
+    const { user } = useAuth()
+    const { getUserProfile } = useHome()
+
+    useEffect(() => {
+        console.log("user is: ", user)
+        console.log("userprofile: ", userProfile?.email )
+        getUserProfile(getDocumentById, user, COLECTIONS.PERFILES, setUserProfile)
+      }, []);
 
 
     return (
