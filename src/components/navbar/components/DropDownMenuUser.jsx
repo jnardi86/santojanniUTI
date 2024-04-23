@@ -31,7 +31,7 @@ const DropDownMenuUser = () => {
         showMenuUser && (
           <div className="absolute flex flex-col gap-2 w-40 h-20 right-0 mt-2 bg-White rounded-xl shadow-lg z-50"> 
               <div className='w-full text-start mt-2'>
-                <Link to="/user" className="py-1 px-4 font-poppins font-medium text-xl text-Blue  hover:text-Green">Mi Perfil</Link>
+                <Link to="/user" className="py-1 px-4 font-poppins font-medium text-xl text-Blue  hover:text-Green" onClick={handleToggleMenuUser}>Mi Perfil</Link>
               </div>
               <div className='z-10' >
                 <Login />
