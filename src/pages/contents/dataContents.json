@@ -15,6 +15,9 @@
       },
       {
         "id": "2"
+      },
+      {
+        "id": "13"
       }
     ],
     "multimedia": [
@@ -58,6 +61,9 @@
     "oradores": [
       {
         "id": "3"
+      },
+      {
+        "id": "12"
       }
     ],
     "multimedia": [
@@ -233,6 +239,12 @@
     "oradores": [
       {
         "id": "10"
+      },
+      {
+        "id": "7"
+      },
+      {
+        "id": "15"
       }
     ],
     "multimedia": [
@@ -242,7 +254,7 @@
         "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
         "moduleVideoDescription": "Descripcion a completar",
         "moduloVideoTimeAvailable": "Disponible a partir del 3 de mayo",
-        "isLocked": "true"
+        "isLocked": "false"
       },
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",

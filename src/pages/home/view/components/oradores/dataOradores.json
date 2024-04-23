@@ -10,7 +10,7 @@
         "id": "2",
         "image": "./speakers/Ana_Kunst.png",
         "name": "Dra. Ana Kunst",
-        "cargo": "",
+        "cargo": "Médica Especialista en Infectologia y Clinica Medica Grupo PROA Ministerio de Salud HDFS GCABA | Docente adscripta a la Facultad de Medicina UBA.",
         "especialidad": "Infectóloga"
     },
     {
@@ -57,23 +57,51 @@
     },
     {
         "id": "9",
-        "image": "./speakers/speakerTest3.png",
-        "name": "Dr. Marco Bezzi",
+        "image": "./speakers/Marco_Bezzi.png",
+        "name": "Lic. Marco Bezzi",
         "cargo": "",
-        "especialidad": "Neumonólogo"
+        "especialidad": "Kinesiólogo"
     },    
     {
         "id": "10",
         "image": "./speakers/Laura_Pirra.png",
         "name": "Dra. Laura Pirra",
-        "cargo": "médica neuróloga especializada en Enfermedades Neuromusculares y Electromiografía. Actualmente, es coordinadora del Área de Enfermedades Neuromusculares y Electromiografía en el Hospital General de Agudos Francisco Donación Santojanni. Además, ejerce como Profesora Adjunta en el Departamento de Neurociencias de la Universidad Favaloro y ocupa roles destacados en organizaciones como SOLANE y la Sociedad Neurológica Argentina",
+        "cargo": "Médica neuróloga especializada en Enfermedades Neuromusculares y Electromiografía. Actualmente coordinadora del Área de Enfermedades Neuromusculares y Electromiografía en el Hospital General de Agudos Francisco Donación Santojanni. Además, ejerce como Profesora Adjunta en el Departamento de Neurociencias de la Universidad Favaloro y ocupa roles destacados en organizaciones como SOLANE y la Sociedad Neurológica Argentina",
         "especialidad": "Neuróloga"
     },
     {
         "id": "11",
-        "image": "./speakers/speakerTest3.png",
+        "image": "./speakers/Marina_Calabrese.png",
         "name": "Dra. Marina Calabrese",
         "cargo": "Médica egresada de la UBA | Especialista en medicina interna y en endocrinología | Médica de planta de la Sección Endocrinología del Hospital Santojanni.",
         "especialidad": "Endocrinóloga"
+    },
+    {
+        "id": "12",
+        "image": "./speakers/Carlos_Perona.png",
+        "name": "Dr. Carlos Perona",
+        "cargo": "Jefe de Electrofisiologiía Hospital Santojanni",
+        "especialidad": "Cardiólogo"
+    },
+    {
+        "id": "13",
+        "image": "./speakers/Marcelo_Estrin.png",
+        "name": "Dr. Marcelo Estrin",
+        "cargo": "Médico Especialista en Terapia Intensiva y Medicina Interna | Médico de Planta Unidad de Terapia Intensiva del Hospital Santojanni | Doctor en Medicina | Docente Autorizado de la 1era Cátedra de Farmacología (UBA).",
+        "especialidad": "Doctor en Medicina"
+    },
+    {
+        "id": "14",
+        "image": "./speakers/Silvia_Birnenbaum.png",
+        "name": "Silvia Birnenbaum",
+        "cargo": "Bioquímica especialista en Bioquímica clínica y en Inmunohematología y Banco de Sangre | Responsable de la gestión de la calidad del Servicio de Hemoterapia del Hospital Santojanni.",
+        "especialidad": "Bioquímica"
+    },
+    {
+        "id": "15",
+        "image": "./speakers/Silvina_Scalise.png",
+        "name": "Dra. Silvina Scalise",
+        "cargo": "Neuróloga de Planta Hospital Santojanni | Médica Neuróloga Htal Italiano Bs. As. | Médica Neuróloga Casa Hospital San Juan de Dios | Miembro Liga Argentina contra la Epilepsia (LACE)",
+        "especialidad": "Neuróloga"
     }
 ]
