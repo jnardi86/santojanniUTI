@@ -24,25 +24,41 @@
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
         "moduleVideoTitle": "video n° 1",
-        "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
-        "moduleVideoDescription": "Descripcion a completar video 1",
-        "moduloVideoTimeAvailable": "Disponible a partir del 3 de mayo",
-        "isLocked": "false"
-      },
-      {
-        "moduleVideoImg": "./Images_figma/marco_video_max.png",
-        "moduleVideoTitle": "video n° 1",
-        "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
-        "moduleVideoDescription": "Descripcion a completar",
-        "moduleVideoTimeAvailable": "Disponible a partir del 3 de mayo",
+        "moduleVideoUrl": "",
+        "moduleVideoDescription": "Fisiopatologia de la sepsis",
+        "moduleVideoTimeAvailable": "Disponible a partir del 29 de abril",
         "isLocked": "true"
       },
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
-        "moduleVideoTitle": "video n° 1",
-        "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
-        "moduleVideoDescription": "Descripcion a completar",
-        "moduleVideoTimeAvailable": "Disponible a partir del 3 de mayo",
+        "moduleVideoTitle": "video n° 2",
+        "moduleVideoUrl": "",
+        "moduleVideoDescription": "Nuevas citoquinas involucradas y Marcadores serológicos",
+        "moduleVideoTimeAvailable": "Disponible a partir del 6 de mayo",
+        "isLocked": "true"
+      },
+      {
+        "moduleVideoImg": "./Images_figma/marco_video_max.png",
+        "moduleVideoTitle": "video n° 3",
+        "moduleVideoUrl": "",
+        "moduleVideoDescription": "Dengue en Terapia Intensiva",
+        "moduleVideoTimeAvailable": "Disponible a partir del 13 de mayo",
+        "isLocked": "true"
+      },
+      {
+        "moduleVideoImg": "./Images_figma/marco_video_max.png",
+        "moduleVideoTitle": "video n° 4",
+        "moduleVideoUrl": "",
+        "moduleVideoDescription": "Uso adecuado de antibióticos en Terapia Intensiva",
+        "moduleVideoTimeAvailable": "Disponible a partir del 20 de mayo",
+        "isLocked": "true"
+      },
+      {
+        "moduleVideoImg": "./Images_figma/marco_video_max.png",
+        "moduleVideoTitle": "video n° 5",
+        "moduleVideoUrl": "",
+        "moduleVideoDescription": "Antibioticos y Multiresistencia en UTI ",
+        "moduleVideoTimeAvailable": "Disponible a partir del 27 de mayo",
         "isLocked": "true"
       }
     ],

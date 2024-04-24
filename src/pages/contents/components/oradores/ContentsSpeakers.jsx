@@ -15,7 +15,7 @@ const ContentsSpeakers = () => {
         return (
           <div className="speakerCard w-full h-auto flex-col justify-center content-center mb-10">
             <div className="speakerCard-header flex gap-4 mb-6">
-              <div className="speakerCard-photo w-[120px] h-auto flex content-center justify-center laptop1:w-[204px]">
+              <div className="speakerCard-photo w-[100px] h-auto flex content-center justify-center laptop1:w-[150px]">
                 <img src={orador.image} alt={orador.name} className="rounded-full shadow-lightShadow" />
               </div>
               <div className="speakerCard-title flex flex-col justify-center">

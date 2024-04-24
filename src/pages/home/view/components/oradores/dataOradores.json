@@ -24,7 +24,7 @@
         "id": "4",
         "image": "./speakers/Vanina_Wasiuchnik.png",
         "name": "Dra. Vanina Wasiuchnik",
-        "cargo": "",
+        "cargo": "Médica de planta, Servicio de Nefrología, Hospital Santojanni | Médico especialista en Nefrología y Medio Interno”, Instituto Universitario CEMIC | Médico Especialista en Medicina Interna”, otorgado por la UBA",
         "especialidad": "Nefróloga"
     },
     {
@@ -103,5 +103,12 @@
         "name": "Dra. Silvina Scalise",
         "cargo": "Neuróloga de Planta Hospital Santojanni | Médica Neuróloga Htal Italiano Bs. As. | Médica Neuróloga Casa Hospital San Juan de Dios | Miembro Liga Argentina contra la Epilepsia (LACE)",
         "especialidad": "Neuróloga"
+    },
+    {
+        "id": "16",
+        "image": "./speakers/Daniel_Chiacchiara.png",
+        "name": "Dr. Daniel Chiacchiara",
+        "cargo": "Médico especialista en Terapia Intensiva desde 1993 | Médico de planta de Terapia Intensiva del Hospital Santojanni | Jefe del Departamento Asesor Científico y Pericial de INSSJP (PAMI)",
+        "especialidad": "Terapista"
     }
 ]
