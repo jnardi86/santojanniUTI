@@ -22,7 +22,7 @@ const SigninForm = () => {
             width: "36em",
             confirmButtonText: "Aceptar",
             confirmButtonColor: "#038C7F"
-          });
+        });
     }
 
 
@@ -32,7 +32,6 @@ const SigninForm = () => {
         const { email, password } = Object.fromEntries(form.entries());
 
         try {
-
             const response = await signIn(email, password)
             console.log(response)
             if (!response.user.emailVerified) {
@@ -66,7 +65,7 @@ const SigninForm = () => {
                     name="password"
                     className='w-full font-poppins font-medium text-lg text-DarkGreen border-none rounded-md px-2 py-2 mb-5'
                     placeholder="Contraseña"
-                    required 
+                    required
                 />
             </div>
             <div className="w-full flex justify-center">
