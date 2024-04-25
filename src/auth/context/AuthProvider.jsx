@@ -2,7 +2,13 @@ import { useReducer } from 'react'
 import { AuthContext } from "./AuthContext"
 import { AUTH_KEY_LOCAL_STORAGE, AUTH_TYPES, authInitialState, authInitializer, authReducer } from '../reducer/authReducer';
 import { auth } from "../../core/config/firebase.config";
-import { createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, sendEmailVerification} from "firebase/auth";
+import {
+  createUserWithEmailAndPassword,
+  signInWithEmailAndPassword,
+  signOut,
+  sendEmailVerification,
+  sendPasswordResetEmail
+} from "firebase/auth";
 
 
 const AuthProvider = ({ children }) => {
@@ -63,6 +69,11 @@ const AuthProvider = ({ children }) => {
     console.log(response);
   }
 
+  //Password recovery
+  const passwordRecovery = async (email) => {
+    const response = sendPasswordResetEmail(auth, email)
+    return response
+  }
 
 
   return (
@@ -74,7 +85,8 @@ const AuthProvider = ({ children }) => {
         logout,
         signUp,
         signIn,
-        signOut
+        signOut,
+        passwordRecovery
       }}>
       {children}
     </AuthContext.Provider>
