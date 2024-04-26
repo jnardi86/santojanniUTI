@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react'
 import  {useModulos} from "../../../hooks/useModulos"
 
 const HelpView = () => {
-    const URL_VIDEO = "https://www.youtube.com/embed/1QuU-eMzLrI"
+    const URL_VIDEO = "https://www.youtube.com/embed/l8WFitZnogs"
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
     const [videoWidth, setVideoWidth] = useState("350px");
     const [videoHight, setVideoHight] = useState("197px");
@@ -42,7 +42,7 @@ const HelpView = () => {
     flex flex-col items-center justify-around
     laptop1:flex-row justity-around 
     tablet:h-[500px] px-5'>
-        {/* <iframe
+        <iframe
           title={"UTI Santojanni"}
           width={videoWidth}
           height={videoHight}
@@ -51,7 +51,7 @@ const HelpView = () => {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; web-share" referrerPolicy="strict-origin-when-cross-origin"
           allowFullScreen
         >
-        </iframe> */}
+        </iframe>
 
         {/* <div className="w-3/4 desktop:w-1/2">
         <p className='text-lg px-10 text-White laptop1:text-Blue'>El servicio de Terapia Intensiva del Hospital Santojanni lo invita a participar del primer ciclo de charlas 2024. El mismo consta de 8 módulos a cargo de diferente especialistas. Las charlas se subirán cada lunes a las 19:00hs. El ciclo tiene una carga horaria de 150 hora, no arancelado y se entrega un certificado avalado por el GCBA. Para acceder a los módulos solo te pedimos que te registres con un correo electrónico. En este video los organizadores te dan la bienvenida! </p>
