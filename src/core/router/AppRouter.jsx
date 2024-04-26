@@ -7,6 +7,7 @@ import PublicRoute from "./PublicRoute";
 import PrivateRoute from "./PrivateRoute";
 import ContentsView from "../../pages/contents/view/ContentsView";
 import ResetPassword from "../../pages/resetPassword/ResetPassword";
+import HelpView from "../../pages/help/view/HelpView";
 
 
 export const appRouter = createBrowserRouter([
@@ -63,7 +64,17 @@ export const appRouter = createBrowserRouter([
         ),
     },
     {
-        path: "/resetpassword",
+        path: "/help",
+        element: (
+            <PublicRoute>
+                <Layout>
+                    <HelpView/>
+                </Layout>
+            </PublicRoute>
+        ),
+    },
+    {
+        path: "/help",
         element: (
             <PublicRoute>
                 <Layout>

@@ -23,6 +23,7 @@ const NavbarDesktop = () => {
             <div>
                 <ul className="w-full h-auto flex gap-2 py-6 bg-Blue text-White font-poppins text-center text-base laptop1:text-lg laptop1:gap-5">
                     <li className='py-2 px-4 cursor-pointer hover:text-Cyan'><Link to="/">Inicio</Link></li>
+                    <li className='py-2 px-4 cursor-pointer hover:text-Cyan'><Link to="/help">Ayuda</Link></li>
                     {/* <li className='py-2 px-4 cursor-pointer hover:text-Cyan'>Oradores</li>
                     <li className='py-2 px-4 cursor-pointer hover:text-Cyan'>Cursos</li>
                     <li className='py-2 px-4 cursor-pointer hover:text-Cyan'>Mi Perfil</li> */}

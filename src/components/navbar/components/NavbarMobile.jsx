@@ -39,6 +39,7 @@ const NavbarMobile = () => {
                 {/* <li className='py-3'>Oradores</li>
                 <li className='py-3'>Cursos</li> */}
                 <li className='py-3'><Link to="/user" onClick={handleHamburguer}>Mi perfil</Link></li>
+                <li className='py-3'><Link to="/help" onClick={handleHamburguer}>Ayuda</Link></li>
                 <li className='mt-3' onClick={handleHamburguer}><Login/></li>
             </ul>
         </div>
