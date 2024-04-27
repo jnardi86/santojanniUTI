@@ -74,7 +74,7 @@ export const appRouter = createBrowserRouter([
         ),
     },
     {
-        path: "/help",
+        path: "/resetPassword",
         element: (
             <PublicRoute>
                 <Layout>
