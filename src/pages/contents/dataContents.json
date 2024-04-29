@@ -24,10 +24,10 @@
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
         "moduleVideoTitle": "video n° 1",
-        "moduleVideoUrl": "",
+        "moduleVideoUrl": "https://www.youtube.com/embed/JvbrLb9eIlI",
         "moduleVideoDescription": "Fisiopatologia de la sepsis",
-        "moduleVideoTimeAvailable": "Disponible a partir del 29 de abril",
-        "isLocked": "true"
+        "moduleVideoTimeAvailable": "Publicado el 29 de abril",
+        "isLocked": "false"
       },
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",

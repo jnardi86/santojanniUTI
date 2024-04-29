@@ -1,9 +1,32 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import Play from '../../../../components/svg/Play'
+import { useModulos } from '../../../../hooks/useModulos';
 
 const VideoItem = ({ title, url, imgVideo, availableTime, isLocked, description }) => {
 
-    console.log(isLocked)
+    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+    const [videoWidth, setVideoWidth] = useState("350px");
+    const [videoHight, setVideoHight] = useState("197px");
+
+    useEffect(() => {
+        function handleResize() {
+            setWindowWidth(window.innerWidth);
+        }
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+
+    }, []);
+
+    useEffect(() => {
+        if (windowWidth < 768) {
+            setVideoWidth("350px")
+            setVideoHight("197px")
+        } else {
+            setVideoWidth("800px")
+            setVideoHight("450px")
+        }
+
+    }, [windowWidth]);
 
     return (
         <div className={`videoContainer w-full h-auto mb-[80px] laptop1:px-20 ${isLocked ? 'opacity-50' : ''} `}>
@@ -26,7 +49,7 @@ const VideoItem = ({ title, url, imgVideo, availableTime, isLocked, description 
                 {
                     isLocked ? (
                         <>
-                            <div className='max-w-[580px] max-h-[380px] mx-auto px-5 laptop1:[w-580] laptop1:[h-380px]'>
+                            <div className='max-w-[800px] max-h-[451px] mx-auto px-5 laptop1:max-w-[800px] max-h-[451px] flex justify-center'>
                                 <img
                                     src={imgVideo}
                                     alt="Video not available"
@@ -38,11 +61,11 @@ const VideoItem = ({ title, url, imgVideo, availableTime, isLocked, description 
                         </>
                     ) : (
 
-                        <div className='max-w-[580px] max-h-[380px] mx-auto px-5 laptop1:[w-580] laptop1:[h-380px]'>
+                        <div className='max-w-[800px] max-h-[451px] mx-auto px-5 laptop1:max-w-[800px] max-h-[451px] flex justify-center'>
                             <iframe
                                 title={title}
-                                width="560"
-                                height="315"
+                                width={videoWidth}
+                                height={videoHight}
                                 src={url}
                                 style={{ border: "0" }}
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
