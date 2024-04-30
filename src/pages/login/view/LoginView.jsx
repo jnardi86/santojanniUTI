@@ -3,6 +3,7 @@ import { useState } from "react"
 import SigninForm from "../components/SigninForm";
 import SignupForm from "../components/SignupForm";
 import { Link } from "react-router-dom"
+import Swal from 'sweetalert2'
 
 const LoginView = () => {
 
@@ -11,6 +12,19 @@ const LoginView = () => {
   const toggleForm = () => {
     setShowLogin((prevShowLogin) => !prevShowLogin);
   }
+
+  const toggleSweetAlert = () => {
+
+    Swal.fire({
+      title: "Importante",
+      text: "Por el momento la registración se encuentra suspendida",
+      background: "#FAFAFA",
+      icon: "warning",
+      confirmButtonText: "Aceptar",
+      confirmButtonColor: "#038C7F"
+    });
+
+}
 
   return (
     <div
@@ -31,7 +45,8 @@ const LoginView = () => {
           <>
             <div className="mt-6 text-center text-White">
               <span className="font-poppins font-semiBold text-sm mr-1 laptop1:text-base">Aún no tenes una cuenta?</span>
-              <button className="font-poppins font-regular text-sm laptop1:text-base" onClick={toggleForm}>Crear cuenta</button>
+              {/* <button className="font-poppins font-regular text-sm laptop1:text-base" onClick={toggleForm}>Crear cuenta</button> */}
+              <button className="font-poppins font-regular text-sm laptop1:text-base" onClick={toggleSweetAlert}>Crear cuenta</button>
             </div>
             <div className="mt-6 text-center text-White">
               <span className="font-poppins font-semiBold text-sm mr-1 laptop1:text-base">Olvidaste tu contraseña?</span>
