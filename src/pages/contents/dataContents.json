@@ -32,10 +32,10 @@
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
         "moduleVideoTitle": "video n° 2",
-        "moduleVideoUrl": "",
+        "moduleVideoUrl": "https://www.youtube.com/embed/-4xLlhcd3i0",
         "moduleVideoDescription": "Nuevas citoquinas involucradas y Marcadores serológicos",
         "moduleVideoTimeAvailable": "Disponible a partir del 6 de mayo",
-        "isLocked": "true"
+        "isLocked": "false"
       },
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
