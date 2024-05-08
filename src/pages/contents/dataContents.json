@@ -27,7 +27,11 @@
         "moduleVideoUrl": "https://www.youtube.com/embed/JvbrLb9eIlI",
         "moduleVideoDescription": "Fisiopatologia de la sepsis",
         "moduleVideoTimeAvailable": "Publicado el 29 de abril",
-        "isLocked": "false"
+        "moduleQuizzText": "Completar el quizz del video nro. 1",
+        "moduleQuizzId": "m1_q1",
+        "isLocked": "false",
+        "quizzIsLocked": "false"
+
       },
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
@@ -35,7 +39,10 @@
         "moduleVideoUrl": "https://www.youtube.com/embed/-4xLlhcd3i0",
         "moduleVideoDescription": "Nuevas citoquinas involucradas y Marcadores serológicos",
         "moduleVideoTimeAvailable": "Disponible a partir del 6 de mayo",
-        "isLocked": "false"
+        "moduleQuizzText": "Completar el quizz del video nro. 2",
+        "moduleQuizzId": "m1_q2",
+        "isLocked": "false",
+        "quizzIsLocked": "true"
       },
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
@@ -43,7 +50,10 @@
         "moduleVideoUrl": "",
         "moduleVideoDescription": "Dengue en Terapia Intensiva",
         "moduleVideoTimeAvailable": "Disponible a partir del 13 de mayo",
-        "isLocked": "true"
+        "moduleQuizzText": "Completar el quizz del video nro. 3",
+        "moduleQuizzId": "m1_q3",
+        "isLocked": "true",
+        "quizzIsLocked": "true"
       },
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
@@ -51,7 +61,10 @@
         "moduleVideoUrl": "",
         "moduleVideoDescription": "Uso adecuado de antibióticos en Terapia Intensiva",
         "moduleVideoTimeAvailable": "Disponible a partir del 20 de mayo",
-        "isLocked": "true"
+        "moduleQuizzText": "Completar el quizz del video nro. 4",
+        "moduleQuizzId": "m1_q4",
+        "isLocked": "true",
+        "quizzIsLocked": "true"
       },
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
@@ -59,7 +72,10 @@
         "moduleVideoUrl": "",
         "moduleVideoDescription": "Antibioticos y Multiresistencia en UTI ",
         "moduleVideoTimeAvailable": "Disponible a partir del 27 de mayo",
-        "isLocked": "true"
+        "moduleQuizzText": "Completar el quizz del video nro. 5",
+        "moduleQuizzId": "m1_q5",
+        "isLocked": "true",
+        "quizzIsLocked": "true"
       }
     ],
     "moduleQuizzText": "Completar el quizz del Módulo nro. 1"

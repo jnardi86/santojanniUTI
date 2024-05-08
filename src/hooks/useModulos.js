@@ -9,7 +9,9 @@ export const useModulos = () => {
         setModuleData,
         desktopView,
         userProfile,
-        setUserProfile
+        setUserProfile,
+        MODULE_ID,
+        QUIZZ_ID
     } = useContext(ModulosContext);
 
     return {
@@ -19,6 +21,8 @@ export const useModulos = () => {
         setModuleData,
         desktopView,
         userProfile,
-        setUserProfile
+        setUserProfile,
+        MODULE_ID,
+        QUIZZ_ID
     };
 }

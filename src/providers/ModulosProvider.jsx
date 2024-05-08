@@ -1,23 +1,32 @@
 import React, { useState, useEffect } from 'react'
 import { ModulosContext } from '../context/ModulosContext'
-const KEY_LOCAL_STORAGE_MODULE_DATA = "moduleDataId";
+const KEY_LOCAL_STORAGE_MODULE_DATA = "moduleData";
 const MODULE_DATA_INITIAL_VALUE = "cnt1";
+const MODULE_ID = "moduleId";
+const QUIZZ_ID = "quizzId"
 
 const ModulosProvider = ({ children }) => {
 
-    const setModuleDataLocalStorage = (value) => {
-        localStorage.setItem(
-            KEY_LOCAL_STORAGE_MODULE_DATA, JSON.stringify({
-                moduleId: value
-            })
-        )
+    const setModuleDataLocalStorage = (key, value) => {
+        //moduleId: value or quizzId: value
+        const existingData = JSON.parse(localStorage.getItem(KEY_LOCAL_STORAGE_MODULE_DATA)) || {};
+        existingData[key] = value; //moduleId: value
+
+        // Save updated data to local storage
+        localStorage.setItem(KEY_LOCAL_STORAGE_MODULE_DATA, JSON.stringify(existingData));
     }
 
 
-    const getModuleDataLocalStorage = () => {
-        const moduleDataId = JSON.parse(localStorage.getItem(KEY_LOCAL_STORAGE_MODULE_DATA)) || MODULE_DATA_INITIAL_VALUE;
-        return moduleDataId;
+    const getModuleDataLocalStorage = (key) => {
+        const existingData = JSON.parse(localStorage.getItem(KEY_LOCAL_STORAGE_MODULE_DATA));
+        if (existingData.hasOwnProperty(key)) {
+            return existingData;
+        } else {
+            // Key not found, handle the case here (return default value, throw error, etc.)
+            return MODULE_DATA_INITIAL_VALUE;
+        }
     }
+
 
     const initialModuleState = {
         title: "valor inicial",
@@ -58,7 +67,9 @@ const ModulosProvider = ({ children }) => {
                 setModuleData,
                 desktopView,
                 userProfile,
-                setUserProfile
+                setUserProfile,
+                MODULE_ID,
+                QUIZZ_ID
             }}
         >
             {children}

@@ -22,7 +22,10 @@ const ContentsVideo = () => {
           url={item.moduleVideoUrl}
           imgVideo={item.moduleVideoImg}
           availableTime={item.moduleVideoTimeAvailable}
+          quizzText={item.moduleQuizzText}
+          quizzId={item.moduleQuizzId}
           isLocked={item.isLocked == "true" ? true : false}
+          quizzIsLocked={item.quizzIsLocked == "true" ? true : false}
         />
         
       ))}
