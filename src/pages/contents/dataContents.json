@@ -28,7 +28,7 @@
         "moduleVideoDescription": "Fisiopatologia de la sepsis",
         "moduleVideoTimeAvailable": "Publicado el 29 de abril",
         "moduleQuizzText": "Completar el quizz del video nro. 1",
-        "moduleQuizzId": "m1_q1",
+        "moduleQuizzId": "m1_v1",
         "isLocked": "false",
         "quizzIsLocked": "false"
 
@@ -40,9 +40,9 @@
         "moduleVideoDescription": "Nuevas citoquinas involucradas y Marcadores serológicos",
         "moduleVideoTimeAvailable": "Disponible a partir del 6 de mayo",
         "moduleQuizzText": "Completar el quizz del video nro. 2",
-        "moduleQuizzId": "m1_q2",
+        "moduleQuizzId": "m1_v2",
         "isLocked": "false",
-        "quizzIsLocked": "true"
+        "quizzIsLocked": "false"
       },
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
@@ -51,7 +51,7 @@
         "moduleVideoDescription": "Dengue en Terapia Intensiva",
         "moduleVideoTimeAvailable": "Disponible a partir del 13 de mayo",
         "moduleQuizzText": "Completar el quizz del video nro. 3",
-        "moduleQuizzId": "m1_q3",
+        "moduleQuizzId": "m1_v3",
         "isLocked": "true",
         "quizzIsLocked": "true"
       },
@@ -62,7 +62,7 @@
         "moduleVideoDescription": "Uso adecuado de antibióticos en Terapia Intensiva",
         "moduleVideoTimeAvailable": "Disponible a partir del 20 de mayo",
         "moduleQuizzText": "Completar el quizz del video nro. 4",
-        "moduleQuizzId": "m1_q4",
+        "moduleQuizzId": "m1_v4",
         "isLocked": "true",
         "quizzIsLocked": "true"
       },
@@ -73,7 +73,7 @@
         "moduleVideoDescription": "Antibioticos y Multiresistencia en UTI ",
         "moduleVideoTimeAvailable": "Disponible a partir del 27 de mayo",
         "moduleQuizzText": "Completar el quizz del video nro. 5",
-        "moduleQuizzId": "m1_q5",
+        "moduleQuizzId": "m1_v5",
         "isLocked": "true",
         "quizzIsLocked": "true"
       }

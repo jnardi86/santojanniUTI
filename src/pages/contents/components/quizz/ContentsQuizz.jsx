@@ -12,7 +12,7 @@ const ContentsQuizz = ({ quizzText, quizzId, quizzIsLocked }) => {
   const handleNavigateToQuizz = (id) => {
     setModuleDataLocalStorage(QUIZZ_ID, id);
     console.log("navego a quizz")
-    // navigate('/quizz')
+    navigate('/quizz')
   }
 
   return (
@@ -27,7 +27,7 @@ const ContentsQuizz = ({ quizzText, quizzId, quizzIsLocked }) => {
         </div>
         <button
           className='font-poppins text-sm font-semiBold tracking-wider text-center text-White laptop1:text-3xl laptop1:font-medium'
-          onClick={() => handleNavigateToQuizz({ quizzId })}
+          onClick={() => handleNavigateToQuizz(quizzId)}
           disabled={quizzIsLocked ? 'disabled' : ''}
         >
           {quizzText}

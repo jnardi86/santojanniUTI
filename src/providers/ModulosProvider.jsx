@@ -8,13 +8,16 @@ const QUIZZ_ID = "quizzId"
 const ModulosProvider = ({ children }) => {
 
     const setModuleDataLocalStorage = (key, value) => {
-        //moduleId: value or quizzId: value
+        // Retrieve existing module data from local storage or initialize as an empty object
         const existingData = JSON.parse(localStorage.getItem(KEY_LOCAL_STORAGE_MODULE_DATA)) || {};
-        existingData[key] = value; //moduleId: value
-
-        // Save updated data to local storage
-        localStorage.setItem(KEY_LOCAL_STORAGE_MODULE_DATA, JSON.stringify(existingData));
+    
+        // Update the existing module data with the provided key and value
+        const updatedData = { ...existingData, [key]: value };
+    
+        // Save updated module data to local storage
+        localStorage.setItem(KEY_LOCAL_STORAGE_MODULE_DATA, JSON.stringify(updatedData));
     }
+    
 
 
     const getModuleDataLocalStorage = (key) => {
