@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import { useModulos } from '../../../hooks/useModulos';
 import Quizz from '../components/Quizz';
 import quizz from '../quizzContents.json'
-import {quiz} from '../quizzContents'
 
 const QuizzView = () => {
 
@@ -14,11 +13,6 @@ const QuizzView = () => {
     const handleRenderQuizz = (quizzId) => {
         const quizzQuestionsFiltered = quizz.find(object => object.id == quizzId)
         setQuizzQuestions(quizzQuestionsFiltered.generatedQuestions);
-        console.log("quiz js is:", quiz);
-        console.log("quizzQuestionsFiltered is:", quizzQuestionsFiltered.generatedQuestions);
-        console.log("id quizzId is:", quizzId);
-        console.log("id from json is: ", quizzQuestionsFiltered.id);
-
     }
 
     useEffect(() => {
