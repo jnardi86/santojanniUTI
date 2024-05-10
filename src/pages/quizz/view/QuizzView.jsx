@@ -5,6 +5,7 @@ import quizz from '../quizzContents.json'
 
 const QuizzView = () => {
 
+    const [quizzId, setQuizzId] = useState()
     const [quizzQuestions, setQuizzQuestions] = useState({})
     const { getModuleDataLocalStorage,
         QUIZZ_ID
@@ -18,6 +19,7 @@ const QuizzView = () => {
     useEffect(() => {
         //Rutina para leer el ModuleId del Local Storage
         const { quizzId } = getModuleDataLocalStorage(QUIZZ_ID);
+        setQuizzId(quizzId)
         console.log("quizzId from local storage is: ", quizzId)
         handleRenderQuizz(quizzId)
 
@@ -43,7 +45,7 @@ const QuizzView = () => {
         <div>
             <h1>Quizz</h1>
             {/* Conditional rendering of Quizz component */}
-            {Object.keys(quizzQuestions).length > 0 && <Quizz quizzQuestions={quizzQuestions} />}
+            {Object.keys(quizzQuestions).length > 0 && <Quizz quizzQuestions={quizzQuestions} quizzId={quizzId} />}
         </div>
     )
 }

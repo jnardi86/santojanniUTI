@@ -9,6 +9,9 @@ import {
 } from "firebase/firestore";
 
 
+/**GET_DOCUMENTS 
+ * recibe como argumento el nombre de la colection y retorna todos los documentos
+*/
 export const getDocuments = async (name) => {
 
   const querySnapshot = await getDocs(collection(db, name));
@@ -20,8 +23,22 @@ export const getDocuments = async (name) => {
   return data
 };
 
-// getSubCollection
+/**GET_DOCUMENTS_BY_ID
+ * recibe como argumento el nombre de la colection y el id del documento
+ */
+export const getDocumentById = async (id, name) => {
+  const docRef = doc(db, name, id);
+  const docSnap = await getDoc(docRef);
 
+
+  if (docSnap.exists()) {
+    return { id: docSnap.id, ...docSnap.data() };
+  } else {
+    return null;
+  }
+};
+
+// getSubCollection
 const getSubcollections = async (userDocRef) => {
   const subcollectionRefs = [
     // Add references to all subcollections you want to retrieve data from
@@ -39,8 +56,10 @@ const getSubcollections = async (userDocRef) => {
   return subcollectionData;
 }
 
-//getDocumentByIdWithSubCollection
 
+/**GET_DOCUMENTS_BY_ID_WITH_SUBCOLECTION
+ * recibe como argumento el nombre de la colection y el id del documento
+ * retorna ??? jaja  */
 export const getDocumentByIdWithSubCollection = async (id, name) => {
   const docRef = doc(db, name, id);
   const docSnap = await getDoc(docRef);
@@ -53,18 +72,21 @@ export const getDocumentByIdWithSubCollection = async (id, name) => {
   }
 };
 
-
-export const getDocumentById = async (id, name) => {
+/**GET_SUBCOLLECTIONS
+ * recibe como argumento el nombre de la colection y el id del documento
+ * retorna ??? jaja  */
+export const getSubCollections = async (id, name) => {
   const docRef = doc(db, name, id);
   const docSnap = await getDoc(docRef);
 
-
   if (docSnap.exists()) {
-    return { id: docSnap.id, ...docSnap.data() };
+    const subcollection = await getSubcollections(docRef)
+    return subcollection;
   } else {
     return null;
   }
 };
+
 
 export const getDocumentByEmail = async (email, name) => {
   const docRef = doc(db, name, email);
@@ -112,7 +134,6 @@ export const COLECTIONS = {
 export const addCalificacion = async (userId, calificacionData) => {
   try {
     // Get a reference to the user document
-    // const userRef = db.collection(COLECTIONS.PERFILES).doc(userId);
     const userRef = doc(db, COLECTIONS.PERFILES, userId)
     // Create a document within the "calificaciones" subcollection
     const calificacionRef = await addDoc(collection(userRef, 'calificaciones'), calificacionData);
@@ -120,5 +141,30 @@ export const addCalificacion = async (userId, calificacionData) => {
   } catch (error) {
     console.error('Error al agregar calificación:', error);
   }
+}
+
+export const setCalificacion = async (userId, calificacionData) => {
+  const response = {
+    status: null,
+    error: null
+  }
+
+  try {
+    // Get a reference to the user's "calificaciones" subcollection
+    const path = `${COLECTIONS.PERFILES}/${userId}/calificaciones`;
+    const calificacionesRef = collection(db, path);
+
+    // Create a document reference with a custom ID
+    const calificacionDocRef = doc(calificacionesRef, calificacionData.id);
+
+    // Set the data for the document
+    await setDoc(calificacionDocRef, { score: calificacionData.score });
+    response.status = true;
+  } catch (error) {
+    response.status = false;
+    response.error = error;
+  }
+  
+  return response;
 }
 
