@@ -27,7 +27,11 @@
         "moduleVideoUrl": "https://www.youtube.com/embed/JvbrLb9eIlI",
         "moduleVideoDescription": "Fisiopatologia de la sepsis",
         "moduleVideoTimeAvailable": "Publicado el 29 de abril",
-        "isLocked": "false"
+        "moduleQuizzText": "Cuestionario video 1",
+        "moduleQuizzId": "m1_v1",
+        "isLocked": "false",
+        "quizzIsLocked": "false"
+
       },
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
@@ -35,7 +39,10 @@
         "moduleVideoUrl": "https://www.youtube.com/embed/-4xLlhcd3i0",
         "moduleVideoDescription": "Nuevas citoquinas involucradas y Marcadores serológicos",
         "moduleVideoTimeAvailable": "Disponible a partir del 6 de mayo",
-        "isLocked": "false"
+        "moduleQuizzText": "Cuestionario video 2",
+        "moduleQuizzId": "m1_v2",
+        "isLocked": "false",
+        "quizzIsLocked": "false"
       },
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
@@ -43,7 +50,10 @@
         "moduleVideoUrl": "",
         "moduleVideoDescription": "Dengue en Terapia Intensiva",
         "moduleVideoTimeAvailable": "Disponible a partir del 13 de mayo",
-        "isLocked": "true"
+        "moduleQuizzText": "Cuestionario video 3",
+        "moduleQuizzId": "m1_v3",
+        "isLocked": "true",
+        "quizzIsLocked": "true"
       },
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
@@ -51,7 +61,10 @@
         "moduleVideoUrl": "",
         "moduleVideoDescription": "Uso adecuado de antibióticos en Terapia Intensiva",
         "moduleVideoTimeAvailable": "Disponible a partir del 20 de mayo",
-        "isLocked": "true"
+        "moduleQuizzText": "Cuestionario video 4",
+        "moduleQuizzId": "m1_v4",
+        "isLocked": "true",
+        "quizzIsLocked": "true"
       },
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
@@ -59,7 +72,10 @@
         "moduleVideoUrl": "",
         "moduleVideoDescription": "Antibioticos y Multiresistencia en UTI ",
         "moduleVideoTimeAvailable": "Disponible a partir del 27 de mayo",
-        "isLocked": "true"
+        "moduleQuizzText": "Cuestionario video 5",
+        "moduleQuizzId": "m1_v5",
+        "isLocked": "true",
+        "quizzIsLocked": "true"
       }
     ],
     "moduleQuizzText": "Completar el quizz del Módulo nro. 1"

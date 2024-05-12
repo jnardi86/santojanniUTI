@@ -11,13 +11,17 @@ import React, { useEffect } from 'react';
 
 const ContentsView = () => {
 
-  const { getModuleDataLocalStorage, setModuleData } = useModulos();
+  const { getModuleDataLocalStorage,
+    setModuleData,
+    MODULE_ID
+  } = useModulos();
   const { handleRenderModulo, } = useHome();
 
   useEffect(() => {
 
     //Rutina para leer el ModuleId del Local Storage y setear moduleData
-    const { moduleId } = getModuleDataLocalStorage();
+    const { moduleId } = getModuleDataLocalStorage(MODULE_ID);
+    console.log("module id from local storage is: ", moduleId)
     handleRenderModulo(moduleId, setModuleData)
 
     const scrollToTop = () => {
@@ -45,7 +49,7 @@ const ContentsView = () => {
       <ContentsAvailable />
       <ContentsSpeakers />
       <ContentsVideo />
-      <ContentsQuizz />
+      {/* <ContentsQuizz /> */}
 
     </>
 

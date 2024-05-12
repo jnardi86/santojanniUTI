@@ -8,6 +8,7 @@ import PrivateRoute from "./PrivateRoute";
 import ContentsView from "../../pages/contents/view/ContentsView";
 import ResetPassword from "../../pages/resetPassword/ResetPassword";
 import HelpView from "../../pages/help/view/HelpView";
+import QuizzView from "../../pages/quizz/view/QuizzView";
 
 
 export const appRouter = createBrowserRouter([
@@ -81,6 +82,16 @@ export const appRouter = createBrowserRouter([
                     <ResetPassword/>
                 </Layout>
             </PublicRoute>
+        ),
+    },
+    {
+        path: "/quizz",
+        element: (
+            <PrivateRoute>
+                <Layout>
+                    <QuizzView/>
+                </Layout>
+            </PrivateRoute>
         ),
     },
 

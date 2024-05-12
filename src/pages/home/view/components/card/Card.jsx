@@ -9,6 +9,7 @@ const Card = ({ data }) => {
     const navigate = useNavigate();
     const {
         setModuleDataLocalStorage,
+        MODULE_ID
     } = useModulos();
 
 
@@ -16,7 +17,7 @@ const Card = ({ data }) => {
     // handleRenderModulo(id, setModuleData)
 
     const handleNavigateToContents = (id) => {
-        setModuleDataLocalStorage(id)
+        setModuleDataLocalStorage(MODULE_ID, id)
         navigate('/contents')
     }
 

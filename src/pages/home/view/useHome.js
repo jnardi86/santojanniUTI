@@ -19,8 +19,6 @@ export const useHome = () => {
      */
     const handleRenderModulo = (moduleId, setModuleData) => {
 
-        // console.log(`El id del modulo es ${moduleId}`)
-
         const moduleContent = arrayContents.find(object => object.id == moduleId)
         // console.log("El contenido del moduleContentFind es", moduleContent)
 

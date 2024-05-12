@@ -1,0 +1,144 @@
+[
+    {
+        "id": "m1_v1",
+        "generatedQuestions": {
+            "quizNumber" : "Módulo 1 - Video 1",
+            "quizTitle": "Fisiopatología de la Sepsis",
+            "quizSynopsis": "",
+            "nrOfQuestions": "3",
+            "questions": [
+                {
+                    "question": "La Sepsis se define actualmente como:",
+                    "questionType": "text",
+                    "questionPic": "",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a-La respuesta adecuada del huésped a la infección.",
+                        "b-La respuesta desrregulada del huésped a la infección.",
+                        "c-La falta de respuesta del huésped as la infección.",
+                        "d-La peor respuesta del huésped a la infección."
+                    ],
+                    "correctAnswer": "2",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "Entre los mecanismos de inmunosupresión en sepsis tenemos:",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a-Depleción apoteótica de células inmunes.",
+                        "b-Agotamiento celular.",
+                        "c-Menor expresión HLA-DR en monocitos",
+                        "d-Todas son correctas."
+                    ],
+                    "correctAnswer": "4",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "Cual de las siguientes alteraciones del endotelio se puede observar en pacientes sépticos:",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a-Vasoconstricción.",
+                        "b-Aumento de la expresión de moléculas de adhesión.",
+                        "c-La función de barrera no se altera.",
+                        "d-Disminuye la expresión del factor tisular."
+                    ],
+                    "correctAnswer": "2",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "34"
+                }
+            ],
+            "appLocale": {
+                "landingHeaderText": "<questionLength> preguntas",
+                "question": "Pregunta",
+                "startQuizBtn": "Comenzar",
+                "resultFilterAll": "Todas",
+                "resultFilterCorrect": "Correcto",
+                "resultFilterIncorrect": "Incorrecto",
+                "prevQuestionBtn": "Previa",
+                "nextQuestionBtn": "Siguiente",
+                "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
+            }
+        }
+    },
+    {
+        "id": "m1_v2",
+        "generatedQuestions": {
+            "quizNumber" : "Módulo 1 - Video 2",
+            "quizTitle": "Citoquinas en Sepsis",
+            "quizSynopsis": "",
+            "nrOfQuestions": "3",
+            "questions": [
+                {
+                    "question": "Respecto a las citoquinas, marque la opción correcta:",
+                    "questionType": "text",
+                    "questionPic": "",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a-Son macromoléculas lipídicas con función de mensajería celular.",
+                        "b-Son proteínas mayormente solubles y de bajo peso molecular.",
+                        "c-Solamente aumentas en el shock séptico.",
+                        "d-Siempre son proinflamatorias."
+                    ],
+                    "correctAnswer": "2",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "Que una citoquina sea pleiotrópica se refiere a:",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a-Varias citoquinas actúan sobre una célula.",
+                        "b-Una citoquina bloquea la acción  de otra.",
+                        "c-Una citoquina actúa sobre diferentes células.",
+                        "d-Dos citoquinas se potencias y ejercen un determinado efecto."
+                    ],
+                    "correctAnswer": "3",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "Entre los criterios propuestos para definir una tormenta de citoquinas tenemos:",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a-Aumento de los niveles de citoquinas.",
+                        "b-Síntomas agudos de inflamación sistémica.",
+                        "c-Disfunción de órganos secundaria a la inflamación.",
+                        "d-Todas las anteriores son correctas."
+                    ],
+                    "correctAnswer": "4",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "34"
+                }
+            ],
+            "appLocale": {
+                "landingHeaderText": "<questionLength> preguntas",
+                "question": "Pregunta",
+                "startQuizBtn": "Comenzar",
+                "resultFilterAll": "Todas",
+                "resultFilterCorrect": "Correcto",
+                "resultFilterIncorrect": "Incorrecto",
+                "prevQuestionBtn": "Previa",
+                "nextQuestionBtn": "Siguiente",
+                "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
+            }
+        }
+    }
+]
