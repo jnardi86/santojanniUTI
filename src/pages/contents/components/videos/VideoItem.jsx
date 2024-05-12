@@ -62,7 +62,7 @@ const VideoItem = ({ title, url, imgVideo, availableTime, isLocked, quizzIsLocke
                         </>
                     ) : (
                         <div>
-                            <div className='max-w-[800px] max-h-[451px] mx-auto px-5 laptop1:max-w-[800px] max-h-[451px] flex justify-center'>
+                            <div className='max-w-[800px] max-h-[451px] mx-auto px-5 laptop1:max-w-[800px] max-h-[451px] flex justify-center mb-10'>
                                 <iframe
                                     title={title}
                                     width={videoWidth}

@@ -43,7 +43,6 @@ const QuizzView = () => {
 
     return (
         <div>
-            <h1>Quizz</h1>
             {/* Conditional rendering of Quizz component */}
             {Object.keys(quizzQuestions).length > 0 && <Quizz quizzQuestions={quizzQuestions} quizzId={quizzId} />}
         </div>

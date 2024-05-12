@@ -2,6 +2,7 @@
     {
         "id": "m1_v1",
         "generatedQuestions": {
+            "quizNumber" : "Módulo 1 - Video 1",
             "quizTitle": "Fisiopatología de la Sepsis",
             "quizSynopsis": "",
             "nrOfQuestions": "3",
@@ -72,6 +73,7 @@
     {
         "id": "m1_v2",
         "generatedQuestions": {
+            "quizNumber" : "Módulo 1 - Video 2",
             "quizTitle": "Citoquinas en Sepsis",
             "quizSynopsis": "",
             "nrOfQuestions": "3",

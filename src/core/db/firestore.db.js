@@ -158,7 +158,7 @@ export const setCalificacion = async (userId, calificacionData) => {
     const calificacionDocRef = doc(calificacionesRef, calificacionData.id);
 
     // Set the data for the document
-    await setDoc(calificacionDocRef, { score: calificacionData.score });
+    await setDoc(calificacionDocRef, { score: calificacionData.score, quizNumber: calificacionData.quizNumber,  quizTitle: calificacionData.quizTitle});
     response.status = true;
   } catch (error) {
     response.status = false;
