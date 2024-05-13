@@ -47,12 +47,12 @@
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
         "moduleVideoTitle": "video n° 3",
-        "moduleVideoUrl": "",
+        "moduleVideoUrl": "https://www.youtube.com/embed/XgkMXBHOgn8",
         "moduleVideoDescription": "Dengue en Terapia Intensiva",
         "moduleVideoTimeAvailable": "Disponible a partir del 13 de mayo",
         "moduleQuizzText": "Cuestionario video 3",
         "moduleQuizzId": "m1_v3",
-        "isLocked": "true",
+        "isLocked": "false",
         "quizzIsLocked": "true"
       },
       {
