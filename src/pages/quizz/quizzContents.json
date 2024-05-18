@@ -140,5 +140,80 @@
                 "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
             }
         }
+    },
+    {
+        "id": "m1_v3",
+        "generatedQuestions": {
+            "quizNumber" : "Módulo 1 - Video 3",
+            "quizTitle": "Dengue en Terapia Intensiva",
+            "quizSynopsis": "",
+            "nrOfQuestions": "3",
+            "questions": [
+                {
+                    "question": "Que tomamos en cuenta al momento de indicar un antimicrobiano empírico:",
+                    "questionType": "text",
+                    "questionPic": "",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- El foco sospechado",
+                        "b- La epidemiologia local",
+                        "c- Los antecedentes previos del paciente",
+                        "d- La gravedad del cuadro clínico",
+                        "e- Todas son correctas "
+                    ],
+                    "correctAnswer": "5",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "Cuáles son los antibióticos cuyo mecanismo de acción es tiempo - dependientes:",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Vancomicina",
+                        "b- Ciprofloxacina",
+                        "c- Meropenem",
+                        "c- Aminoglucósidos",
+                        "e- Metronidazol"
+                        
+                    ],
+                    "correctAnswer": "3",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "Cual es el tiempo apropiado de tratamiento en las neumonías asociadas a ventilación mecánica:",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- 3 dias",
+                        "b- 14 días",
+                        "c- 10 días",
+                        "d- 5 días",
+                        "e- 7 días"
+                    ],
+                    "correctAnswer": "5",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "34"
+                }
+            ],
+            "appLocale": {
+                "landingHeaderText": "<questionLength> preguntas",
+                "question": "Pregunta",
+                "startQuizBtn": "Comenzar",
+                "resultFilterAll": "Todas",
+                "resultFilterCorrect": "Correcto",
+                "resultFilterIncorrect": "Incorrecto",
+                "prevQuestionBtn": "Previa",
+                "nextQuestionBtn": "Siguiente",
+                "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
+            }
+        }
     }
 ]
