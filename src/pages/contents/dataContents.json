@@ -25,8 +25,8 @@
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
         "moduleVideoTitle": "video n° 1",
         "moduleVideoUrl": "https://www.youtube.com/embed/JvbrLb9eIlI",
-        "moduleVideoDescription": "Fisiopatologia de la sepsis",
-        "moduleVideoTimeAvailable": "Publicado el 29 de abril",
+        "moduleVideoDescription": "Fisiopatología de la sepsis",
+        "moduleVideoTimeAvailable": "Disponible a partir del 29 de abril",
         "moduleQuizzText": "Cuestionario video 1",
         "moduleQuizzId": "m1_v1",
         "isLocked": "false",
@@ -85,11 +85,11 @@
     "moduleIcon": "./iconos_modulos/cardio_icon.svg",
     "moduleTitle": "Cardiología",
     "moduleNumber": "Módulo 2",
-    "startDate": "Próximamente",
+    "startDate": "3 de junio",
     "moduleDescription": "Las intercurrencias Cardiológicas son muy frecuentes, tanto la Hipertensión arterial como las taquiarritmias suelen complicar  los cuadros de base de los pacientes.",
     "moduleImageMobile": "./Images_figma/header_cardio_mobile_max.png",
     "moduleImageDesktop": "./Images_figma/header_cardio_desktop_max.png",
-    "moduleTextAvailable": "Próximamente",
+    "moduleTextAvailable": "Disponible a partir del 3 de junio",
     "oradores": [
       {
         "id": "3"
@@ -102,26 +102,35 @@
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
         "moduleVideoTitle": "video n° 1",
-        "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
-        "moduleVideoDescription": "Descripcion a completar",
-        "moduloVideoTimeAvailable": "Disponible a partir del 3 de mayo",
-        "isLocked": "true"
+        "moduleVideoUrl": "",
+        "moduleVideoDescription": "",
+        "moduleVideoTimeAvailable": "Disponible a partir del 3 de junio",
+        "moduleQuizzText": "Cuestionario video 1",
+        "moduleQuizzId": "m2_v1",
+        "isLocked": "true",
+        "quizzIsLocked": "true"
       },
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
-        "moduleVideoTitle": "video n° 1",
-        "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
-        "moduleVideoDescription": "Descripcion a completar",
-        "moduleVideoTimeAvailable": "Disponible a partir del 3 de mayo",
-        "isLocked": "true"
+        "moduleVideoTitle": "video n° 2",
+        "moduleVideoUrl": "",
+        "moduleVideoDescription": "",
+        "moduleVideoTimeAvailable": "Disponible a partir del 10 de junio",
+        "moduleQuizzText": "Cuestionario video 2",
+        "moduleQuizzId": "m2_v2",
+        "isLocked": "true",
+        "quizzIsLocked": "true"
       },
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
-        "moduleVideoTitle": "video n° 1",
-        "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
-        "moduleVideoDescription": "Descripcion a completar",
-        "moduleVideoTimeAvailable": "Disponible a partir del 3 de mayo",
-        "isLocked": "true"
+        "moduleVideoTitle": "video n° 3",
+        "moduleVideoUrl": "",
+        "moduleVideoDescription": "",
+        "moduleVideoTimeAvailable": "Disponible a partir del 17 de junio",
+        "moduleQuizzText": "Cuestionario video 3",
+        "moduleQuizzId": "m2_v3",
+        "isLocked": "true",
+        "quizzIsLocked": "true"
       }
     ],
     "moduleQuizzText": "Completar el quizz del Módulo nro. 2"
