@@ -15,7 +15,7 @@ const footerData = {
   Phone: Phone,
   infoContact: "4630-5500",
   Email: Email,
-  infoEmail: "ciclocharlasuti@gmail.com",
+  infoEmail: "campus@utisantojanni.com",
   InfoWeb: "Desarrollado por Hornero Web"
 }
 

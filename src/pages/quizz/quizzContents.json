@@ -2,8 +2,8 @@
     {
         "id": "m1_v1",
         "generatedQuestions": {
-            "quizNumber" : "Módulo 1 - Video 1",
-            "quizTitle": "Fisiopatología de la Sepsis",
+            "quizNumber" : "Fisiopatología de la Sepsis",
+            "quizTitle": "Módulo 1 - Video 1",
             "quizSynopsis": "",
             "nrOfQuestions": "3",
             "questions": [
@@ -73,8 +73,8 @@
     {
         "id": "m1_v2",
         "generatedQuestions": {
-            "quizNumber" : "Módulo 1 - Video 2",
-            "quizTitle": "Citoquinas en Sepsis",
+            "quizNumber" : "Citoquinas en Sepsis",
+            "quizTitle": "Módulo 1 - Video 2",
             "quizSynopsis": "",
             "nrOfQuestions": "3",
             "questions": [
@@ -144,19 +144,19 @@
     {
         "id": "m1_v3",
         "generatedQuestions": {
-            "quizNumber" : "Módulo 1 - Video 3",
-            "quizTitle": "Dengue en Terapia Intensiva",
+            "quizNumber" : "Resistencia a los antimicrobianos - Nuevos desafíos",
+            "quizTitle": "Módulo 1 - Video 3",
             "quizSynopsis": "",
             "nrOfQuestions": "3",
             "questions": [
                 {
-                    "question": "Que tomamos en cuenta al momento de indicar un antimicrobiano empírico:",
+                    "question": "¿Qué tomamos en cuenta al momento de indicar un antimicrobiano empírico? Elija una opción correcta:",
                     "questionType": "text",
                     "questionPic": "",
                     "answerSelectionType": "single",
                     "answers": [
                         "a- El foco sospechado",
-                        "b- La epidemiologia local",
+                        "b- La epidemiología local",
                         "c- Los antecedentes previos del paciente",
                         "d- La gravedad del cuadro clínico",
                         "e- Todas son correctas "
@@ -168,7 +168,7 @@
                     "point": "33"
                 },
                 {
-                    "question": "Cuáles son los antibióticos cuyo mecanismo de acción es tiempo - dependientes:",
+                    "question": "¿Cuáles de los siguientes antimicrobianos presenta una farmacodinamia tiempo- dependiente? Elija una opción correcta:",
                     "questionType": "text",
                     "answerSelectionType": "single",
                     "answers": [
@@ -186,7 +186,7 @@
                     "point": "33"
                 },
                 {
-                    "question": "Cual es el tiempo apropiado de tratamiento en las neumonías asociadas a ventilación mecánica:",
+                    "question": "¿Cuál es el tiempo apropiado de tratamiento en las neumonías asociadas a ventilación mecánica? Elija una opción correcta:",
                     "questionType": "text",
                     "answerSelectionType": "single",
                     "answers": [

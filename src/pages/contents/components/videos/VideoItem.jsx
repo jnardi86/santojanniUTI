@@ -43,7 +43,7 @@ const VideoItem = ({ title, url, imgVideo, availableTime, isLocked, quizzIsLocke
             </div>
 
             <div className='mb-5'>
-                <p>{description}</p>
+                <p className="font-poppins text-5xl font-semiBold text-center">{description}</p>
             </div>
 
             <div className="videoContainer-body">
