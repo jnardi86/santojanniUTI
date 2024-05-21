@@ -58,12 +58,12 @@
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
         "moduleVideoTitle": "video n° 4",
-        "moduleVideoUrl": "",
-        "moduleVideoDescription": "Uso adecuado de antibióticos en Terapia Intensiva",
+        "moduleVideoUrl": "https://www.youtube.com/embed/wkUHBIdF36s",
+        "moduleVideoDescription": "Dengue en Terapia Intensiva",
         "moduleVideoTimeAvailable": "Disponible a partir del 20 de mayo",
         "moduleQuizzText": "Cuestionario video 4",
         "moduleQuizzId": "m1_v4",
-        "isLocked": "true",
+        "isLocked": "false",
         "quizzIsLocked": "true"
       },
       {
