@@ -69,12 +69,12 @@
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
         "moduleVideoTitle": "video n° 5",
-        "moduleVideoUrl": "",
+        "moduleVideoUrl": "https://www.youtube.com/embed/kSI1BEwzfho",
         "moduleVideoDescription": "Antibioticos y Multiresistencia en UTI ",
         "moduleVideoTimeAvailable": "Disponible a partir del 27 de mayo",
         "moduleQuizzText": "Cuestionario video 5",
         "moduleQuizzId": "m1_v5",
-        "isLocked": "true",
+        "isLocked": "false",
         "quizzIsLocked": "true"
       }
     ],
