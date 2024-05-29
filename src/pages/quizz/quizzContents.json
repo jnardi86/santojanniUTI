@@ -215,5 +215,76 @@
                 "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
             }
         }
+    },
+    {
+        "id": "m1_v4",
+        "generatedQuestions": {
+            "quizNumber" : "Dengue en UTI",
+            "quizTitle": "Módulo 1 - Video 4",
+            "quizSynopsis": "",
+            "nrOfQuestions": "3",
+            "questions": [
+                {
+                    "question": "Con respecto a la gravedad en la infección por dengue la más frecuente es:",
+                    "questionType": "text",
+                    "questionPic": "",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- La extravasación plasmática",
+                        "b- Las Hemorragias",
+                        "c- La afectación cardiológica",
+                        "d- La afectación del SNC"
+                    ],
+                    "correctAnswer": "1",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "Cual es la forma de transmisión más frecuente del dengue. Marque la correcta",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Transmisión Materno-fetal",
+                        "b- Picadura por Aedes aegypti",
+                        "c- Transfusión sanguínea",
+                        "c- Todas son correctas"                        
+                    ],
+                    "correctAnswer": "2",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "El diagnóstico en la fase febril del dengue se realiza con:",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Detección de IGG para dengue",
+                        "b- Detección de IGM/IGG para dengue",
+                        "c- Detección de PCR y/o antigeno NS1",
+                        "d- Ninguna es correcta"
+                    ],
+                    "correctAnswer": "3",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "34"
+                }
+            ],
+            "appLocale": {
+                "landingHeaderText": "<questionLength> preguntas",
+                "question": "Pregunta",
+                "startQuizBtn": "Comenzar",
+                "resultFilterAll": "Todas",
+                "resultFilterCorrect": "Correcto",
+                "resultFilterIncorrect": "Incorrecto",
+                "prevQuestionBtn": "Previa",
+                "nextQuestionBtn": "Siguiente",
+                "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
+            }
+        }
     }
 ]
