@@ -286,5 +286,79 @@
                 "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
             }
         }
+    },
+    {
+        "id": "m1_v5",
+        "generatedQuestions": {
+            "quizNumber" : "Antibióticos y Multiresistencia en UTI",
+            "quizTitle": "Módulo 1 - Video 5",
+            "quizSynopsis": "",
+            "nrOfQuestions": "3",
+            "questions": [
+                {
+                    "question": "Señale la sentencia correcta respecto del Colistin:",
+                    "questionType": "text",
+                    "questionPic": "",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Inhibe la síntesis bacteriana.",
+                        "b- Inhibe la transpeptidación de la pared.",
+                        "c- Altera la permeabilidad de la membrana celular.",
+                        "d- Inhibe el ribosoma 30S.",
+                        "e- Estimula el ribosoma 30S."
+                    ],
+                    "correctAnswer": "3",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "Señale la sentencia correcta respecto del Aztreonam:",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- No pertenece al grupo los beta lactámicos.",
+                        "b- Es bactericida, con utilidad en infecciones por gran negativos.",
+                        "c- Es una polimixina",
+                        "d- No se asocia a Ceftazidime-Avibactam",
+                        "e- En pacientes alérgicos a la penicilina no se puede administrar."
+                    ],
+                    "correctAnswer": "2",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "Señale la sentencia correcta respecto del Linezolid:",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Inhibe a la MAO en forma no selectiva.",
+                        "b- No es útil en infecciones de piel y tejidos blandos.",
+                        "c- No es útil por VO.",
+                        "d- No ocasiona como efectos adversos síntomas digestivos.",
+                        "e- No es útil frente al enterococo faecium vancomicina resistente."
+                    ],
+                    "correctAnswer": "1",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "34"
+                }
+            ],
+            "appLocale": {
+                "landingHeaderText": "<questionLength> preguntas",
+                "question": "Pregunta",
+                "startQuizBtn": "Comenzar",
+                "resultFilterAll": "Todas",
+                "resultFilterCorrect": "Correcto",
+                "resultFilterIncorrect": "Incorrecto",
+                "prevQuestionBtn": "Previa",
+                "nextQuestionBtn": "Siguiente",
+                "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
+            }
+        }
     }
 ]
