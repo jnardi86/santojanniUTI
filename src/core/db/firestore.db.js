@@ -23,6 +23,44 @@ export const getDocuments = async (name) => {
   return data
 };
 
+/**GET_DOCUMENTS 
+ * recibe como argumento el nombre de la colection y retorna todos los documentos
+*/
+export const getDocumentsWithSubcolections = async (name) => {
+
+  const usersRef = collection(db, name);
+
+  const querySnapshot = await getDocs(usersRef);
+
+  const data = await Promise.all(
+    querySnapshot.docs.map(async (doc) => {
+
+      const userData = {
+        id: doc.id,
+        ...doc.data(),
+      }
+
+      // Reference to the subcollection of scores for the current user
+      const scoresRef = collection(usersRef, doc.id, "calificaciones");
+
+      // Get all scores for the user using a nested query
+      const scoreSnapshot = await getDocs(scoresRef);
+
+      // Attach the retrieved scores to the user data
+      userData.scores = scoreSnapshot.docs.map((scoreDoc) => ({
+        id: scoreDoc.id,
+        ...scoreDoc.data(),
+      }));
+      return userData;
+    })
+  );
+
+  return data;
+
+};
+
+
+
 /**GET_DOCUMENTS_BY_ID
  * recibe como argumento el nombre de la colection y el id del documento
  */
@@ -158,13 +196,13 @@ export const setCalificacion = async (userId, calificacionData) => {
     const calificacionDocRef = doc(calificacionesRef, calificacionData.id);
 
     // Set the data for the document
-    await setDoc(calificacionDocRef, { score: calificacionData.score, quizNumber: calificacionData.quizNumber,  quizTitle: calificacionData.quizTitle});
+    await setDoc(calificacionDocRef, { score: calificacionData.score, quizNumber: calificacionData.quizNumber, quizTitle: calificacionData.quizTitle });
     response.status = true;
   } catch (error) {
     response.status = false;
     response.error = error;
   }
-  
+
   return response;
 }
 

@@ -102,12 +102,12 @@
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
         "moduleVideoTitle": "video n° 1",
-        "moduleVideoUrl": "",
-        "moduleVideoDescription": "",
+        "moduleVideoUrl": "https://www.youtube.com/embed/y-aOuqO1gcI",
+        "moduleVideoDescription": "Arritmias Supraventriculares",
         "moduleVideoTimeAvailable": "Disponible a partir del 3 de junio",
         "moduleQuizzText": "Cuestionario video 1",
         "moduleQuizzId": "m2_v1",
-        "isLocked": "true",
+        "isLocked": "false",
         "quizzIsLocked": "true"
       },
       {
