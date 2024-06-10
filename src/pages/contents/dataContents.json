@@ -113,12 +113,12 @@
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
         "moduleVideoTitle": "video n° 2",
-        "moduleVideoUrl": "",
-        "moduleVideoDescription": "",
+        "moduleVideoUrl": "https://www.youtube.com/embed/pLzKCJFDgyQ",
+        "moduleVideoDescription": "Beta bloqueantes en UTI",
         "moduleVideoTimeAvailable": "Disponible a partir del 10 de junio",
         "moduleQuizzText": "Cuestionario video 2",
         "moduleQuizzId": "m2_v2",
-        "isLocked": "true",
+        "isLocked": "false",
         "quizzIsLocked": "true"
       },
       {
@@ -140,7 +140,7 @@
     "moduleIcon": "./iconos_modulos/nefro_icon.svg",
     "moduleTitle": "Nefrología y medio interno",
     "moduleNumber": "Módulo 3",
-    "startDate": "Próximamente",
+    "startDate": "24 de junio",
     "moduleDescription": "Las complicaciones de la función renal y que a su vez  motivan la alteración del medio interno son muy frecuentes ya que  atraviesan todas las patologías que vemos en el Servicio requiriendo en algunos pacientes diálisis.",
     "moduleImageMobile": "./Images_figma/header_renal_mobile_max.png",
     "moduleImageDesktop": "./Images_figma/header_renal_desktop_max.png",

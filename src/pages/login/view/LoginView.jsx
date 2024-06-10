@@ -45,8 +45,8 @@ const LoginView = () => {
           <>
             <div className="mt-6 text-center text-White">
               <span className="font-poppins font-semiBold text-sm mr-1 laptop1:text-base">Aún no tenes una cuenta?</span>
-              {/* <button className="font-poppins font-regular text-sm laptop1:text-base" onClick={toggleForm}>Crear cuenta</button> */}
-              <button className="font-poppins font-regular text-sm laptop1:text-base" onClick={toggleSweetAlert}>Crear cuenta</button>
+              <button className="font-poppins font-regular text-sm laptop1:text-base" onClick={toggleForm}>Crear cuenta</button>
+              {/* <button className="font-poppins font-regular text-sm laptop1:text-base" onClick={toggleSweetAlert}>Crear cuenta</button> */}
             </div>
             <div className="mt-6 text-center text-White">
               <span className="font-poppins font-semiBold text-sm mr-1 laptop1:text-base">Olvidaste tu contraseña?</span>
