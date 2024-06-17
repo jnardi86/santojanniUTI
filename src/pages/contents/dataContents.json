@@ -124,12 +124,12 @@
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
         "moduleVideoTitle": "video n° 3",
-        "moduleVideoUrl": "",
-        "moduleVideoDescription": "",
+        "moduleVideoUrl": "https://www.youtube.com/embed/2PIoKfoztz0",
+        "moduleVideoDescription": "Taquicardias supraventriculares para urgencias UTI",
         "moduleVideoTimeAvailable": "Disponible a partir del 17 de junio",
         "moduleQuizzText": "Cuestionario video 3",
         "moduleQuizzId": "m2_v3",
-        "isLocked": "true",
+        "isLocked": "false",
         "quizzIsLocked": "true"
       }
     ],
