@@ -154,26 +154,35 @@
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
         "moduleVideoTitle": "video n° 1",
-        "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
-        "moduleVideoDescription": "Descripcion a completar",
-        "moduloVideoTimeAvailable": "Disponible a partir del 3 de mayo",
-        "isLocked": "true"
+        "moduleVideoUrl": "",
+        "moduleVideoDescription": "Terapias de reemplazo renal continuas",
+        "moduleVideoTimeAvailable": "Disponible a partir del 24 de junio",
+        "moduleQuizzText": "Cuestionario video 1",
+        "moduleQuizzId": "m3_v1",
+        "isLocked": "true",
+        "quizzIsLocked": "true"
+      },
+      {
+        "moduleVideoImg": "./Images_figma/marco_video_max.png",
+        "moduleVideoTitle": "video n° 2",
+        "moduleVideoUrl": "",
+        "moduleVideoDescription": "A completar",
+        "moduleVideoTimeAvailable": "Disponible a partir del 1 de julio",
+        "moduleQuizzText": "Cuestionario video 3",
+        "moduleQuizzId": "m3_v2",
+        "isLocked": "true",
+        "quizzIsLocked": "true"
       },
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
         "moduleVideoTitle": "video n° 1",
-        "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
-        "moduleVideoDescription": "Descripcion a completar",
-        "moduleVideoTimeAvailable": "Disponible a partir del 3 de mayo",
-        "isLocked": "true"
-      },
-      {
-        "moduleVideoImg": "./Images_figma/marco_video_max.png",
-        "moduleVideoTitle": "video n° 1",
-        "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
-        "moduleVideoDescription": "Descripcion a completar",
-        "moduleVideoTimeAvailable": "Disponible a partir del 3 de mayo",
-        "isLocked": "true"
+        "moduleVideoUrl": "",
+        "moduleVideoDescription": "A completar",
+        "moduleVideoTimeAvailable": "Disponible a partir del 8 de julio",
+        "moduleQuizzText": "Cuestionario video 3",
+        "moduleQuizzId": "m3_v3",
+        "isLocked": "true",
+        "quizzIsLocked": "true"
       }
     ],
     "moduleQuizzText": "Completar el quizz del Módulo nro. 3"
