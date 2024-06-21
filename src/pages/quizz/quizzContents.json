@@ -496,5 +496,73 @@
                 "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
             }
         }
+    },
+    {
+        "id": "m2_v3",
+        "generatedQuestions": {
+            "quizNumber" : "Taquicardias supraventriculares para urgencias UTI",
+            "quizTitle": "Módulo 2 - Video 3",
+            "quizSynopsis": "",
+            "nrOfQuestions": "3",
+            "questions": [
+                {
+                    "question": "¿Cuál es el tratamiento inicial recomendado para las taquicardias de QRS angosto?",
+                    "questionType": "text",
+                    "questionPic": "",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Administración de adenosina (1 amp=6 mg) en bolo. Se puede repetir cada 1-2 min hasta dos bolos de 12 mg.",
+                        "b- Administración de amiodarona (1 amp=150 mg) en infusión continua. Se puede repetir cada 5-10 min hasta dos bolos de 300 mg.",
+                        "c- Administración de lidocaína (1 amp=100 mg) en bolo. Se puede repetir cada 3-5 min hasta dos bolos de 200 mg."
+                    ],
+                    "correctAnswer": "1",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "¿Cuál es el fármaco de primera elección para el control de la frecuencia en pacientes estables sin insuficiencia cardíaca?",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Inhibidores de la ECA como Enalapril o Lisinopril.",
+                        "b- Bloqueadores de canales de calcio como Amlodipino o Nifedipino.",
+                        "c- Beta bloqueantes o Bloqueantes Calcicos como Verapamil o Diltiazem."
+                    ],
+                    "correctAnswer": "3",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "¿Cuál es la tasa de éxito primario en la ablación de la fibrilación auricular?",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Éxito primario de 90%",
+                        "b- Éxito primario de 50%",
+                        "c- Éxito primario de 70%"
+                    ],
+                    "correctAnswer": "1",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "34"
+                }
+            ],
+            "appLocale": {
+                "landingHeaderText": "<questionLength> preguntas",
+                "question": "Pregunta",
+                "startQuizBtn": "Comenzar",
+                "resultFilterAll": "Todas",
+                "resultFilterCorrect": "Correcto",
+                "resultFilterIncorrect": "Incorrecto",
+                "prevQuestionBtn": "Previa",
+                "nextQuestionBtn": "Siguiente",
+                "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
+            }
+        }
     }
 ]
