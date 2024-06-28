@@ -564,5 +564,73 @@
                 "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
             }
         }
+    },
+    {
+        "id": "m3_v1",
+        "generatedQuestions": {
+            "quizNumber" : "Terapias de reemplazo renal continuas",
+            "quizTitle": "Módulo 3 - Video 1",
+            "quizSynopsis": "",
+            "nrOfQuestions": "3",
+            "questions": [
+                {
+                    "question": "¿Cuál es la definición correcta del mecanismo de convección?",
+                    "questionType": "text",
+                    "questionPic": "",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Es el transporte de solutos a través de una membrana semipermeable acompañada de solvente en respuesta a presión transmembrana positiva.",
+                        "b- Es la difusión de solutos a través de una membrana semipermeable en respuesta a un gradiente de concentración sin movimiento de solvente.",
+                        "c- Es la transferencia de calor desde el flujo sanguíneo a la membrana dializadora sin participación de solutos o solventes."
+                    ],
+                    "correctAnswer": "1",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "¿Cuál de los Sifuentes postulados define correctamente a una terapia de reemplazo renal continua?",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Las terapias de reemplazo renal continuas implican la administración intermitente de grandes volúmenes de solución dializante para inducir una rápida diuresis y compensación de electrolitos.",
+                        "b- Las terapias de reemplazo renal continuas se caracterizan por la eliminación rápida de toxinas y electrolitos exclusivamente a través de la difusión en sesiones de corta duración (menos de 4 hs).",
+                        "c- Las terapias de reemplazo renal continuas se basan en la eliminación gradual de fluidos y solutos mediante convección, permitiendo el aclaramiento de moléculas de mayor tamaño durante un tiempo prolongado (24 hs o más) con respecto a otras técnicas."
+                    ],
+                    "correctAnswer": "3",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "En orden de preferencia, ¿Cuáles son los sitios anatómicos para la colocación de accesos vasculares para terapias de reemplazo renal?",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Vena safena, Arteria radial, Vena basílica, Vena cefálica.",
+                        "b- Yugular interna derecha, Femoral, Yugular interna izquierda, Subclavias.",
+                        "c- Arteria carótida, Vena cava superior, Vena umbilical, Arteria femoral."
+                    ],
+                    "correctAnswer": "2",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "34"
+                }
+            ],
+            "appLocale": {
+                "landingHeaderText": "<questionLength> preguntas",
+                "question": "Pregunta",
+                "startQuizBtn": "Comenzar",
+                "resultFilterAll": "Todas",
+                "resultFilterCorrect": "Correcto",
+                "resultFilterIncorrect": "Incorrecto",
+                "prevQuestionBtn": "Previa",
+                "nextQuestionBtn": "Siguiente",
+                "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
+            }
+        }
     }
 ]
