@@ -175,13 +175,13 @@
       },
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
-        "moduleVideoTitle": "video n° 1",
-        "moduleVideoUrl": "",
-        "moduleVideoDescription": "A completar",
+        "moduleVideoTitle": "video n° 3",
+        "moduleVideoUrl": "https://www.youtube.com/embed/6bT4cEOJKWs",
+        "moduleVideoDescription": "Glomerulonefritis rápidamente progresivas",
         "moduleVideoTimeAvailable": "Disponible a partir del 8 de julio",
         "moduleQuizzText": "Cuestionario video 3",
         "moduleQuizzId": "m3_v3",
-        "isLocked": "true",
+        "isLocked": "false",
         "quizzIsLocked": "true"
       }
     ],
