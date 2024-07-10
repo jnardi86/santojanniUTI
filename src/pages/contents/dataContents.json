@@ -168,10 +168,10 @@
         "moduleVideoUrl": "https://www.youtube.com/embed/uU4fJJioRdI",
         "moduleVideoDescription": "Estimación del volumen intravascular Protocolo VExUS",
         "moduleVideoTimeAvailable": "Disponible a partir del 1 de julio",
-        "moduleQuizzText": "Cuestionario video 3",
+        "moduleQuizzText": "Cuestionario video 2",
         "moduleQuizzId": "m3_v2",
         "isLocked": "false",
-        "quizzIsLocked": "true"
+        "quizzIsLocked": "false"
       },
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",

@@ -632,5 +632,73 @@
                 "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
             }
         }
+    },
+    {
+        "id": "m3_v2",
+        "generatedQuestions": {
+            "quizNumber" : "Estimación del volumen intravascular Protocolo VExUS",
+            "quizTitle": "Módulo 3 - Video 2",
+            "quizSynopsis": "",
+            "nrOfQuestions": "3",
+            "questions": [
+                {
+                    "question": "¿Cuál es el mecanismo fisiopatológico en la genesis de la nefropatía congestiva?",
+                    "questionType": "text",
+                    "questionPic": "",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- El incremento de las presiones en las cavidades cardíacas derechas aumentan la poscarga renal y la presión intrarenal. Eso produce la activación del sistema renina-angiotensina-aldosterona por descenso del la perfusión renal y caída de la TFG, con incremento en la retención de sodio y agua. ",
+                        "b- La nefropatía congestiva se origina por una disminución en la actividad del sistema renina-angiotensina-aldosterona debido a un aumento en la perfusión renal.",
+                        "c- La nefropatía congestiva es causada por un exceso de filtración glomerular, lo que resulta en una pérdida excesiva de sodio y agua."
+                    ],
+                    "correctAnswer": "1",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "La exploración del paciente congestivo a través de ecografía pulmonar, FOCUS y VExUs permite:",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Evaluar únicamente la función renal, excluyendo la evaluación de la congestión cardíaca.",
+                        "b- Determinar el tipo de tratamiento quirúrgico más adecuado para la congestión pulmonar.",
+                        "c- Valorar el grado de congestión derecha e izquierda, lo que permite optimizar el tratamiento diurético o dialítico."
+                    ],
+                    "correctAnswer": "3",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "De encontrarse una vena cava inferior con un diametro inferior de 2 cm con colapso inspiratorio mayor al 50%, ¿Cuál es el paso correcto a seguir?",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Ajustar la dosis de diuréticos según los hallazgos, para mejorar el vaciamiento del ventrículo izquierdo.",
+                        "b- Yugular interna derecha, Femoral, Yugular interna izquierda, Subclavias.",
+                        "c- Suspender el estudio ya que se descarta la congestión vascular."
+                    ],
+                    "correctAnswer": "3",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "34"
+                }
+            ],
+            "appLocale": {
+                "landingHeaderText": "<questionLength> preguntas",
+                "question": "Pregunta",
+                "startQuizBtn": "Comenzar",
+                "resultFilterAll": "Todas",
+                "resultFilterCorrect": "Correcto",
+                "resultFilterIncorrect": "Incorrecto",
+                "prevQuestionBtn": "Previa",
+                "nextQuestionBtn": "Siguiente",
+                "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
+            }
+        }
     }
 ]
