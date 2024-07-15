@@ -192,43 +192,77 @@
     "moduleIcon": "./iconos_modulos/nutricion_icon.svg",
     "moduleTitle": "Endocrinología y Nutrición",
     "moduleNumber": "Módulo 4",
-    "startDate": "Próximamente",
+    "startDate": "15 de julio",
     "moduleDescription": "La cetoacidosis diabética generada por múltiples causas  sigue siendo motivo de ingreso a Terapia Intensiva.",
     "moduleImageMobile": "./Images_figma/header_nutri_mobile_max.png",
     "moduleImageDesktop": "./Images_figma/header_nutri_desktop_max.png",
     "moduleTextAvailable": "Próximamente",
     "oradores": [
       {
+        "id": "11"
+      },
+      {
         "id": "5"
       },
       {
-        "id": "11"
+        "id": "16"
       }
     ],
     "multimedia": [
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
         "moduleVideoTitle": "video n° 1",
-        "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
-        "moduleVideoDescription": "Descripcion a completar",
-        "moduleVideoTimeAvailable": "Disponible a partir del 3 de mayo",
-        "isLocked": "true"
+        "moduleVideoUrl": "https://www.youtube.com/embed/QvM7V3YDJkQ",
+        "moduleVideoDescription": "Coma Mixedematoso",
+        "moduleVideoTimeAvailable": "Disponible a partir del 15 de julio",
+        "moduleQuizzText": "Cuestionario video 1",
+        "moduleQuizzId": "m4_v1",
+        "isLocked": "false",
+        "quizzIsLocked": "true"
       },
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
-        "moduleVideoTitle": "video n° 1",
-        "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
-        "moduleVideoDescription": "Descripcion a completar",
-        "moduleVideoTimeAvailable": "Disponible a partir del 3 de mayo",
-        "isLocked": "true"
+        "moduleVideoTitle": "video n° 2",
+        "moduleVideoUrl": "",
+        "moduleVideoDescription": "A completar",
+        "moduleVideoTimeAvailable": "Disponible a partir del 22 de julio",
+        "moduleQuizzText": "Cuestionario video 2",
+        "moduleQuizzId": "m4_v2",
+        "isLocked": "true",
+        "quizzIsLocked": "true"
       },
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
-        "moduleVideoTitle": "video n° 1",
-        "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
-        "moduleVideoDescription": "Descripcion a completar",
-        "moduleVideoTimeAvailable": "Disponible a partir del 3 de mayo",
-        "isLocked": "true"
+        "moduleVideoTitle": "video n° 3",
+        "moduleVideoUrl": "",
+        "moduleVideoDescription": "A completar",
+        "moduleVideoTimeAvailable": "Disponible a partir del 29 de julio",
+        "moduleQuizzText": "Cuestionario video 3",
+        "moduleQuizzId": "m4_v3",
+        "isLocked": "true",
+        "quizzIsLocked": "true"
+      },
+      {
+        "moduleVideoImg": "./Images_figma/marco_video_max.png",
+        "moduleVideoTitle": "video n° 4",
+        "moduleVideoUrl": "",
+        "moduleVideoDescription": "A completar",
+        "moduleVideoTimeAvailable": "Disponible a partir del 5 de agosto",
+        "moduleQuizzText": "Cuestionario video 4",
+        "moduleQuizzId": "m4_v4",
+        "isLocked": "true",
+        "quizzIsLocked": "true"
+      },
+      {
+        "moduleVideoImg": "./Images_figma/marco_video_max.png",
+        "moduleVideoTitle": "video n° 5",
+        "moduleVideoUrl": "https://www.youtube.com/embed/6bT4cEOJKWs",
+        "moduleVideoDescription": "Glomerulonefritis rápidamente progresivas",
+        "moduleVideoTimeAvailable": "Disponible a partir del 12 de agosto",
+        "moduleQuizzText": "Cuestionario video 5",
+        "moduleQuizzId": "m4_v5",
+        "isLocked": "true",
+        "quizzIsLocked": "true"
       }
     ],
     "moduleQuizzText": "Completar el quizz del Módulo nro. 3"
