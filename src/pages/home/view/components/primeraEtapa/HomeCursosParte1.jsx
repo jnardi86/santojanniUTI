@@ -28,6 +28,7 @@ const HomeCursosParte1 = () => {
                         clickable: true,
                     }}
                     // loop={true}
+                    initialSlide={Math.max(0, arrayContents.length - 1)} // Ensure a valid index
                     breakpoints={{
                         360: {
                             slidesPerView: 1,
