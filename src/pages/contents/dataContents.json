@@ -182,7 +182,7 @@
         "moduleQuizzText": "Cuestionario video 3",
         "moduleQuizzId": "m3_v3",
         "isLocked": "false",
-        "quizzIsLocked": "true"
+        "quizzIsLocked": "false"
       }
     ],
     "moduleQuizzText": "Completar el quizz del Módulo nro. 3"

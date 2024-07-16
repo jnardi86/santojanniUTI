@@ -700,5 +700,73 @@
                 "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
             }
         }
+    },
+    {
+        "id": "m3_v3",
+        "generatedQuestions": {
+            "quizNumber" : "Glomerulonefritis rápidamente progresivas",
+            "quizTitle": "Módulo 3 - Video 3",
+            "quizSynopsis": "",
+            "nrOfQuestions": "3",
+            "questions": [
+                {
+                    "question": "¿Cuál es la presentación clínica característica de las glomerulonefritis rápidamente evolutivas?",
+                    "questionType": "text",
+                    "questionPic": "",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Se presentan como un síndrome nefrítico que se instaura en el plazo de días o semanas.",
+                        "b- Se presentan como un síndrome nefrótico con edema generalizado y proteinuria masiva.",
+                        "c- Se presentan como una insuficiencia renal crónica con una progresión lenta a lo largo de varios meses."
+                    ],
+                    "correctAnswer": "1",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "En un paciente masculino de 65 años sin antecedentes previos de relevancia, que ingresa a UTI por cuadro de dos semanas de evolución de fiebre no mayor de 38 grados, astenia, adinamia y poliartralgias de igual tiempo presentación asociado a deterioro del ritmo diurético en las últimas 48 hs; evidenciadose en laboratorio de Cr 14 mg/dl, U 256 mg/dl, Hto 34%, 10-15 hematies por campo en el sedimento urinario y proteinuria ++. ¿Cuál sería la conducta a seguir?",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Administrar diuréticos de asa y repetir los estudios de laboratorio en 48 horas.",
+                        "b- Iniciar tratamiento empírico con antibióticos de amplio espectro y esperar la mejoría clínica antes de realizar más estudios.",
+                        "c- Solicitud ecografía renal para descartar signos de enfermedad renal crónica, sedimento urinario para búsqueda de eritrocitos dismórficos, realización de relación de proteinuria/creatininuria o proteinuria de 24 hs, solicitud de dosaje de ANCA y realización de anticuerpos antimembrana basal glomerular."
+                    ],
+                    "correctAnswer": "3",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "Ante un paciente con síndrome riñón-pulmón y presencia de anticuerpos antimembrana basal circulantes, ¿Qué tratamiento instauraría?",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Iniciar tratamiento con inhibidores de la ECA y bloqueadores de los canales de calcio para controlar la presión arterial y mejorar la función renal.",
+                        "b- Inicio de pulsos de metilprednisolona seguidos de ciclofosfamida endovenosa, plantear inicio de plasmaferesis con recambio de plasma fresco congelado.",
+                        "c- Administración de anticoagulantes y monitoreo de la función renal y pulmonar cada 48 horas."
+                    ],
+                    "correctAnswer": "2",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "34"
+                }
+            ],
+            "appLocale": {
+                "landingHeaderText": "<questionLength> preguntas",
+                "question": "Pregunta",
+                "startQuizBtn": "Comenzar",
+                "resultFilterAll": "Todas",
+                "resultFilterCorrect": "Correcto",
+                "resultFilterIncorrect": "Incorrecto",
+                "prevQuestionBtn": "Previa",
+                "nextQuestionBtn": "Siguiente",
+                "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
+            }
+        }
     }
 ]
