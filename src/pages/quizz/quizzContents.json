@@ -768,5 +768,76 @@
                 "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
             }
         }
+    },
+    {
+        "id": "m4_v1",
+        "generatedQuestions": {
+            "quizNumber" : "Coma Mixedematoso",
+            "quizTitle": "Módulo 4 - Video 1",
+            "quizSynopsis": "",
+            "nrOfQuestions": "3",
+            "questions": [
+                {
+                    "question": "¿Cuál de estos pacientes presenta mayor grado de sospecha de un coma mixedematoso?",
+                    "questionType": "text",
+                    "questionPic": "",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Paciente femenina que presenta bocio y se encuentra en estado de coma asociado a hipertermia, taquicardia y alcalosis metabólica.",
+                        "b- Paciente masculino sin antecedente de tiroideopatía que presenta somnolencia asociada a bradicardia, hipertensión, y alcalosis respiratoria.",
+                        "c- Paciente femenina con cicatriz a nivel cervical anterior, que presenta confusión asociada a hipotensión, hiponatremia y acidosis respiratoria.",
+                        "d- Paciente masculino con antecedente de hipotiroidismo, que presenta excitación psicomotrz asociada a hipotermia, hipernatremia y acidosis metabólica."
+                    ],
+                    "correctAnswer": "3",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "Ante la sospecha de coma mixedematoso lo más correcto sería:",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Solicitar dosaje de T4 y TSH y luego iniciar tratamiento con hormona tiroidea antes que otras medidas terapéuticas.",
+                        "b- Solicitar dosaje de T4, TSH y cortisol, realizar medidas de sostén hemodinámico e iniciar tratamiento empíricamente con hidrocortisona y hormona tiroidea.",
+                        "c- Solicitar dosaje de T4 y TSH e iniciar tratamiento empírico solo con hidrocortisona hasta tener los resultados de laboratorio.",
+                        "c- Solicitar dosaje de T4, TSH y cortisol y realizar medidas de sostén hemodinámico hasta tener los resultados de laboratorio."
+                    ],
+                    "correctAnswer": "2",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "Marque la incorrecta respecto al tratamiento con hormonas tiroideas del coma mixedematoso:",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- La vía de administración de preferencia es la endovenosa dado que la vía oral presenta absorción errática.",
+                        "b- Se puede utilizar indistintamente levotiroxina, liotironina o una combinación de ambas.",
+                        "c- En caso de administración endovenosa es preferible la infusión continua y en caso de utilizarse la vía oral conviene las múltiples dosis.",
+                        "c- En pacientes mayores o cardiópatas es preferible la T3 a la T4 dado que presenta menor riesgo de arritmias."
+                    ],
+                    "correctAnswer": "4",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "34"
+                }
+            ],
+            "appLocale": {
+                "landingHeaderText": "<questionLength> preguntas",
+                "question": "Pregunta",
+                "startQuizBtn": "Comenzar",
+                "resultFilterAll": "Todas",
+                "resultFilterCorrect": "Correcto",
+                "resultFilterIncorrect": "Incorrecto",
+                "prevQuestionBtn": "Previa",
+                "nextQuestionBtn": "Siguiente",
+                "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
+            }
+        }
     }
 ]

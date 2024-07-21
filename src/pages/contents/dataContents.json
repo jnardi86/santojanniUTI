@@ -218,7 +218,7 @@
         "moduleQuizzText": "Cuestionario video 1",
         "moduleQuizzId": "m4_v1",
         "isLocked": "false",
-        "quizzIsLocked": "true"
+        "quizzIsLocked": "false"
       },
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
