@@ -223,12 +223,12 @@
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
         "moduleVideoTitle": "video n° 2",
-        "moduleVideoUrl": "",
-        "moduleVideoDescription": "A completar",
+        "moduleVideoUrl": "https://www.youtube.com/embed/GWaOEg2iSYA",
+        "moduleVideoDescription": "Crisis Tirotóxica",
         "moduleVideoTimeAvailable": "Disponible a partir del 22 de julio",
         "moduleQuizzText": "Cuestionario video 2",
         "moduleQuizzId": "m4_v2",
-        "isLocked": "true",
+        "isLocked": "false",
         "quizzIsLocked": "true"
       },
       {
