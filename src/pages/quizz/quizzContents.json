@@ -839,5 +839,76 @@
                 "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
             }
         }
+    },
+    {
+        "id": "m4_v2",
+        "generatedQuestions": {
+            "quizNumber" : "Crisis Tirotóxica",
+            "quizTitle": "Módulo 4 - Video 2",
+            "quizSynopsis": "",
+            "nrOfQuestions": "3",
+            "questions": [
+                {
+                    "question": "¿Qué es la crisis tirotóxica?",
+                    "questionType": "text",
+                    "questionPic": "",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Es una emergencia por disminución de Hans tiroides.",
+                        "b- Es una emergencia endocrinológica por exceso de hormonas tiroideas.",
+                        "c- Es un aumento excesivo de anticuerpos antitiroideos.",
+                        "d- Todas son correctas."
+                    ],
+                    "correctAnswer": "2",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "¿Cuáles son los síntomas principales de la crisis tirotóxica?",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Alteración del nivel de conciencia.",
+                        "b- Fiebre alta.",
+                        "c- Taquicardia.",
+                        "c- Todas son correctas."
+                    ],
+                    "correctAnswer": "4",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "¿Qué tratamientos se utilizan para manejar una crisis tirotóxica?",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Soporte vital.",
+                        "b- Beta-bloqueantes.",
+                        "c- Antitiroideos.",
+                        "c- Todas son correctas."
+                    ],
+                    "correctAnswer": "4",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "34"
+                }
+            ],
+            "appLocale": {
+                "landingHeaderText": "<questionLength> preguntas",
+                "question": "Pregunta",
+                "startQuizBtn": "Comenzar",
+                "resultFilterAll": "Todas",
+                "resultFilterCorrect": "Correcto",
+                "resultFilterIncorrect": "Incorrecto",
+                "prevQuestionBtn": "Previa",
+                "nextQuestionBtn": "Siguiente",
+                "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
+            }
+        }
     }
 ]
