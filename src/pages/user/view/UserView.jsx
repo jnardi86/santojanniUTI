@@ -35,7 +35,7 @@ const UserView = () => {
       <UserGrades />
 
       {/* <button className=' bg-White text-Blue' onClick={handleGetCalificaciones}>Get all user data</button> */}
-      {/* <button className=' bg-White text-Blue' onClick={handlePushCalificaciones}>Push Calificaciones</button> */}
+      {/* <button className=' bg-White text-Blue' onClick={handlePushCalificaciones}>Push Calificaciones</button>  */}
     </>
 
 

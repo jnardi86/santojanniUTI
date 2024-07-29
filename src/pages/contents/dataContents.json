@@ -234,12 +234,12 @@
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
         "moduleVideoTitle": "video n° 3",
-        "moduleVideoUrl": "",
-        "moduleVideoDescription": "A completar",
+        "moduleVideoUrl": "https://www.youtube.com/embed/fDFUY5ylO_Q",
+        "moduleVideoDescription": "Cetoacidosis Diabética y Estado Hiperosmolar",
         "moduleVideoTimeAvailable": "Disponible a partir del 29 de julio",
         "moduleQuizzText": "Cuestionario video 3",
         "moduleQuizzId": "m4_v3",
-        "isLocked": "true",
+        "isLocked": "false",
         "quizzIsLocked": "true"
       },
       {
