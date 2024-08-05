@@ -245,12 +245,12 @@
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
         "moduleVideoTitle": "video n° 4",
-        "moduleVideoUrl": "",
-        "moduleVideoDescription": "A completar",
+        "moduleVideoUrl": "https://www.youtube.com/embed/5fr_OtXSeeY",
+        "moduleVideoDescription": "Nutrición Enteral Paciente Crítico",
         "moduleVideoTimeAvailable": "Disponible a partir del 5 de agosto",
         "moduleQuizzText": "Cuestionario video 4",
         "moduleQuizzId": "m4_v4",
-        "isLocked": "true",
+        "isLocked": "false",
         "quizzIsLocked": "true"
       },
       {
