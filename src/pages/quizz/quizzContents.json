@@ -983,5 +983,73 @@
                 "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
             }
         }
+    },
+    {
+        "id": "m4_v4",
+        "generatedQuestions": {
+            "quizNumber": "Nutrición Enteral Paciente Crítico",
+            "quizTitle": "Módulo 4 - Video 4",
+            "quizSynopsis": "",
+            "nrOfQuestions": "3",
+            "questions": [
+                {
+                    "question": "¿Qué caracteriza a la nutrición enteral precoz según las guías de práctica clínica?",
+                    "questionType": "text",
+                    "questionPic": "",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Se inicia dentro de las 72 horas de la admisión del paciente.",
+                        "b- Se inicia dentro de las 48 horas de la admisión del paciente.",
+                        "c- Se inicia solo cuando el paciente está completamente estable hemodinámicamente."
+                    ],
+                    "correctAnswer": "2",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "¿Qué se debe considerar antes de comenzar con la nutrición enteral en un paciente crítico?",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- La estabilidad hemodinámica y la posibilidad de síndrome de realimentación.",
+                        "b- La presencia de ruidos intestinales.",
+                        "c- La tolerancia del paciente a la fórmula de nutrición enteral utilizada."
+                    ],
+                    "correctAnswer": "1",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "¿Cuál es el rango recomendado para el aporte proteico en pacientes críticos según las guías ESPEN?",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- 0.8 a 1.0 gramos por kilogramo por día.",
+                        "b- 1.3 a 2.0 gramos por kilogramo por día.",
+                        "c- 2.5 a 3.0 gramos por kilogramo por día."
+                    ],
+                    "correctAnswer": "2",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "34"
+                }
+            ],
+            "appLocale": {
+                "landingHeaderText": "<questionLength> preguntas",
+                "question": "Pregunta",
+                "startQuizBtn": "Comenzar",
+                "resultFilterAll": "Todas",
+                "resultFilterCorrect": "Correcto",
+                "resultFilterIncorrect": "Incorrecto",
+                "prevQuestionBtn": "Previa",
+                "nextQuestionBtn": "Siguiente",
+                "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
+            }
+        }
     }
 ]
