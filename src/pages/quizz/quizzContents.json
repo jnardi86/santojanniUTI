@@ -1051,5 +1051,73 @@
                 "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
             }
         }
+    },
+    {
+        "id": "m4_v5",
+        "generatedQuestions": {
+            "quizNumber": "Nutrición Parental Paciente Crítico",
+            "quizTitle": "Módulo 4 - Video 5",
+            "quizSynopsis": "",
+            "nrOfQuestions": "3",
+            "questions": [
+                {
+                    "question": "¿Cuál es una de las indicaciones generales para iniciar nutrición parenteral en un paciente crítico?",
+                    "questionType": "text",
+                    "questionPic": "",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Pacientes con infecciones virales simples.",
+                        "b- Pacientes que no pueden utilizar su aparato digestivo para cubrir los requerimientos nutricionales",
+                        "c- Pacientes con trastornos menores de la digestión."
+                    ],
+                    "correctAnswer": "2",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "¿Cuál es la diferencia principal entre la nutrición parenteral continua y la cíclica?",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- La nutrición continua se administra en periodos de 12 a 18 horas, mientras que la cíclica en 24 horas.",
+                        "b- La nutrición continua se administra en 24 horas, mientras que la cíclica en periodos de 12 a 18 horas.",
+                        "c- La nutrición cíclica se usa solo en pacientes internados, mientras que la continua se usa en pacientes con soporte domiciliario."
+                    ],
+                    "correctAnswer": "2",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": " ¿Qué tipo de fórmula parenteral contiene macronutrientes, electrolitos, oligoelementos y vitaminas, y suele tener un costo mayor que las fórmulas industrializadas?",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Fórmulas estándar o industrializadas.",
+                        "b- Fórmulas con aporte exclusivo de glucosa.",
+                        "c- Fórmulas magistrales."
+                    ],
+                    "correctAnswer": "3",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "34"
+                }
+            ],
+            "appLocale": {
+                "landingHeaderText": "<questionLength> preguntas",
+                "question": "Pregunta",
+                "startQuizBtn": "Comenzar",
+                "resultFilterAll": "Todas",
+                "resultFilterCorrect": "Correcto",
+                "resultFilterIncorrect": "Incorrecto",
+                "prevQuestionBtn": "Previa",
+                "nextQuestionBtn": "Siguiente",
+                "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
+            }
+        }
     }
 ]
