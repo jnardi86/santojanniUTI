@@ -286,26 +286,24 @@
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
         "moduleVideoTitle": "video n° 1",
-        "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
-        "moduleVideoDescription": "Descripcion a completar",
-        "moduleVideoTimeAvailable": "Disponible a partir del 3 de mayo",
-        "isLocked": "true"
+        "moduleVideoUrl": "https://www.youtube.com/embed/4Oq2O3gj3Y0",
+        "moduleVideoDescription": "Hemorragia digestiva",
+        "moduleVideoTimeAvailable": "Disponible a partir del 26 de agosto",
+        "moduleQuizzText": "Cuestionario video 1",
+        "moduleQuizzId": "m1_v1",
+        "isLocked": "false",
+        "quizzIsLocked": "true"
       },
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
-        "moduleVideoTitle": "video n° 1",
-        "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
-        "moduleVideoDescription": "Descripcion a completar",
-        "moduleVideoTimeAvailable": "Disponible a partir del 3 de mayo",
-        "isLocked": "true"
-      },
-      {
-        "moduleVideoImg": "./Images_figma/marco_video_max.png",
-        "moduleVideoTitle": "video n° 1",
-        "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
-        "moduleVideoDescription": "Descripcion a completar",
-        "moduleVideoTimeAvailable": "Disponible a partir del 3 de mayo",
-        "isLocked": "true"
+        "moduleVideoTitle": "video n° 2",
+        "moduleVideoUrl": "https://www.youtube.com/embed/4Oq2O3gj3Y0",
+        "moduleVideoDescription": "Hemorragia digestiva baja",
+        "moduleVideoTimeAvailable": "Disponible a partir del 2 de septiembre",
+        "moduleQuizzText": "Cuestionario video 2",
+        "moduleQuizzId": "m1_v2",
+        "isLocked": "true",
+        "quizzIsLocked": "true"
       }
     ],
     "moduleQuizzText": "Completar el quizz del Módulo nro. 3"
