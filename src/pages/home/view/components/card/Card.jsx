@@ -27,7 +27,7 @@ const Card = ({ data }) => {
             <h2 className="font-poppins text-4xl font-medium text-White text-center pb-10">{data.moduleNumber}</h2>
             <p className="w-full font-poppins text-base font-regular text-start pl-5 pb-2">A partir del</p>
             <div className='w-full'>
-                <div className='bg-White rounded-r-full w-[250px] p-2 mb-5 flex items-center gap-3'>
+                <div className='bg-White rounded-r-full w-[280px] p-2 mb-5 flex items-center gap-3'>
                     <span>
                         <Calendar
                             width="32px"

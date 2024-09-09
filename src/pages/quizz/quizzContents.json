@@ -1119,5 +1119,76 @@
                 "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
             }
         }
+    },
+    {
+        "id": "m5_v2",
+        "generatedQuestions": {
+            "quizNumber": "Hemorragia digestiva | Hemorragia digestiva baja",
+            "quizTitle": "Módulo 5 - Video 1-2",
+            "quizSynopsis": "",
+            "nrOfQuestions": "3",
+            "questions": [
+                {
+                    "question": " La HDA no variceal presenta:",
+                    "questionType": "text",
+                    "questionPic": "",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Mayor mortalidad que la variceal",
+                        "b- Similar mortalidad a la variceal",
+                        "c- Depende de la ubicación de la varice",
+                        "d- Menor mortalidad que la variceal"
+                    ],
+                    "correctAnswer": "4",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "El tratamiento de elección para el sangrado variceal es:",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Escleroterapia endoscópica",
+                        "b- Ligadura endoscópica",
+                        "c- Balón de Sengstaken",
+                        "d- Ligadura masfarmacológica"
+                    ],
+                    "correctAnswer": "4",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "En la HDA con paciente con inestabilidad hemodinámica, se prefiere realizar como estudio diagnóstico/terapéutico:",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- VCC",
+                        "b- Control con GR marcados",
+                        "c- Arteriografía selectiva",
+                        "d- Tomografía computada con contraste"
+                    ],
+                    "correctAnswer": "3",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "34"
+                }
+            ],
+            "appLocale": {
+                "landingHeaderText": "<questionLength> preguntas",
+                "question": "Pregunta",
+                "startQuizBtn": "Comenzar",
+                "resultFilterAll": "Todas",
+                "resultFilterCorrect": "Correcto",
+                "resultFilterIncorrect": "Incorrecto",
+                "prevQuestionBtn": "Previa",
+                "nextQuestionBtn": "Siguiente",
+                "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
+            }
+        }
     }
 ]

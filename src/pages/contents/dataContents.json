@@ -272,7 +272,7 @@
     "moduleIcon": "./iconos_modulos/gastro_icon.svg",
     "moduleTitle": "Gastro",
     "moduleNumber": "Módulo 5",
-    "startDate": "Próximamente",
+    "startDate": "26 de agosto",
     "moduleDescription": "El stress que sufren los pacientes de Terapia Intensiva ya sea por la medicación que se les administra o el psicológico por la permanencia en el Servicio , les generan cuadros de Hemorragias digestivas altas o bajas en muchos casos con descompensación requiriendo la intervención de los especialistas.",
     "moduleImageMobile": "./Images_figma/header_gastro_mobile_max.png",
     "moduleImageDesktop": "./Images_figma/header_gastro_desktop_max.png",
@@ -289,7 +289,7 @@
         "moduleVideoUrl": "https://www.youtube.com/embed/4Oq2O3gj3Y0",
         "moduleVideoDescription": "Hemorragia digestiva",
         "moduleVideoTimeAvailable": "Disponible a partir del 26 de agosto",
-        "moduleQuizzText": "Cuestionario video 1",
+        "moduleQuizzText": "",
         "moduleQuizzId": "m5_v1",
         "isLocked": "false",
         "quizzIsLocked": "true"
@@ -300,10 +300,10 @@
         "moduleVideoUrl": "https://www.youtube.com/embed/7cIpZ_9u3R8",
         "moduleVideoDescription": "Hemorragia digestiva baja",
         "moduleVideoTimeAvailable": "Disponible a partir del 2 de septiembre",
-        "moduleQuizzText": "Cuestionario video 2",
+        "moduleQuizzText": "Cuestionario",
         "moduleQuizzId": "m5_v2",
         "isLocked": "false",
-        "quizzIsLocked": "true"
+        "quizzIsLocked": "false"
       }
     ],
     "moduleQuizzText": "Completar el quizz del Módulo nro. 3"
@@ -313,7 +313,7 @@
     "moduleIcon": "./iconos_modulos/neuro_icon.svg",
     "moduleTitle": "Neurocirugía | Neurología",
     "moduleNumber": "Módulo 6",
-    "startDate": "Próximamente",
+    "startDate": "16 de septiembre",
     "moduleDescription": "El stress que sufren los pacientes de Terapia Intensiva ya sea por la medicación que se les administra o el psicológico por la permanencia en el Servicio , les generan cuadros de Hemorragias digestivas altas o bajas en muchos casos con descompensación requiriendo la intervención de los especialistas.",
     "moduleImageMobile": "./Images_figma/header_neuro_mobile_max.png",
     "moduleImageDesktop": "./Images_figma/header_neuro_desktop_max.png",
@@ -362,7 +362,7 @@
     "moduleIcon": "./iconos_modulos/neumo_icon.svg",
     "moduleTitle": "Respiratorio",
     "moduleNumber": "Módulo 7",
-    "startDate": "Próximamente",
+    "startDate": "14 de octubre",
     "moduleDescription": "Los cuadros respiratorios tanto infecciosos como los generados por el hábito tabáquico suelen ingresar a la Terapia para su tratamiento, requiriendo en muchos casos instrumentación de la vía aérea tanto ARM como diagnóstica.",
     "moduleImageMobile": "./Images_figma/header_respi_mobile_max.png",
     "moduleImageDesktop": "./Images_figma/header_respi_desktop_max.png",
@@ -408,7 +408,7 @@
     "moduleIcon": "./iconos_modulos/miscelanea_icon.svg",
     "moduleTitle": "Miscelanea",
     "moduleNumber": "Módulo 8",
-    "startDate": "Próximamente",
+    "startDate": "4 de noviembre",
     "moduleDescription": "Descripción Miscelanea en progreso",
     "moduleImageMobile": "./Images_figma/header_miscelanea_mobile_max.png",
     "moduleImageDesktop": "./Images_figma/header_miscelanea_desktop_max.png",
