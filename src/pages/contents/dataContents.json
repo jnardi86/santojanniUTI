@@ -333,26 +333,35 @@
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
         "moduleVideoTitle": "video n° 1",
-        "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
-        "moduleVideoDescription": "Descripcion a completar",
-        "moduloVideoTimeAvailable": "Disponible a partir del 3 de mayo",
-        "isLocked": "false"
+        "moduleVideoUrl": "https://www.youtube.com/embed/XeFe8QubjG4",
+        "moduleVideoDescription": "Hemorragia Subaracnoidea desde un enfoque Neurointensivo",
+        "moduleVideoTimeAvailable": "Disponible a partir del 9 de septiembre",
+        "moduleQuizzText": "Cuestionario",
+        "moduleQuizzId": "m6_v1",
+        "isLocked": "false",
+        "quizzIsLocked": "true"
       },
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
-        "moduleVideoTitle": "video n° 1",
-        "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
-        "moduleVideoDescription": "Descripcion a completar",
-        "moduleVideoTimeAvailable": "Disponible a partir del 3 de mayo",
-        "isLocked": "true"
+        "moduleVideoTitle": "video n° 2",
+        "moduleVideoUrl": "https://www.youtube.com/embed/7cIpZ_9u3R8",
+        "moduleVideoDescription": "Stroke",
+        "moduleVideoTimeAvailable": "Disponible a partir del 16 de septiembre",
+        "moduleQuizzText": "Cuestionario",
+        "moduleQuizzId": "m6_v2",
+        "isLocked": "true",
+        "quizzIsLocked": "true"
       },
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
-        "moduleVideoTitle": "video n° 1",
-        "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
-        "moduleVideoDescription": "Descripcion a completar",
-        "moduleVideoTimeAvailable": "Disponible a partir del 3 de mayo",
-        "isLocked": "true"
+        "moduleVideoTitle": "video n° 33",
+        "moduleVideoUrl": "https://www.youtube.com/embed/7cIpZ_9u3R8",
+        "moduleVideoDescription": "Manejo de la Hipertensión endocraneana en TEC grave",
+        "moduleVideoTimeAvailable": "Disponible a partir del 23 de septiembre",
+        "moduleQuizzText": "Cuestionario",
+        "moduleQuizzId": "m6_v3",
+        "isLocked": "true",
+        "quizzIsLocked": "true"
       }
     ],
     "moduleQuizzText": "Completar el quizz del Módulo nro. 3"

@@ -8,7 +8,7 @@ export const userHooks = () => {
 
     const handleGetCalificaciones = async () => {
 
-        const urlFetchAPI = "https://script.google.com/macros/s/AKfycbyyB--cA8mVWZVAqk6silX6jBU2ozWqqz5hCYyuWg7KLVE47dnUyrqtEOH7PATrsXtp0Q/exec" //con API en consorcioasmahp@gmail.com
+        const urlFetchAPI = "https://script.google.com/macros/s/AKfycbyyB--cA8mVWZVAqk6silX6jBU2ozWqqz5hCYyuWg7KLVE47dnUyrqtEOH7PATrsXtp0Q/exec" //con API en campus.utisantojanni@gmail.com
 
         try {
             const allUserData = await getDocumentsWithSubcolections(COLECTIONS.PERFILES)
