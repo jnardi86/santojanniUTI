@@ -344,12 +344,12 @@
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
         "moduleVideoTitle": "video n° 2",
-        "moduleVideoUrl": "https://www.youtube.com/embed/7cIpZ_9u3R8",
+        "moduleVideoUrl": "https://www.youtube.com/embed/q8JCvPQxHCQ",
         "moduleVideoDescription": "Stroke",
         "moduleVideoTimeAvailable": "Disponible a partir del 16 de septiembre",
         "moduleQuizzText": "Cuestionario",
         "moduleQuizzId": "m6_v2",
-        "isLocked": "true",
+        "isLocked": "false",
         "quizzIsLocked": "true"
       },
       {
