@@ -354,13 +354,13 @@
       },
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
-        "moduleVideoTitle": "video n° 33",
-        "moduleVideoUrl": "https://www.youtube.com/embed/7cIpZ_9u3R8",
+        "moduleVideoTitle": "video n° 3",
+        "moduleVideoUrl": "https://www.youtube.com/embed/35yZgC7G4Qg",
         "moduleVideoDescription": "Manejo de la Hipertensión endocraneana en TEC grave",
         "moduleVideoTimeAvailable": "Disponible a partir del 23 de septiembre",
         "moduleQuizzText": "Cuestionario",
         "moduleQuizzId": "m6_v3",
-        "isLocked": "true",
+        "isLocked": "false",
         "quizzIsLocked": "true"
       }
     ],
