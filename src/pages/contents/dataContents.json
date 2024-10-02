@@ -388,26 +388,35 @@
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
         "moduleVideoTitle": "video n° 1",
-        "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
-        "moduleVideoDescription": "Descripcion a completar",
-        "moduloVideoTimeAvailable": "Disponible a partir del 3 de mayo",
-        "isLocked": "true"
+        "moduleVideoUrl": "https://www.youtube.com/embed/eTEWXvc8azg",
+        "moduleVideoDescription": "Síndrome de Distres Respiratorio Grave",
+        "moduleVideoTimeAvailable": "Disponible a partir del 1 de octubre",
+        "moduleQuizzText": "Cuestionario",
+        "moduleQuizzId": "m7_v1",
+        "isLocked": "false",
+        "quizzIsLocked": "true"
       },
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
-        "moduleVideoTitle": "video n° 1",
-        "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
-        "moduleVideoDescription": "Descripcion a completar",
-        "moduleVideoTimeAvailable": "Disponible a partir del 3 de mayo",
-        "isLocked": "true"
+        "moduleVideoTitle": "video n° 2",
+        "moduleVideoUrl": "https://www.youtube.com/embed/XeFe8QubjG4",
+        "moduleVideoDescription": "",
+        "moduleVideoTimeAvailable": "Disponible a partir del 8 de octubre",
+        "moduleQuizzText": "Cuestionario",
+        "moduleQuizzId": "m7_v2",
+        "isLocked": "true",
+        "quizzIsLocked": "true"
       },
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
-        "moduleVideoTitle": "video n° 1",
-        "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
-        "moduleVideoDescription": "Descripcion a completar",
-        "moduleVideoTimeAvailable": "Disponible a partir del 3 de mayo",
-        "isLocked": "true"
+        "moduleVideoTitle": "video n° 3",
+        "moduleVideoUrl": "https://www.youtube.com/embed/XeFe8QubjG4",
+        "moduleVideoDescription": "",
+        "moduleVideoTimeAvailable": "Disponible a partir del 15 de octubre",
+        "moduleQuizzText": "Cuestionario",
+        "moduleQuizzId": "m7_v3",
+        "isLocked": "true",
+        "quizzIsLocked": "true"
       }
     ],
     "moduleQuizzText": "Completar el quizz del Módulo nro. 3"
