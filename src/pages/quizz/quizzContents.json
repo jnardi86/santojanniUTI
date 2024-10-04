@@ -1190,5 +1190,73 @@
                 "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
             }
         }
+    },
+    {
+        "id": "m7_v1",
+        "generatedQuestions": {
+            "quizNumber": "Síndrome de Distres Respiratorio Grave",
+            "quizTitle": "Módulo 7 - Video 1",
+            "quizSynopsis": "",
+            "nrOfQuestions": "3",
+            "questions": [
+                {
+                    "question": "¿Cuál es una de las principales características del síndrome de distrés respiratorio agudo (SDRA) en cuanto a la oxigenación del paciente?",
+                    "questionType": "text",
+                    "questionPic": "",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- El nivel de PaFiO2 clasifica el distrés en leve, moderado y severo.",
+                        "b- El nivel de presión arterial sistólica clasifica el distrés en leve, moderado y severo.",
+                        "c- El nivel de saturación de oxígeno clasifica el distrés en leve, moderado y severo."
+                    ],
+                    "correctAnswer": "1",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "¿Qué tratamiento se recomienda precozmente en pacientes con SDRA moderado a severo y PaFiO2 menor a 150 mmHg?",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Colocar al paciente en decúbito supino.",
+                        "b- Colocar al paciente en decúbito prono.",
+                        "c- Aumentar el volumen corriente a más de 8 ml/kg."
+                    ],
+                    "correctAnswer": "2",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "¿Qué volumen corriente se recomienda para la ventilación mecánica protectora en pacientes con SDRA?",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- De 8 a 10 ml/kg de peso corporal.",
+                        "b- De 6 ml/kg o menos de peso corporal.",
+                        "c- De 10 a 12 ml/kg de peso corporal."
+                    ],
+                    "correctAnswer": "2",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "34"
+                }
+            ],
+            "appLocale": {
+                "landingHeaderText": "<questionLength> preguntas",
+                "question": "Pregunta",
+                "startQuizBtn": "Comenzar",
+                "resultFilterAll": "Todas",
+                "resultFilterCorrect": "Correcto",
+                "resultFilterIncorrect": "Incorrecto",
+                "prevQuestionBtn": "Previa",
+                "nextQuestionBtn": "Siguiente",
+                "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
+            }
+        }
     }
 ]
