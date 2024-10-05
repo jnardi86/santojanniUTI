@@ -1192,6 +1192,93 @@
         }
     },
     {
+        "id": "m6_v1",
+        "generatedQuestions": {
+            "quizNumber": "Hemorragia Subaracnoidea desde un enfoque Neurointensivo",
+            "quizTitle": "Módulo 6 - Video 1",
+            "quizSynopsis": "",
+            "nrOfQuestions": "4",
+            "questions": [
+                {
+                    "question": "Se presenta a la guardia un paciente masculino de 49 años de edad, con antecedente de hipertensión, que según refieren sus familiares comenzó con un cuadro clínico agudo hace menos de una hora. Al examen físico se encuentra vigil, con una afasia total, hemiparesia severa facio-braquio-crural derecha (no vence la gravedad con pierna ni brazo), pupilas intermedias isocóricas y reactivas, obedece órdenes, no impresiona alteraciones visuales ni sensitivas. No presenta otros antecedentes de relevancia y al momento del examen posee una glucemia de 110 y una TA de 175/100 mmHg. Se realiza la TC de encéfalo que evidencia un acv isquémico en el territorio izquierdo. Marque la correcta:",
+                    "questionType": "text",
+                    "questionPic": "",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Posee un NIHSS entre 5 y 10. Solicito estudios vasculares y con el resultado se definirá si trombolisis o trombectomía mecánica.",
+                        "b- Posee un NIHSS entre 5 y 10. Podría iniciar trombolíticos si no tiene ninguna contraindicación.",
+                        "c- Posee un NIHSS mayor a 10. Sospecho oclusión de gran vaso, solicito estudio vascular, y según el resultado se iniciará trombolisis y trombectomía mecánica.",
+                        "d- Posee un NIHSS mayor a 25. Dada la extensión del acv, no es pasible de trombolisis. Solicito estudio vascular para evaluar posibilidad de trombectomía mecánica."
+                    ],
+                    "correctAnswer": "3",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "25"
+                },
+                {
+                    "question": "Se presenta en guardia un paciente masculino de 45 años de edad sin APP de relevancia, refiriendo cefalea aguda de intensidad 8/10, de aproximadamente 8hs de evolución. Refiere que es la primera vez que le sucede y que inició  luego de realizar ejercicio físico intenso. No refiere pérdida de conocimiento ni cervicalgia a la movilización activa o pasiva. Ante la sospecha de HSA aneurismática usted indica una TC de encéfalo la cual no evidencia signos de sangrado reciente. ¿Cómo maneja el caso a continuación? ",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Impresiona primer episodio de migraña, le da el alta con AINEs orales y pautas de alarma.",
+                        "b- Impresiona primer episodio de migraña, decide internarlo en guardia para manejo de cefalea con AINEs EV.",
+                        "c- Continúa la sospecha de HSA. Indica punción lumbar de urgencia.",
+                        "d- Continúa la sospecha de HSA. Solicita angioRM de urgencia."
+                    ],
+                    "correctAnswer": "3",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "25"
+                },
+                {
+                    "question": "Con respecto al riesgo de resangrado, marque la opción incorrecta:",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- La obliteración del aneurisma es el único método eficaz para prevenir el resangrado.",
+                        "b- El ácido tranexámico ha mostrado reducir de manera significativa la tasa de resangrado.",
+                        "c- Se debe realizar reducción gradual de la TA en casos de HTA severa, evitando la hipotensión y con monitoreo constante de estado neurológico.",
+                        "d- En pacientes anticoagulados está indicada la reversión de urgencia."
+                    ],
+                    "correctAnswer": "2",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "25"
+                },
+                {
+                    "question": "¿Cuál de las siguientes opciones no es predictora para la detección de vasoespasmo en pacientes con HSA?",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Deterioro neurológico focal o caída de 2 puntos del GCS durante al menos 1 hs. No atribuible a otras causas.",
+                        "b- Nuevo infarto cerebral en TC o RMN posterior  6 semanas desde el evento hemorrágico. No atribuible a otras causas.",
+                        "c- Velocidad media de FSC >o= a 120 cm/s e índice de Lindegaard >o= a 3 en ACM.",
+                        "d- AngioTC que evidencie defecto de relleno vascular, en pacientes con examen neurológico limitado y elevación de lecturas del doppler transcraneal."
+                    ],
+                    "correctAnswer": "2",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "25"
+                }
+            ],
+            "appLocale": {
+                "landingHeaderText": "<questionLength> preguntas",
+                "question": "Pregunta",
+                "startQuizBtn": "Comenzar",
+                "resultFilterAll": "Todas",
+                "resultFilterCorrect": "Correcto",
+                "resultFilterIncorrect": "Incorrecto",
+                "prevQuestionBtn": "Previa",
+                "nextQuestionBtn": "Siguiente",
+                "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
+            }
+        }
+    },
+    {
         "id": "m7_v1",
         "generatedQuestions": {
             "quizNumber": "Síndrome de Distres Respiratorio Grave",
@@ -1240,6 +1327,77 @@
                         "c- De 10 a 12 ml/kg de peso corporal."
                     ],
                     "correctAnswer": "2",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "34"
+                }
+            ],
+            "appLocale": {
+                "landingHeaderText": "<questionLength> preguntas",
+                "question": "Pregunta",
+                "startQuizBtn": "Comenzar",
+                "resultFilterAll": "Todas",
+                "resultFilterCorrect": "Correcto",
+                "resultFilterIncorrect": "Incorrecto",
+                "prevQuestionBtn": "Previa",
+                "nextQuestionBtn": "Siguiente",
+                "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
+            }
+        }
+    },
+    {
+        "id": "m6_v3",
+        "generatedQuestions": {
+            "quizNumber": "Manejo de la Hipertensión endocraneana en TEC grave",
+            "quizTitle": "Módulo 6 - Video 3",
+            "quizSynopsis": "",
+            "nrOfQuestions": "3",
+            "questions": [
+                {
+                    "question": "Con respecto al tratamiento de la HTE de primera línea: Marque la opción que considere correcta",
+                    "questionType": "text",
+                    "questionPic": "",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- La Craniectomía Descompresiva es el tratamiento de primera línea de elección debido a la disminución de la morbi-mortalidad",
+                        "b- El Tratamiento Medico inicial consiste en la administración de Corticoides",
+                        "c- La Hipotermia Profiláctica ha demostrado disminuir la mortalidad en pacientes con HTE",
+                        "d- El Tratamiento Medico inicial consiste en la administración de Soluciones Hipertónicas"
+                    ],
+                    "correctAnswer": "4",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "Con respecto a la Craniectomía Descompresiva: Marque la opción que considere correcta",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Es el tratamiento por elección en el manejo de la HTE",
+                        "b- Es el tratamiento inicial en el manejo de la HTE",
+                        "c- Está demostrado que mejora el  Outcome Neurológico",
+                        "d- Es un procedimiento con baja Morbi-mortalidad"
+                    ],
+                    "correctAnswer": "3",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "Marque la correcta respecto al manejo de HTE:",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- La Hiperventilación es una medida eficaz que siempre debe ser utilizada",
+                        "b- Mantener TAM mayor a 90 mmHg con el objetivo de garantizar la PPC",
+                        "c- Se debe realizar un control estricto de la PIC en todo TEC Grave",
+                        "d- Las opciones B y C son correctas"
+                    ],
+                    "correctAnswer": "4",
                     "messageForCorrectAnswer": "Correcto!",
                     "messageForIncorrectAnswer": "Incorrecto",
                     "explanation": "",
