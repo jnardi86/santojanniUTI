@@ -399,12 +399,12 @@
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
         "moduleVideoTitle": "video n° 2",
-        "moduleVideoUrl": "https://www.youtube.com/embed/XeFe8QubjG4",
+        "moduleVideoUrl": "https://www.youtube.com/embed/J5gHqfc70Kc",
         "moduleVideoDescription": "",
         "moduleVideoTimeAvailable": "Disponible a partir del 8 de octubre",
         "moduleQuizzText": "Cuestionario",
         "moduleQuizzId": "m7_v2",
-        "isLocked": "true",
+        "isLocked": "false",
         "quizzIsLocked": "true"
       },
       {
