@@ -405,7 +405,7 @@
         "moduleQuizzText": "Cuestionario",
         "moduleQuizzId": "m7_v2",
         "isLocked": "false",
-        "quizzIsLocked": "true"
+        "quizzIsLocked": "false"
       },
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",

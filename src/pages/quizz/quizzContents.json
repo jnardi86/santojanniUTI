@@ -1347,57 +1347,54 @@
         }
     },
     {
-        "id": "m6_v3",
+        "id": "m7_v2",
         "generatedQuestions": {
-            "quizNumber": "Manejo de la Hipertensión endocraneana en TEC grave",
-            "quizTitle": "Módulo 6 - Video 3",
+            "quizNumber": "Instrumentación de la via aérea",
+            "quizTitle": "Módulo 7 - Video 2",
             "quizSynopsis": "",
             "nrOfQuestions": "3",
             "questions": [
                 {
-                    "question": "Con respecto al tratamiento de la HTE de primera línea: Marque la opción que considere correcta",
+                    "question": "¿Qué herramienta se está incorporando lentamente en las terapias intensivas, similar a la ecografía pulmonar?",
                     "questionType": "text",
                     "questionPic": "",
                     "answerSelectionType": "single",
                     "answers": [
-                        "a- La Craniectomía Descompresiva es el tratamiento de primera línea de elección debido a la disminución de la morbi-mortalidad",
-                        "b- El Tratamiento Medico inicial consiste en la administración de Corticoides",
-                        "c- La Hipotermia Profiláctica ha demostrado disminuir la mortalidad en pacientes con HTE",
-                        "d- El Tratamiento Medico inicial consiste en la administración de Soluciones Hipertónicas"
+                        "a- Fibra óptica",
+                        "b- Endoscopía con endoscopios de un solo uso",
+                        "c- Radiografías de tórax"
                     ],
-                    "correctAnswer": "4",
+                    "correctAnswer": "2",
                     "messageForCorrectAnswer": "Correcto!",
                     "messageForIncorrectAnswer": "Incorrecto",
                     "explanation": "",
                     "point": "33"
                 },
                 {
-                    "question": "Con respecto a la Craniectomía Descompresiva: Marque la opción que considere correcta",
+                    "question": "¿Cuál es el score más común utilizado para guiar la intubación en pacientes con vía aérea dificultosa?",
                     "questionType": "text",
                     "answerSelectionType": "single",
                     "answers": [
-                        "a- Es el tratamiento por elección en el manejo de la HTE",
-                        "b- Es el tratamiento inicial en el manejo de la HTE",
-                        "c- Está demostrado que mejora el  Outcome Neurológico",
-                        "d- Es un procedimiento con baja Morbi-mortalidad"
+                        "a- Score de Glasgow",
+                        "b- Score de Malati",
+                        "c- Score de McCormack"
                     ],
-                    "correctAnswer": "3",
+                    "correctAnswer": "2",
                     "messageForCorrectAnswer": "Correcto!",
                     "messageForIncorrectAnswer": "Incorrecto",
                     "explanation": "",
                     "point": "33"
                 },
                 {
-                    "question": "Marque la correcta respecto al manejo de HTE:",
+                    "question": "¿Qué debe descartarse al utilizar lidocaína en la endoscopía de pacientes ventilados?",
                     "questionType": "text",
                     "answerSelectionType": "single",
                     "answers": [
-                        "a- La Hiperventilación es una medida eficaz que siempre debe ser utilizada",
-                        "b- Mantener TAM mayor a 90 mmHg con el objetivo de garantizar la PPC",
-                        "c- Se debe realizar un control estricto de la PIC en todo TEC Grave",
-                        "d- Las opciones B y C son correctas"
+                        "a- Las primeras muestras de secreciones",
+                        "b- Los tubos orotraqueales pequeños",
+                        "c- El uso de oxígeno durante el procedimiento"
                     ],
-                    "correctAnswer": "4",
+                    "correctAnswer": "1",
                     "messageForCorrectAnswer": "Correcto!",
                     "messageForIncorrectAnswer": "Incorrecto",
                     "explanation": "",
