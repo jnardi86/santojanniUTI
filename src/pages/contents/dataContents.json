@@ -400,8 +400,8 @@
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
         "moduleVideoTitle": "video n° 2",
         "moduleVideoUrl": "https://www.youtube.com/embed/J5gHqfc70Kc",
-        "moduleVideoDescription": "",
-        "moduleVideoTimeAvailable": "Disponible a partir del 8 de octubre",
+        "moduleVideoDescription": "Instrumentación de la vía aérea",
+        "moduleVideoTimeAvailable": "Disponible a partir del 7 de octubre",
         "moduleQuizzText": "Cuestionario",
         "moduleQuizzId": "m7_v2",
         "isLocked": "false",
@@ -410,12 +410,12 @@
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
         "moduleVideoTitle": "video n° 3",
-        "moduleVideoUrl": "https://www.youtube.com/embed/XeFe8QubjG4",
-        "moduleVideoDescription": "",
-        "moduleVideoTimeAvailable": "Disponible a partir del 15 de octubre",
+        "moduleVideoUrl": "https://www.youtube.com/embed/XD4JqP9V7Zo",
+        "moduleVideoDescription": "EPOC",
+        "moduleVideoTimeAvailable": "Disponible a partir del 21 de octubre",
         "moduleQuizzText": "Cuestionario",
         "moduleQuizzId": "m7_v3",
-        "isLocked": "true",
+        "isLocked": "false",
         "quizzIsLocked": "true"
       }
     ],
