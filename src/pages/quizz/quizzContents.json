@@ -1413,5 +1413,73 @@
                 "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
             }
         }
+    },
+    {
+        "id": "m7_v3",
+        "generatedQuestions": {
+            "quizNumber": "EPOC",
+            "quizTitle": "Módulo 7 - Video 3",
+            "quizSynopsis": "",
+            "nrOfQuestions": "3",
+            "questions": [
+                {
+                    "question": "¿Cuál es uno de los principales cambios en el tratamiento de pacientes con EPOC en terapia intensiva según las nuevas guías?",
+                    "questionType": "text",
+                    "questionPic": "",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Uso de ventilación mecánica invasiva como primera opción",
+                        "b- Inicio temprano de la triple terapia, incluyendo un corticoide inhalado",
+                        "c- Aumento de la frecuencia de rehabilitación pulmonar después del alta"
+                    ],
+                    "correctAnswer": "2",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "¿Cuál es el riesgo relativo de mortalidad cardiovascular en pacientes con EPOC en los primeros días después de una exacerbación grave?",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- 3 veces mayor en los primeros 10 días",
+                        "b- 10 veces mayor en los primeros 30 días",
+                        "c- 5 veces mayor en los primeros 5 días"
+                    ],
+                    "correctAnswer": "2",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "Según la charla, ¿qué porcentaje de muertes en pacientes con EPOC está relacionado con eventos cardiovasculares?",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- 20%",
+                        "b- 30%",
+                        "c- 40%"
+                    ],
+                    "correctAnswer": "3",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "34"
+                }
+            ],
+            "appLocale": {
+                "landingHeaderText": "<questionLength> preguntas",
+                "question": "Pregunta",
+                "startQuizBtn": "Comenzar",
+                "resultFilterAll": "Todas",
+                "resultFilterCorrect": "Correcto",
+                "resultFilterIncorrect": "Incorrecto",
+                "prevQuestionBtn": "Previa",
+                "nextQuestionBtn": "Siguiente",
+                "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
+            }
+        }
     }
 ]
