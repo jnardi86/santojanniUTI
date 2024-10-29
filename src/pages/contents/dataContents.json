@@ -440,26 +440,24 @@
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
         "moduleVideoTitle": "video n° 1",
-        "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
-        "moduleVideoDescription": "Descripcion a completar",
-        "moduloVideoTimeAvailable": "Disponible a partir del 3 de mayo",
-        "isLocked": "true"
+        "moduleVideoUrl": "https://www.youtube.com/embed/99UcgSq0jFg",
+        "moduleVideoDescription": "Medicina transfusional en el paciente crítico",
+        "moduleVideoTimeAvailable": "Disponible a partir del 28 de octubre",
+        "moduleQuizzText": "Cuestionario",
+        "moduleQuizzId": "m8_v1",
+        "isLocked": "false",
+        "quizzIsLocked": "true"
       },
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
         "moduleVideoTitle": "video n° 1",
-        "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
-        "moduleVideoDescription": "Descripcion a completar",
-        "moduleVideoTimeAvailable": "Disponible a partir del 3 de mayo",
-        "isLocked": "true"
-      },
-      {
-        "moduleVideoImg": "./Images_figma/marco_video_max.png",
-        "moduleVideoTitle": "video n° 1",
-        "moduleVideoUrl": "https://www.youtube.com/embed/q7xW_etiTuw",
-        "moduleVideoDescription": "Descripcion a completar",
-        "moduleVideoTimeAvailable": "Disponible a partir del 3 de mayo",
-        "isLocked": "true"
+        "moduleVideoUrl": "https://www.youtube.com/embed/eTEWXvc8azg",
+        "moduleVideoDescription": "",
+        "moduleVideoTimeAvailable": "Disponible a partir del 4 de noviembre",
+        "moduleQuizzText": "Cuestionario",
+        "moduleQuizzId": "m7_v2",
+        "isLocked": "true",
+        "quizzIsLocked": "true"
       }
     ],
     "moduleQuizzText": "Completar el quizz del Módulo nro. 3"
