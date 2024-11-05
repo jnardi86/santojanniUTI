@@ -1481,5 +1481,73 @@
                 "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
             }
         }
+    },
+    {
+        "id": "m8_v1",
+        "generatedQuestions": {
+            "quizNumber": "Medicina transfusional en el paciente crítico",
+            "quizTitle": "Módulo 8 - Video 1",
+            "quizSynopsis": "Medicina transfusional en el paciente crítico",
+            "nrOfQuestions": "3",
+            "questions": [
+                {
+                    "question": "¿Cuál es la donación de sangre más importante para una sangre segura según la OMS?",
+                    "questionType": "text",
+                    "questionPic": "",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Donación de reposición",
+                        "b- Donación voluntaria y no remunerada",
+                        "c- Donación con remuneración"
+                    ],
+                    "correctAnswer": "2",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "¿Cuál es el umbral de hemoglobina en el que se considera apropiado transfundir concentrado de glóbulos rojos en pacientes con anemia?",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Entre 7 y 10 g/dL",
+                        "b- Igual o mayor a 10 g/dL",
+                        "c- Menor a 8 g/dL"
+                    ],
+                    "correctAnswer": "1",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "¿Qué solución es compatible con una transfusión de glóbulos rojos?",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Dextrosa al 5%",
+                        "b- Ringer lactato",
+                        "c- Cloruro de sodio al 0.9%"
+                    ],
+                    "correctAnswer": "3",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "34"
+                }
+            ],
+            "appLocale": {
+                "landingHeaderText": "<questionLength> preguntas",
+                "question": "Pregunta",
+                "startQuizBtn": "Comenzar",
+                "resultFilterAll": "Todas",
+                "resultFilterCorrect": "Correcto",
+                "resultFilterIncorrect": "Incorrecto",
+                "prevQuestionBtn": "Previa",
+                "nextQuestionBtn": "Siguiente",
+                "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
+            }
+        }
     }
 ]

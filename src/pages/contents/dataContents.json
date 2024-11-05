@@ -433,7 +433,7 @@
     "moduleTextAvailable": "Próximamente",
     "oradores": [
       {
-        "id": "7"
+        "id": "14"
       }
     ],
     "multimedia": [
@@ -446,17 +446,17 @@
         "moduleQuizzText": "Cuestionario",
         "moduleQuizzId": "m8_v1",
         "isLocked": "false",
-        "quizzIsLocked": "true"
+        "quizzIsLocked": "false"
       },
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
-        "moduleVideoTitle": "video n° 1",
-        "moduleVideoUrl": "https://www.youtube.com/embed/eTEWXvc8azg",
-        "moduleVideoDescription": "",
+        "moduleVideoTitle": "video n° 2",
+        "moduleVideoUrl": "https://www.youtube.com/embed/adqa-6NT-6E",
+        "moduleVideoDescription": "Riesgo de transmisión de infecciones por vía transfusional",
         "moduleVideoTimeAvailable": "Disponible a partir del 4 de noviembre",
         "moduleQuizzText": "Cuestionario",
-        "moduleQuizzId": "m7_v2",
-        "isLocked": "true",
+        "moduleQuizzId": "m8_v2",
+        "isLocked": "false",
         "quizzIsLocked": "true"
       }
     ],
