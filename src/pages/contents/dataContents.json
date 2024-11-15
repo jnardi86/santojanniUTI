@@ -31,7 +31,6 @@
         "moduleQuizzId": "m1_v1",
         "isLocked": "false",
         "quizzIsLocked": "false"
-
       },
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
@@ -434,6 +433,9 @@
     "oradores": [
       {
         "id": "14"
+      },
+      {
+        "id": "10"
       }
     ],
     "multimedia": [
@@ -456,6 +458,17 @@
         "moduleVideoTimeAvailable": "Disponible a partir del 4 de noviembre",
         "moduleQuizzText": "Cuestionario",
         "moduleQuizzId": "m8_v2",
+        "isLocked": "false",
+        "quizzIsLocked": "true"
+      },
+      {
+        "moduleVideoImg": "./Images_figma/marco_video_max.png",
+        "moduleVideoTitle": "video n° 3",
+        "moduleVideoUrl": "https://www.youtube.com/embed/-urLfG25qEE",
+        "moduleVideoDescription": "Miastenia Gravis",
+        "moduleVideoTimeAvailable": "Disponible a partir del 15 de noviembre",
+        "moduleQuizzText": "Cuestionario",
+        "moduleQuizzId": "m8_v3",
         "isLocked": "false",
         "quizzIsLocked": "true"
       }
