@@ -1549,5 +1549,186 @@
                 "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
             }
         }
+    },
+    {
+        "id": "m8_v2",
+        "generatedQuestions": {
+            "quizNumber": "Riesgo de transmisión de infecciones por vía transfusional",
+            "quizTitle": "Módulo 8 - Video 2",
+            "quizSynopsis": "Riesgo de transmisión de infecciones por vía transfusional",
+            "nrOfQuestions": "3",
+            "questions": [
+                {
+                    "question": "¿Cuál es el objetivo principal de la seguridad transfusional?",
+                    "questionType": "text",
+                    "questionPic": "",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Reducir los costos de los bancos de sangre.",
+                        "b- Minimizar el riesgo de transmitir infecciones por transfusió",
+                        "c- Incrementar la cantidad de donantes por región"
+                    ],
+                    "correctAnswer": "2",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "¿Qué es el proceso de autoexclusión en la donación de sangre?",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Una etapa donde se descartan componentes sanguíneos no compatibles.",
+                        "b- Un proceso donde el donante reflexiona sobre si su sangre es segura para ser utilizada",
+                        "c- Una técnica para procesar la sangre antes de realizar pruebas de laboratorio"
+                    ],
+                    "correctAnswer": "2",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "¿Cuál es uno de los métodos para reducir el periodo de ventana en la detección de infecciones en componentes sanguíneos?",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Usar pruebas moleculares para detectar ácidos nucleicos (pruebas NAT)",
+                        "b- Realizar entrevistas más largas a los donantes",
+                        "c- Aumentar la cantidad de pruebas serológicas obligatorias"
+                    ],
+                    "correctAnswer": "1",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "34"
+                }
+            ],
+            "appLocale": {
+                "landingHeaderText": "<questionLength> preguntas",
+                "question": "Pregunta",
+                "startQuizBtn": "Comenzar",
+                "resultFilterAll": "Todas",
+                "resultFilterCorrect": "Correcto",
+                "resultFilterIncorrect": "Incorrecto",
+                "prevQuestionBtn": "Previa",
+                "nextQuestionBtn": "Siguiente",
+                "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
+            }
+        }
+    },
+    {
+        "id": "m8_v3",
+        "generatedQuestions": {
+            "quizNumber": "Miastenia Gravis",
+            "quizTitle": "Módulo 8 - Video 3",
+            "quizSynopsis": "Miastenia Gravis",
+            "nrOfQuestions": "2",
+            "questions": [
+                {
+                    "question": "En la Miastenia Gravis la principal acción del anticuerpo antireceptor colinérgico en la union neuromuscular es:",
+                    "questionType": "text",
+                    "questionPic": "",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Bloqueo del receptor colinergico postsináptico",
+                        "b- Aumento de la degradación e internalizacion del receptor",
+                        "c- Lísis postsináptica a través del complemento",
+                        "d- Bloqueo presináptico de la liberación de la Acetilcolina",
+                        "e- Alteracion del agrupamiento de receptores de Acetilcolina"
+                    ],
+                    "correctAnswer": "3",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "50"
+                },
+                {
+                    "question": "Un paciente con diagnóstico de miastenia gravis ingresa a la unidad de terapia intensiva en crisis miasténica. Hasta este momento, el paciente estaba recibiendo tratamiento con piridostigmina 60 mg cada 4 horas y prednisona 10 mg diarios. ¿Cuál es la conducta terapéutica inicial más adecuada en este caso?",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Aumentar la dosis de piridostigmina a 90 mg cada 4 horas.",
+                        "b- Discontinuar la piridostigmina y aumentar la dosis de prednisona",
+                        "c- Discontinuar la prednisona y administrar plasmaféresis",
+                        "d- Mantener la dosis de piridostigmina y aumentar la prednisona",
+                        "e- Considerar el uso de ventilación mecánica si es necesario y agregar inmunoglobulina intravenosa"
+                    ],
+                    "correctAnswer": "5",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "50"
+                }
+            ],
+            "appLocale": {
+                "landingHeaderText": "<questionLength> preguntas",
+                "question": "Pregunta",
+                "startQuizBtn": "Comenzar",
+                "resultFilterAll": "Todas",
+                "resultFilterCorrect": "Correcto",
+                "resultFilterIncorrect": "Incorrecto",
+                "prevQuestionBtn": "Previa",
+                "nextQuestionBtn": "Siguiente",
+                "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
+            }
+        }
+    },
+    {
+        "id": "m8_v4",
+        "generatedQuestions": {
+            "quizNumber": "Síndrome de Guillain-Barré",
+            "quizTitle": "Módulo 8 - Video 4",
+            "quizSynopsis": "Síndrome de Guillain-Barré",
+            "nrOfQuestions": "2",
+            "questions": [
+                {
+                    "question": "Un paciente con síndrome de Guillain-Barré en asistencia respiratoria mecánica completó un ciclo de tratamiento con inmunoglobulina intravenosa hace dos semanas y no ha mostrado mejoría clínica significativa. ¿Cuál es la conducta más adecuada en este momento?",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Iniciar un segundo ciclo de inmunoglobulina intravenosa",
+                        "b- Administrar corticosteroides a altas dosis",
+                        "c- Iniciar tratamiento con plasmaféresis como terapia adicional",
+                        "d- Continuar con soporte ventilatorio y manejo de cuidados intensivos, esperando la recuperación espontánea",
+                        "e- Iniciar tratamiento con rituximab."
+                    ],
+                    "correctAnswer": "4",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "50"
+                },
+                {
+                    "question": "En un paciente con síndrome de Guillain-Barré que requiere asistencia respiratoria mecánica (ARM), ¿cuál de los siguientes factores se asocia con un mayor riesgo de ventilación mecánica prolongada?",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Edad mayor de 40 años",
+                        "b- Variante clínica de Miller Fisher",
+                        "c- Variante axonal en estudios electrofisiológicos",
+                        "d- Inicio de la debilidad en las extremidades inferiores",
+                        "e- Ausencia de mejoría a las 2 semanas de culminado el tratamiento con plasmaferesis"
+                    ],
+                    "correctAnswer": "3",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "50"
+                }
+            ],
+            "appLocale": {
+                "landingHeaderText": "<questionLength> preguntas",
+                "question": "Pregunta",
+                "startQuizBtn": "Comenzar",
+                "resultFilterAll": "Todas",
+                "resultFilterCorrect": "Correcto",
+                "resultFilterIncorrect": "Incorrecto",
+                "prevQuestionBtn": "Previa",
+                "nextQuestionBtn": "Siguiente",
+                "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
+            }
+        }
     }
 ]

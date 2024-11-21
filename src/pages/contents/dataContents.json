@@ -459,7 +459,7 @@
         "moduleQuizzText": "Cuestionario",
         "moduleQuizzId": "m8_v2",
         "isLocked": "false",
-        "quizzIsLocked": "true"
+        "quizzIsLocked": "false"
       },
       {
         "moduleVideoImg": "./Images_figma/marco_video_max.png",
@@ -470,7 +470,18 @@
         "moduleQuizzText": "Cuestionario",
         "moduleQuizzId": "m8_v3",
         "isLocked": "false",
-        "quizzIsLocked": "true"
+        "quizzIsLocked": "false"
+      },
+      {
+        "moduleVideoImg": "./Images_figma/marco_video_max.png",
+        "moduleVideoTitle": "video n° 4",
+        "moduleVideoUrl": "https://www.youtube.com/embed/P3JhrfITTJE",
+        "moduleVideoDescription": "Síndrome de Guillain-Barré",
+        "moduleVideoTimeAvailable": "Disponible a partir del 20 de noviembre",
+        "moduleQuizzText": "Cuestionario",
+        "moduleQuizzId": "m8_v4",
+        "isLocked": "false",
+        "quizzIsLocked": "false"
       }
     ],
     "moduleQuizzText": "Completar el quizz del Módulo nro. 3"
