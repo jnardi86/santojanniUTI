@@ -436,6 +436,9 @@
       },
       {
         "id": "10"
+      },
+      {
+        "id": "15"
       }
     ],
     "multimedia": [
@@ -482,6 +485,17 @@
         "moduleQuizzId": "m8_v4",
         "isLocked": "false",
         "quizzIsLocked": "false"
+      },
+      {
+        "moduleVideoImg": "./Images_figma/marco_video_max.png",
+        "moduleVideoTitle": "video n° 5",
+        "moduleVideoUrl": "https://www.youtube.com/embed/m5XcXQFjg4I",
+        "moduleVideoDescription": "Manejo de Crisis Epilépticas en UTI",
+        "moduleVideoTimeAvailable": "Disponible a partir del 27 de noviembre",
+        "moduleQuizzText": "Cuestionario",
+        "moduleQuizzId": "m8_v5",
+        "isLocked": "false",
+        "quizzIsLocked": "true"
       }
     ],
     "moduleQuizzText": "Completar el quizz del Módulo nro. 3"
