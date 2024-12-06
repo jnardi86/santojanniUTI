@@ -1730,5 +1730,72 @@
                 "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
             }
         }
+    },
+    {
+        "id": "m8_v5",
+        "generatedQuestions": {
+            "quizNumber": "Manejo de Crisis Epilépticas en UTI",
+            "quizTitle": "Módulo 8 - Video 5",
+            "quizSynopsis": "Manejo de Crisis Epilépticas en UTI",
+            "nrOfQuestions": "3",
+            "questions": [
+                {
+                    "question": "¿Cuál es la definición de crisis epiléptica prolongada?",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Una crisis que dura menos de 5 minutos pero requiere intervención farmacológica.",
+                        "b- Una crisis que dura más de 5 minutos sin intervención farmacológica",
+                        "c- Una crisis que ocurre varias veces en un periodo de 24 horas."
+                    ],
+                    "correctAnswer": "1",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "Según la ILAE, ¿cuál es el tiempo T1 para iniciar el tratamiento del estatus epiléptico tónico-clónico generalizado?",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- 10 minutos.",
+                        "b- 5 minutos.",
+                        "c- 30 minutos."
+                    ],
+                    "correctAnswer": "2",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": " ¿Qué opción es recomendada como primera línea para tratar un estatus epiléptico convulsivo en la fase inicial (5-20 minutos)?",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Fenobarbital intravenoso.",
+                        "b- Benzodiacepinas.",
+                        "c- Levetiracetam intravenoso."
+                    ],
+                    "correctAnswer": "2",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "34"
+                }
+            ],
+            "appLocale": {
+                "landingHeaderText": "<questionLength> preguntas",
+                "question": "Pregunta",
+                "startQuizBtn": "Comenzar",
+                "resultFilterAll": "Todas",
+                "resultFilterCorrect": "Correcto",
+                "resultFilterIncorrect": "Incorrecto",
+                "prevQuestionBtn": "Previa",
+                "nextQuestionBtn": "Siguiente",
+                "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
+            }
+        }
     }
 ]
