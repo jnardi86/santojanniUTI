@@ -1,0 +1,503 @@
+[
+  {
+    "id": "cnt1",
+    "moduleIcon": "./iconos_modulos/sepsis_icon.svg",
+    "moduleTitle": "Sepsis e Infectología crítica",
+    "moduleNumber": "Módulo 1",
+    "startDate": "29 de abril",
+    "moduleDescription": "Es uno de los principales motivos de ingreso al Servicio de Terapia Intensiva. Los pacientes pueden  llegar a requerir ARM y drogas inotrópicas, además de antibióticos dirigidos al cuadro desencadenante.",
+    "moduleImageMobile": "./Images_figma/header_sepsis_mobile_max.png",
+    "moduleImageDesktop": "./Images_figma/header_sepsis_desktop_max.png",
+    "moduleTextAvailable": "Disponible a partir del 29 de abril",
+    "oradores": [
+      {
+        "id": "1"
+      },
+      {
+        "id": "2"
+      },
+      {
+        "id": "13"
+      }
+    ],
+    "multimedia": [
+      {
+        "moduleVideoImg": "./Images_figma/marco_video_max.png",
+        "moduleVideoTitle": "video n° 1",
+        "moduleVideoUrl": "https://www.youtube.com/embed/JvbrLb9eIlI",
+        "moduleVideoDescription": "Fisiopatología de la sepsis",
+        "moduleVideoTimeAvailable": "Disponible a partir del 29 de abril",
+        "moduleQuizzText": "Cuestionario video 1",
+        "moduleQuizzId": "m1_v1",
+        "isLocked": "false",
+        "quizzIsLocked": "false"
+      },
+      {
+        "moduleVideoImg": "./Images_figma/marco_video_max.png",
+        "moduleVideoTitle": "video n° 2",
+        "moduleVideoUrl": "https://www.youtube.com/embed/-4xLlhcd3i0",
+        "moduleVideoDescription": "Nuevas citoquinas involucradas y Marcadores serológicos",
+        "moduleVideoTimeAvailable": "Disponible a partir del 6 de mayo",
+        "moduleQuizzText": "Cuestionario video 2",
+        "moduleQuizzId": "m1_v2",
+        "isLocked": "false",
+        "quizzIsLocked": "false"
+      },
+      {
+        "moduleVideoImg": "./Images_figma/marco_video_max.png",
+        "moduleVideoTitle": "video n° 3",
+        "moduleVideoUrl": "https://www.youtube.com/embed/-S8jK_QzwB8",
+        "moduleVideoDescription": "Resistencia a los antimicrobianos - Nuevos desafíos",
+        "moduleVideoTimeAvailable": "Disponible a partir del 13 de mayo",
+        "moduleQuizzText": "Cuestionario video 3",
+        "moduleQuizzId": "m1_v3",
+        "isLocked": "false",
+        "quizzIsLocked": "false"
+      },
+      {
+        "moduleVideoImg": "./Images_figma/marco_video_max.png",
+        "moduleVideoTitle": "video n° 4",
+        "moduleVideoUrl": "https://www.youtube.com/embed/wkUHBIdF36s",
+        "moduleVideoDescription": "Dengue en Terapia Intensiva",
+        "moduleVideoTimeAvailable": "Disponible a partir del 20 de mayo",
+        "moduleQuizzText": "Cuestionario video 4",
+        "moduleQuizzId": "m1_v4",
+        "isLocked": "false",
+        "quizzIsLocked": "false"
+      },
+      {
+        "moduleVideoImg": "./Images_figma/marco_video_max.png",
+        "moduleVideoTitle": "video n° 5",
+        "moduleVideoUrl": "https://www.youtube.com/embed/kSI1BEwzfho",
+        "moduleVideoDescription": "Antibioticos y Multiresistencia en UTI ",
+        "moduleVideoTimeAvailable": "Disponible a partir del 27 de mayo",
+        "moduleQuizzText": "Cuestionario video 5",
+        "moduleQuizzId": "m1_v5",
+        "isLocked": "false",
+        "quizzIsLocked": "false"
+      }
+    ],
+    "moduleQuizzText": "Completar el quizz del Módulo nro. 1"
+  },
+  {
+    "id": "cnt2",
+    "moduleIcon": "./iconos_modulos/cardio_icon.svg",
+    "moduleTitle": "Cardiología",
+    "moduleNumber": "Módulo 2",
+    "startDate": "3 de junio",
+    "moduleDescription": "Las intercurrencias Cardiológicas son muy frecuentes, tanto la Hipertensión arterial como las taquiarritmias suelen complicar  los cuadros de base de los pacientes.",
+    "moduleImageMobile": "./Images_figma/header_cardio_mobile_max.png",
+    "moduleImageDesktop": "./Images_figma/header_cardio_desktop_max.png",
+    "moduleTextAvailable": "Disponible a partir del 3 de junio",
+    "oradores": [
+      {
+        "id": "3"
+      },
+      {
+        "id": "12"
+      }
+    ],
+    "multimedia": [
+      {
+        "moduleVideoImg": "./Images_figma/marco_video_max.png",
+        "moduleVideoTitle": "video n° 1",
+        "moduleVideoUrl": "https://www.youtube.com/embed/y-aOuqO1gcI",
+        "moduleVideoDescription": "Arritmias Supraventriculares",
+        "moduleVideoTimeAvailable": "Disponible a partir del 3 de junio",
+        "moduleQuizzText": "Cuestionario video 1",
+        "moduleQuizzId": "m2_v1",
+        "isLocked": "false",
+        "quizzIsLocked": "false"
+      },
+      {
+        "moduleVideoImg": "./Images_figma/marco_video_max.png",
+        "moduleVideoTitle": "video n° 2",
+        "moduleVideoUrl": "https://www.youtube.com/embed/pLzKCJFDgyQ",
+        "moduleVideoDescription": "Beta bloqueantes en UTI",
+        "moduleVideoTimeAvailable": "Disponible a partir del 10 de junio",
+        "moduleQuizzText": "Cuestionario video 2",
+        "moduleQuizzId": "m2_v2",
+        "isLocked": "false",
+        "quizzIsLocked": "false"
+      },
+      {
+        "moduleVideoImg": "./Images_figma/marco_video_max.png",
+        "moduleVideoTitle": "video n° 3",
+        "moduleVideoUrl": "https://www.youtube.com/embed/2PIoKfoztz0",
+        "moduleVideoDescription": "Taquicardias supraventriculares para urgencias UTI",
+        "moduleVideoTimeAvailable": "Disponible a partir del 17 de junio",
+        "moduleQuizzText": "Cuestionario video 3",
+        "moduleQuizzId": "m2_v3",
+        "isLocked": "false",
+        "quizzIsLocked": "false"
+      }
+    ],
+    "moduleQuizzText": "Completar el quizz del Módulo nro. 2"
+  },
+  {
+    "id": "cnt3",
+    "moduleIcon": "./iconos_modulos/nefro_icon.svg",
+    "moduleTitle": "Nefrología y medio interno",
+    "moduleNumber": "Módulo 3",
+    "startDate": "24 de junio",
+    "moduleDescription": "Las complicaciones de la función renal y que a su vez  motivan la alteración del medio interno son muy frecuentes ya que  atraviesan todas las patologías que vemos en el Servicio requiriendo en algunos pacientes diálisis.",
+    "moduleImageMobile": "./Images_figma/header_renal_mobile_max.png",
+    "moduleImageDesktop": "./Images_figma/header_renal_desktop_max.png",
+    "moduleTextAvailable": "Próximamente",
+    "oradores": [
+      {
+        "id": "4"
+      }
+    ],
+    "multimedia": [
+      {
+        "moduleVideoImg": "./Images_figma/marco_video_max.png",
+        "moduleVideoTitle": "video n° 1",
+        "moduleVideoUrl": "https://www.youtube.com/embed/i7ZwncFFloY",
+        "moduleVideoDescription": "Terapias de reemplazo renal continuas",
+        "moduleVideoTimeAvailable": "Disponible a partir del 24 de junio",
+        "moduleQuizzText": "Cuestionario video 1",
+        "moduleQuizzId": "m3_v1",
+        "isLocked": "false",
+        "quizzIsLocked": "false"
+      },
+      {
+        "moduleVideoImg": "./Images_figma/marco_video_max.png",
+        "moduleVideoTitle": "video n° 2",
+        "moduleVideoUrl": "https://www.youtube.com/embed/uU4fJJioRdI",
+        "moduleVideoDescription": "Estimación del volumen intravascular Protocolo VExUS",
+        "moduleVideoTimeAvailable": "Disponible a partir del 1 de julio",
+        "moduleQuizzText": "Cuestionario video 2",
+        "moduleQuizzId": "m3_v2",
+        "isLocked": "false",
+        "quizzIsLocked": "false"
+      },
+      {
+        "moduleVideoImg": "./Images_figma/marco_video_max.png",
+        "moduleVideoTitle": "video n° 3",
+        "moduleVideoUrl": "https://www.youtube.com/embed/6bT4cEOJKWs",
+        "moduleVideoDescription": "Glomerulonefritis rápidamente progresivas",
+        "moduleVideoTimeAvailable": "Disponible a partir del 8 de julio",
+        "moduleQuizzText": "Cuestionario video 3",
+        "moduleQuizzId": "m3_v3",
+        "isLocked": "false",
+        "quizzIsLocked": "false"
+      }
+    ],
+    "moduleQuizzText": "Completar el quizz del Módulo nro. 3"
+  },
+  {
+    "id": "cnt4",
+    "moduleIcon": "./iconos_modulos/nutricion_icon.svg",
+    "moduleTitle": "Endocrinología y Nutrición",
+    "moduleNumber": "Módulo 4",
+    "startDate": "15 de julio",
+    "moduleDescription": "La cetoacidosis diabética generada por múltiples causas  sigue siendo motivo de ingreso a Terapia Intensiva.",
+    "moduleImageMobile": "./Images_figma/header_nutri_mobile_max.png",
+    "moduleImageDesktop": "./Images_figma/header_nutri_desktop_max.png",
+    "moduleTextAvailable": "Próximamente",
+    "oradores": [
+      {
+        "id": "11"
+      },
+      {
+        "id": "5"
+      },
+      {
+        "id": "16"
+      }
+    ],
+    "multimedia": [
+      {
+        "moduleVideoImg": "./Images_figma/marco_video_max.png",
+        "moduleVideoTitle": "video n° 1",
+        "moduleVideoUrl": "https://www.youtube.com/embed/QvM7V3YDJkQ",
+        "moduleVideoDescription": "Coma Mixedematoso",
+        "moduleVideoTimeAvailable": "Disponible a partir del 15 de julio",
+        "moduleQuizzText": "Cuestionario video 1",
+        "moduleQuizzId": "m4_v1",
+        "isLocked": "false",
+        "quizzIsLocked": "false"
+      },
+      {
+        "moduleVideoImg": "./Images_figma/marco_video_max.png",
+        "moduleVideoTitle": "video n° 2",
+        "moduleVideoUrl": "https://www.youtube.com/embed/GWaOEg2iSYA",
+        "moduleVideoDescription": "Crisis Tirotóxica",
+        "moduleVideoTimeAvailable": "Disponible a partir del 22 de julio",
+        "moduleQuizzText": "Cuestionario video 2",
+        "moduleQuizzId": "m4_v2",
+        "isLocked": "false",
+        "quizzIsLocked": "false"
+      },
+      {
+        "moduleVideoImg": "./Images_figma/marco_video_max.png",
+        "moduleVideoTitle": "video n° 3",
+        "moduleVideoUrl": "https://www.youtube.com/embed/fDFUY5ylO_Q",
+        "moduleVideoDescription": "Cetoacidosis Diabética y Estado Hiperosmolar",
+        "moduleVideoTimeAvailable": "Disponible a partir del 29 de julio",
+        "moduleQuizzText": "Cuestionario video 3",
+        "moduleQuizzId": "m4_v3",
+        "isLocked": "false",
+        "quizzIsLocked": "false"
+      },
+      {
+        "moduleVideoImg": "./Images_figma/marco_video_max.png",
+        "moduleVideoTitle": "video n° 4",
+        "moduleVideoUrl": "https://www.youtube.com/embed/5fr_OtXSeeY",
+        "moduleVideoDescription": "Nutrición Enteral Paciente Crítico",
+        "moduleVideoTimeAvailable": "Disponible a partir del 5 de agosto",
+        "moduleQuizzText": "Cuestionario video 4",
+        "moduleQuizzId": "m4_v4",
+        "isLocked": "false",
+        "quizzIsLocked": "false"
+      },
+      {
+        "moduleVideoImg": "./Images_figma/marco_video_max.png",
+        "moduleVideoTitle": "video n° 5",
+        "moduleVideoUrl": "https://www.youtube.com/embed/S9JOT1cPYBI",
+        "moduleVideoDescription": "Nutrición Parenteral Paciente Crítico",
+        "moduleVideoTimeAvailable": "Disponible a partir del 12 de agosto",
+        "moduleQuizzText": "Cuestionario video 5",
+        "moduleQuizzId": "m4_v5",
+        "isLocked": "false",
+        "quizzIsLocked": "false"
+      }
+    ],
+    "moduleQuizzText": "Completar el quizz del Módulo nro. 3"
+  },
+  {
+    "id": "cnt5",
+    "moduleIcon": "./iconos_modulos/gastro_icon.svg",
+    "moduleTitle": "Gastro",
+    "moduleNumber": "Módulo 5",
+    "startDate": "26 de agosto",
+    "moduleDescription": "El stress que sufren los pacientes de Terapia Intensiva ya sea por la medicación que se les administra o el psicológico por la permanencia en el Servicio , les generan cuadros de Hemorragias digestivas altas o bajas en muchos casos con descompensación requiriendo la intervención de los especialistas.",
+    "moduleImageMobile": "./Images_figma/header_gastro_mobile_max.png",
+    "moduleImageDesktop": "./Images_figma/header_gastro_desktop_max.png",
+    "moduleTextAvailable": "Próximamente",
+    "oradores": [
+      {
+        "id": "6"
+      }
+    ],
+    "multimedia": [
+      {
+        "moduleVideoImg": "./Images_figma/marco_video_max.png",
+        "moduleVideoTitle": "video n° 1",
+        "moduleVideoUrl": "https://www.youtube.com/embed/4Oq2O3gj3Y0",
+        "moduleVideoDescription": "Hemorragia digestiva",
+        "moduleVideoTimeAvailable": "Disponible a partir del 26 de agosto",
+        "moduleQuizzText": "",
+        "moduleQuizzId": "m5_v1",
+        "isLocked": "false",
+        "quizzIsLocked": "true"
+      },
+      {
+        "moduleVideoImg": "./Images_figma/marco_video_max.png",
+        "moduleVideoTitle": "video n° 2",
+        "moduleVideoUrl": "https://www.youtube.com/embed/7cIpZ_9u3R8",
+        "moduleVideoDescription": "Hemorragia digestiva baja",
+        "moduleVideoTimeAvailable": "Disponible a partir del 2 de septiembre",
+        "moduleQuizzText": "Cuestionario",
+        "moduleQuizzId": "m5_v2",
+        "isLocked": "false",
+        "quizzIsLocked": "false"
+      }
+    ],
+    "moduleQuizzText": "Completar el quizz del Módulo nro. 3"
+  },
+  {
+    "id": "cnt6",
+    "moduleIcon": "./iconos_modulos/neuro_icon.svg",
+    "moduleTitle": "Neurocirugía | Neurología",
+    "moduleNumber": "Módulo 6",
+    "startDate": "16 de septiembre",
+    "moduleDescription": "El stress que sufren los pacientes de Terapia Intensiva ya sea por la medicación que se les administra o el psicológico por la permanencia en el Servicio , les generan cuadros de Hemorragias digestivas altas o bajas en muchos casos con descompensación requiriendo la intervención de los especialistas.",
+    "moduleImageMobile": "./Images_figma/header_neuro_mobile_max.png",
+    "moduleImageDesktop": "./Images_figma/header_neuro_desktop_max.png",
+    "moduleTextAvailable": "Próximamente",
+    "oradores": [
+      {
+        "id": "10"
+      },
+      {
+        "id": "7"
+      },
+      {
+        "id": "15"
+      }
+    ],
+    "multimedia": [
+      {
+        "moduleVideoImg": "./Images_figma/marco_video_max.png",
+        "moduleVideoTitle": "video n° 1",
+        "moduleVideoUrl": "https://www.youtube.com/embed/XeFe8QubjG4",
+        "moduleVideoDescription": "Hemorragia Subaracnoidea desde un enfoque Neurointensivo",
+        "moduleVideoTimeAvailable": "Disponible a partir del 9 de septiembre",
+        "moduleQuizzText": "Cuestionario",
+        "moduleQuizzId": "m6_v1",
+        "isLocked": "false",
+        "quizzIsLocked": "false"
+      },
+      {
+        "moduleVideoImg": "./Images_figma/marco_video_max.png",
+        "moduleVideoTitle": "video n° 2",
+        "moduleVideoUrl": "https://www.youtube.com/embed/q8JCvPQxHCQ",
+        "moduleVideoDescription": "Stroke",
+        "moduleVideoTimeAvailable": "Disponible a partir del 16 de septiembre",
+        "moduleQuizzText": "Cuestionario",
+        "moduleQuizzId": "m6_v2",
+        "isLocked": "false",
+        "quizzIsLocked": "true"
+      },
+      {
+        "moduleVideoImg": "./Images_figma/marco_video_max.png",
+        "moduleVideoTitle": "video n° 3",
+        "moduleVideoUrl": "https://www.youtube.com/embed/35yZgC7G4Qg",
+        "moduleVideoDescription": "Manejo de la Hipertensión endocraneana en TEC grave",
+        "moduleVideoTimeAvailable": "Disponible a partir del 23 de septiembre",
+        "moduleQuizzText": "Cuestionario",
+        "moduleQuizzId": "m6_v3",
+        "isLocked": "false",
+        "quizzIsLocked": "false"
+      }
+    ],
+    "moduleQuizzText": "Completar el quizz del Módulo nro. 3"
+  },
+  {
+    "id": "cnt7",
+    "moduleIcon": "./iconos_modulos/neumo_icon.svg",
+    "moduleTitle": "Respiratorio",
+    "moduleNumber": "Módulo 7",
+    "startDate": "14 de octubre",
+    "moduleDescription": "Los cuadros respiratorios tanto infecciosos como los generados por el hábito tabáquico suelen ingresar a la Terapia para su tratamiento, requiriendo en muchos casos instrumentación de la vía aérea tanto ARM como diagnóstica.",
+    "moduleImageMobile": "./Images_figma/header_respi_mobile_max.png",
+    "moduleImageDesktop": "./Images_figma/header_respi_desktop_max.png",
+    "moduleTextAvailable": "Próximamente",
+    "oradores": [
+      {
+        "id": "8"
+      },
+      {
+        "id": "9"
+      }
+    ],
+    "multimedia": [
+      {
+        "moduleVideoImg": "./Images_figma/marco_video_max.png",
+        "moduleVideoTitle": "video n° 1",
+        "moduleVideoUrl": "https://www.youtube.com/embed/eTEWXvc8azg",
+        "moduleVideoDescription": "Síndrome de Distres Respiratorio Grave",
+        "moduleVideoTimeAvailable": "Disponible a partir del 1 de octubre",
+        "moduleQuizzText": "Cuestionario",
+        "moduleQuizzId": "m7_v1",
+        "isLocked": "false",
+        "quizzIsLocked": "false"
+      },
+      {
+        "moduleVideoImg": "./Images_figma/marco_video_max.png",
+        "moduleVideoTitle": "video n° 2",
+        "moduleVideoUrl": "https://www.youtube.com/embed/J5gHqfc70Kc",
+        "moduleVideoDescription": "Instrumentación de la vía aérea",
+        "moduleVideoTimeAvailable": "Disponible a partir del 7 de octubre",
+        "moduleQuizzText": "Cuestionario",
+        "moduleQuizzId": "m7_v2",
+        "isLocked": "false",
+        "quizzIsLocked": "false"
+      },
+      {
+        "moduleVideoImg": "./Images_figma/marco_video_max.png",
+        "moduleVideoTitle": "video n° 3",
+        "moduleVideoUrl": "https://www.youtube.com/embed/XD4JqP9V7Zo",
+        "moduleVideoDescription": "EPOC",
+        "moduleVideoTimeAvailable": "Disponible a partir del 21 de octubre",
+        "moduleQuizzText": "Cuestionario",
+        "moduleQuizzId": "m7_v3",
+        "isLocked": "false",
+        "quizzIsLocked": "false"
+      }
+    ],
+    "moduleQuizzText": "Completar el quizz del Módulo nro. 3"
+  },
+  {
+    "id": "cnt8",
+    "moduleIcon": "./iconos_modulos/miscelanea_icon.svg",
+    "moduleTitle": "Miscelanea",
+    "moduleNumber": "Módulo 8",
+    "startDate": "4 de noviembre",
+    "moduleDescription": "Descripción Miscelanea en progreso",
+    "moduleImageMobile": "./Images_figma/header_miscelanea_mobile_max.png",
+    "moduleImageDesktop": "./Images_figma/header_miscelanea_desktop_max.png",
+    "moduleTextAvailable": "Próximamente",
+    "oradores": [
+      {
+        "id": "14"
+      },
+      {
+        "id": "10"
+      },
+      {
+        "id": "15"
+      }
+    ],
+    "multimedia": [
+      {
+        "moduleVideoImg": "./Images_figma/marco_video_max.png",
+        "moduleVideoTitle": "video n° 1",
+        "moduleVideoUrl": "https://www.youtube.com/embed/99UcgSq0jFg",
+        "moduleVideoDescription": "Medicina transfusional en el paciente crítico",
+        "moduleVideoTimeAvailable": "Disponible a partir del 28 de octubre",
+        "moduleQuizzText": "Cuestionario",
+        "moduleQuizzId": "m8_v1",
+        "isLocked": "false",
+        "quizzIsLocked": "false"
+      },
+      {
+        "moduleVideoImg": "./Images_figma/marco_video_max.png",
+        "moduleVideoTitle": "video n° 2",
+        "moduleVideoUrl": "https://www.youtube.com/embed/adqa-6NT-6E",
+        "moduleVideoDescription": "Riesgo de transmisión de infecciones por vía transfusional",
+        "moduleVideoTimeAvailable": "Disponible a partir del 4 de noviembre",
+        "moduleQuizzText": "Cuestionario",
+        "moduleQuizzId": "m8_v2",
+        "isLocked": "false",
+        "quizzIsLocked": "false"
+      },
+      {
+        "moduleVideoImg": "./Images_figma/marco_video_max.png",
+        "moduleVideoTitle": "video n° 3",
+        "moduleVideoUrl": "https://www.youtube.com/embed/-urLfG25qEE",
+        "moduleVideoDescription": "Miastenia Gravis",
+        "moduleVideoTimeAvailable": "Disponible a partir del 15 de noviembre",
+        "moduleQuizzText": "Cuestionario",
+        "moduleQuizzId": "m8_v3",
+        "isLocked": "false",
+        "quizzIsLocked": "false"
+      },
+      {
+        "moduleVideoImg": "./Images_figma/marco_video_max.png",
+        "moduleVideoTitle": "video n° 4",
+        "moduleVideoUrl": "https://www.youtube.com/embed/P3JhrfITTJE",
+        "moduleVideoDescription": "Síndrome de Guillain-Barré",
+        "moduleVideoTimeAvailable": "Disponible a partir del 20 de noviembre",
+        "moduleQuizzText": "Cuestionario",
+        "moduleQuizzId": "m8_v4",
+        "isLocked": "false",
+        "quizzIsLocked": "false"
+      },
+      {
+        "moduleVideoImg": "./Images_figma/marco_video_max.png",
+        "moduleVideoTitle": "video n° 5",
+        "moduleVideoUrl": "https://www.youtube.com/embed/m5XcXQFjg4I",
+        "moduleVideoDescription": "Manejo de Crisis Epilépticas en UTI",
+        "moduleVideoTimeAvailable": "Disponible a partir del 27 de noviembre",
+        "moduleQuizzText": "Cuestionario",
+        "moduleQuizzId": "m8_v5",
+        "isLocked": "false",
+        "quizzIsLocked": "false"
+      }
+    ],
+    "moduleQuizzText": "Completar el quizz del Módulo nro. 3"
+  }
+]

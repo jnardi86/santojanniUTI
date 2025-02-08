@@ -1,0 +1,1801 @@
+[
+    {
+        "id": "m1_v1",
+        "generatedQuestions": {
+            "quizNumber": "Fisiopatología de la Sepsis",
+            "quizTitle": "Módulo 1 - Video 1",
+            "quizSynopsis": "",
+            "nrOfQuestions": "3",
+            "questions": [
+                {
+                    "question": "La Sepsis se define actualmente como:",
+                    "questionType": "text",
+                    "questionPic": "",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a-La respuesta adecuada del huésped a la infección.",
+                        "b-La respuesta desrregulada del huésped a la infección.",
+                        "c-La falta de respuesta del huésped as la infección.",
+                        "d-La peor respuesta del huésped a la infección."
+                    ],
+                    "correctAnswer": "2",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "Entre los mecanismos de inmunosupresión en sepsis tenemos:",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a-Depleción apoteótica de células inmunes.",
+                        "b-Agotamiento celular.",
+                        "c-Menor expresión HLA-DR en monocitos",
+                        "d-Todas son correctas."
+                    ],
+                    "correctAnswer": "4",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "Cual de las siguientes alteraciones del endotelio se puede observar en pacientes sépticos:",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a-Vasoconstricción.",
+                        "b-Aumento de la expresión de moléculas de adhesión.",
+                        "c-La función de barrera no se altera.",
+                        "d-Disminuye la expresión del factor tisular."
+                    ],
+                    "correctAnswer": "2",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "34"
+                }
+            ],
+            "appLocale": {
+                "landingHeaderText": "<questionLength> preguntas",
+                "question": "Pregunta",
+                "startQuizBtn": "Comenzar",
+                "resultFilterAll": "Todas",
+                "resultFilterCorrect": "Correcto",
+                "resultFilterIncorrect": "Incorrecto",
+                "prevQuestionBtn": "Previa",
+                "nextQuestionBtn": "Siguiente",
+                "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
+            }
+        }
+    },
+    {
+        "id": "m1_v2",
+        "generatedQuestions": {
+            "quizNumber": "Citoquinas en Sepsis",
+            "quizTitle": "Módulo 1 - Video 2",
+            "quizSynopsis": "",
+            "nrOfQuestions": "3",
+            "questions": [
+                {
+                    "question": "Respecto a las citoquinas, marque la opción correcta:",
+                    "questionType": "text",
+                    "questionPic": "",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a-Son macromoléculas lipídicas con función de mensajería celular.",
+                        "b-Son proteínas mayormente solubles y de bajo peso molecular.",
+                        "c-Solamente aumentas en el shock séptico.",
+                        "d-Siempre son proinflamatorias."
+                    ],
+                    "correctAnswer": "2",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "Que una citoquina sea pleiotrópica se refiere a:",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a-Varias citoquinas actúan sobre una célula.",
+                        "b-Una citoquina bloquea la acción  de otra.",
+                        "c-Una citoquina actúa sobre diferentes células.",
+                        "d-Dos citoquinas se potencias y ejercen un determinado efecto."
+                    ],
+                    "correctAnswer": "3",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "Entre los criterios propuestos para definir una tormenta de citoquinas tenemos:",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a-Aumento de los niveles de citoquinas.",
+                        "b-Síntomas agudos de inflamación sistémica.",
+                        "c-Disfunción de órganos secundaria a la inflamación.",
+                        "d-Todas las anteriores son correctas."
+                    ],
+                    "correctAnswer": "4",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "34"
+                }
+            ],
+            "appLocale": {
+                "landingHeaderText": "<questionLength> preguntas",
+                "question": "Pregunta",
+                "startQuizBtn": "Comenzar",
+                "resultFilterAll": "Todas",
+                "resultFilterCorrect": "Correcto",
+                "resultFilterIncorrect": "Incorrecto",
+                "prevQuestionBtn": "Previa",
+                "nextQuestionBtn": "Siguiente",
+                "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
+            }
+        }
+    },
+    {
+        "id": "m1_v3",
+        "generatedQuestions": {
+            "quizNumber": "Resistencia a los antimicrobianos - Nuevos desafíos",
+            "quizTitle": "Módulo 1 - Video 3",
+            "quizSynopsis": "",
+            "nrOfQuestions": "3",
+            "questions": [
+                {
+                    "question": "¿Qué tomamos en cuenta al momento de indicar un antimicrobiano empírico? Elija una opción correcta:",
+                    "questionType": "text",
+                    "questionPic": "",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- El foco sospechado",
+                        "b- La epidemiología local",
+                        "c- Los antecedentes previos del paciente",
+                        "d- La gravedad del cuadro clínico",
+                        "e- Todas son correctas "
+                    ],
+                    "correctAnswer": "5",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "¿Cuáles de los siguientes antimicrobianos presenta una farmacodinamia tiempo- dependiente? Elija una opción correcta:",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Vancomicina",
+                        "b- Ciprofloxacina",
+                        "c- Meropenem",
+                        "c- Aminoglucósidos",
+                        "e- Metronidazol"
+                    ],
+                    "correctAnswer": "3",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "¿Cuál es el tiempo apropiado de tratamiento en las neumonías asociadas a ventilación mecánica? Elija una opción correcta:",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- 3 dias",
+                        "b- 14 días",
+                        "c- 10 días",
+                        "d- 5 días",
+                        "e- 7 días"
+                    ],
+                    "correctAnswer": "5",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "34"
+                }
+            ],
+            "appLocale": {
+                "landingHeaderText": "<questionLength> preguntas",
+                "question": "Pregunta",
+                "startQuizBtn": "Comenzar",
+                "resultFilterAll": "Todas",
+                "resultFilterCorrect": "Correcto",
+                "resultFilterIncorrect": "Incorrecto",
+                "prevQuestionBtn": "Previa",
+                "nextQuestionBtn": "Siguiente",
+                "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
+            }
+        }
+    },
+    {
+        "id": "m1_v4",
+        "generatedQuestions": {
+            "quizNumber": "Dengue en UTI",
+            "quizTitle": "Módulo 1 - Video 4",
+            "quizSynopsis": "",
+            "nrOfQuestions": "3",
+            "questions": [
+                {
+                    "question": "Con respecto a la gravedad en la infección por dengue la más frecuente es:",
+                    "questionType": "text",
+                    "questionPic": "",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- La extravasación plasmática",
+                        "b- Las Hemorragias",
+                        "c- La afectación cardiológica",
+                        "d- La afectación del SNC"
+                    ],
+                    "correctAnswer": "1",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "Cual es la forma de transmisión más frecuente del dengue. Marque la correcta",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Transmisión Materno-fetal",
+                        "b- Picadura por Aedes aegypti",
+                        "c- Transfusión sanguínea",
+                        "c- Todas son correctas"
+                    ],
+                    "correctAnswer": "2",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "El diagnóstico en la fase febril del dengue se realiza con:",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Detección de IGG para dengue",
+                        "b- Detección de IGM/IGG para dengue",
+                        "c- Detección de PCR y/o antigeno NS1",
+                        "d- Ninguna es correcta"
+                    ],
+                    "correctAnswer": "3",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "34"
+                }
+            ],
+            "appLocale": {
+                "landingHeaderText": "<questionLength> preguntas",
+                "question": "Pregunta",
+                "startQuizBtn": "Comenzar",
+                "resultFilterAll": "Todas",
+                "resultFilterCorrect": "Correcto",
+                "resultFilterIncorrect": "Incorrecto",
+                "prevQuestionBtn": "Previa",
+                "nextQuestionBtn": "Siguiente",
+                "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
+            }
+        }
+    },
+    {
+        "id": "m1_v5",
+        "generatedQuestions": {
+            "quizNumber": "Antibióticos y Multiresistencia en UTI",
+            "quizTitle": "Módulo 1 - Video 5",
+            "quizSynopsis": "",
+            "nrOfQuestions": "3",
+            "questions": [
+                {
+                    "question": "Señale la sentencia correcta respecto del Colistin:",
+                    "questionType": "text",
+                    "questionPic": "",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Inhibe la síntesis bacteriana.",
+                        "b- Inhibe la transpeptidación de la pared.",
+                        "c- Altera la permeabilidad de la membrana celular.",
+                        "d- Inhibe el ribosoma 30S.",
+                        "e- Estimula el ribosoma 30S."
+                    ],
+                    "correctAnswer": "3",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "Señale la sentencia correcta respecto del Aztreonam:",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- No pertenece al grupo los beta lactámicos.",
+                        "b- Es bactericida, con utilidad en infecciones por gran negativos.",
+                        "c- Es una polimixina",
+                        "d- No se asocia a Ceftazidime-Avibactam",
+                        "e- En pacientes alérgicos a la penicilina no se puede administrar."
+                    ],
+                    "correctAnswer": "2",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "Señale la sentencia correcta respecto del Linezolid:",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Inhibe a la MAO en forma no selectiva.",
+                        "b- No es útil en infecciones de piel y tejidos blandos.",
+                        "c- No es útil por VO.",
+                        "d- No ocasiona como efectos adversos síntomas digestivos.",
+                        "e- No es útil frente al enterococo faecium vancomicina resistente."
+                    ],
+                    "correctAnswer": "1",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "34"
+                }
+            ],
+            "appLocale": {
+                "landingHeaderText": "<questionLength> preguntas",
+                "question": "Pregunta",
+                "startQuizBtn": "Comenzar",
+                "resultFilterAll": "Todas",
+                "resultFilterCorrect": "Correcto",
+                "resultFilterIncorrect": "Incorrecto",
+                "prevQuestionBtn": "Previa",
+                "nextQuestionBtn": "Siguiente",
+                "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
+            }
+        }
+    },
+    {
+        "id": "m2_v1",
+        "generatedQuestions": {
+            "quizNumber": "Arritmias Supraventriculares",
+            "quizTitle": "Módulo 2 - Video 1",
+            "quizSynopsis": "",
+            "nrOfQuestions": "3",
+            "questions": [
+                {
+                    "question": "Contraindicaciones absolutas betabloqueantes cardio específicos como el bisoprolol:",
+                    "questionType": "text",
+                    "questionPic": "",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Infarto de miocardio.",
+                        "b- Insuficiencia cardíaca aguda.",
+                        "c- Frecuencia cardíaca 60 latidos por minuto regular."
+                    ],
+                    "correctAnswer": "2",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "Tramiento electivo de fibrilación auricular descompensada:",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Bisoprolol oral.",
+                        "b- Cardioversion eléctrica sincronizada.",
+                        "c- Amiodarona carga y mantenimiento "
+                    ],
+                    "correctAnswer": "2",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "Tratamiento electivo de taquicardia ventricular sin pulso:",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Lidocaina ev.",
+                        "b- Amiiodarona ev.",
+                        "c- Desfibrilacion."
+                    ],
+                    "correctAnswer": "3",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "34"
+                }
+            ],
+            "appLocale": {
+                "landingHeaderText": "<questionLength> preguntas",
+                "question": "Pregunta",
+                "startQuizBtn": "Comenzar",
+                "resultFilterAll": "Todas",
+                "resultFilterCorrect": "Correcto",
+                "resultFilterIncorrect": "Incorrecto",
+                "prevQuestionBtn": "Previa",
+                "nextQuestionBtn": "Siguiente",
+                "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
+            }
+        }
+    },
+    {
+        "id": "m2_v2",
+        "generatedQuestions": {
+            "quizNumber": "Beta bloqueantes en UTI",
+            "quizTitle": "Módulo 2 - Video 2",
+            "quizSynopsis": "",
+            "nrOfQuestions": "3",
+            "questions": [
+                {
+                    "question": "Indicaciones electivas de bisoprolol:",
+                    "questionType": "text",
+                    "questionPic": "",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Infarto de miocardio.",
+                        "b- Insuficiencia cardíaca aguda.",
+                        "c- Frecuencia cardíaca 60 latidos por minuto regular."
+                    ],
+                    "correctAnswer": "1",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "Tramiento electivo de fibrilación auricular no descompensada:",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Bisoprolol oral.",
+                        "b- Cardioversion eléctrica sincronizada.",
+                        "c- Amiodarona carga y mantenimiento "
+                    ],
+                    "correctAnswer": "1",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "Tratamiento como coadyuvante en la hipertension arterial ,el bisopolol, se indica a  dosis de:",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- 10 mg día EV.",
+                        "b- 10 mg día vo.",
+                        "c- Titulandolo vo hasta legar a la dosis máxima efectiva."
+                    ],
+                    "correctAnswer": "3",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "34"
+                }
+            ],
+            "appLocale": {
+                "landingHeaderText": "<questionLength> preguntas",
+                "question": "Pregunta",
+                "startQuizBtn": "Comenzar",
+                "resultFilterAll": "Todas",
+                "resultFilterCorrect": "Correcto",
+                "resultFilterIncorrect": "Incorrecto",
+                "prevQuestionBtn": "Previa",
+                "nextQuestionBtn": "Siguiente",
+                "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
+            }
+        }
+    },
+    {
+        "id": "m2_v3",
+        "generatedQuestions": {
+            "quizNumber": "Taquicardias supraventriculares para urgencias UTI",
+            "quizTitle": "Módulo 2 - Video 3",
+            "quizSynopsis": "",
+            "nrOfQuestions": "3",
+            "questions": [
+                {
+                    "question": "¿Cuál es el tratamiento inicial recomendado para las taquicardias de QRS angosto?",
+                    "questionType": "text",
+                    "questionPic": "",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Administración de adenosina (1 amp=6 mg) en bolo. Se puede repetir cada 1-2 min hasta dos bolos de 12 mg.",
+                        "b- Administración de amiodarona (1 amp=150 mg) en infusión continua. Se puede repetir cada 5-10 min hasta dos bolos de 300 mg.",
+                        "c- Administración de lidocaína (1 amp=100 mg) en bolo. Se puede repetir cada 3-5 min hasta dos bolos de 200 mg."
+                    ],
+                    "correctAnswer": "1",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "¿Cuál es el fármaco de primera elección para el control de la frecuencia en pacientes estables sin insuficiencia cardíaca?",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Inhibidores de la ECA como Enalapril o Lisinopril.",
+                        "b- Bloqueadores de canales de calcio como Amlodipino o Nifedipino.",
+                        "c- Beta bloqueantes o Bloqueantes Calcicos como Verapamil o Diltiazem."
+                    ],
+                    "correctAnswer": "3",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "¿Cuál es la tasa de éxito primario en la ablación de la fibrilación auricular?",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Éxito primario de 90%",
+                        "b- Éxito primario de 50%",
+                        "c- Éxito primario de 70%"
+                    ],
+                    "correctAnswer": "1",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "34"
+                }
+            ],
+            "appLocale": {
+                "landingHeaderText": "<questionLength> preguntas",
+                "question": "Pregunta",
+                "startQuizBtn": "Comenzar",
+                "resultFilterAll": "Todas",
+                "resultFilterCorrect": "Correcto",
+                "resultFilterIncorrect": "Incorrecto",
+                "prevQuestionBtn": "Previa",
+                "nextQuestionBtn": "Siguiente",
+                "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
+            }
+        }
+    },
+    {
+        "id": "m3_v1",
+        "generatedQuestions": {
+            "quizNumber": "Terapias de reemplazo renal continuas",
+            "quizTitle": "Módulo 3 - Video 1",
+            "quizSynopsis": "",
+            "nrOfQuestions": "3",
+            "questions": [
+                {
+                    "question": "¿Cuál es la definición correcta del mecanismo de convección?",
+                    "questionType": "text",
+                    "questionPic": "",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Es el transporte de solutos a través de una membrana semipermeable acompañada de solvente en respuesta a presión transmembrana positiva.",
+                        "b- Es la difusión de solutos a través de una membrana semipermeable en respuesta a un gradiente de concentración sin movimiento de solvente.",
+                        "c- Es la transferencia de calor desde el flujo sanguíneo a la membrana dializadora sin participación de solutos o solventes."
+                    ],
+                    "correctAnswer": "1",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "¿Cuál de los Sifuentes postulados define correctamente a una terapia de reemplazo renal continua?",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Las terapias de reemplazo renal continuas implican la administración intermitente de grandes volúmenes de solución dializante para inducir una rápida diuresis y compensación de electrolitos.",
+                        "b- Las terapias de reemplazo renal continuas se caracterizan por la eliminación rápida de toxinas y electrolitos exclusivamente a través de la difusión en sesiones de corta duración (menos de 4 hs).",
+                        "c- Las terapias de reemplazo renal continuas se basan en la eliminación gradual de fluidos y solutos mediante convección, permitiendo el aclaramiento de moléculas de mayor tamaño durante un tiempo prolongado (24 hs o más) con respecto a otras técnicas."
+                    ],
+                    "correctAnswer": "3",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "En orden de preferencia, ¿Cuáles son los sitios anatómicos para la colocación de accesos vasculares para terapias de reemplazo renal?",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Vena safena, Arteria radial, Vena basílica, Vena cefálica.",
+                        "b- Yugular interna derecha, Femoral, Yugular interna izquierda, Subclavias.",
+                        "c- Arteria carótida, Vena cava superior, Vena umbilical, Arteria femoral."
+                    ],
+                    "correctAnswer": "2",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "34"
+                }
+            ],
+            "appLocale": {
+                "landingHeaderText": "<questionLength> preguntas",
+                "question": "Pregunta",
+                "startQuizBtn": "Comenzar",
+                "resultFilterAll": "Todas",
+                "resultFilterCorrect": "Correcto",
+                "resultFilterIncorrect": "Incorrecto",
+                "prevQuestionBtn": "Previa",
+                "nextQuestionBtn": "Siguiente",
+                "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
+            }
+        }
+    },
+    {
+        "id": "m3_v2",
+        "generatedQuestions": {
+            "quizNumber": "Estimación del volumen intravascular Protocolo VExUS",
+            "quizTitle": "Módulo 3 - Video 2",
+            "quizSynopsis": "",
+            "nrOfQuestions": "3",
+            "questions": [
+                {
+                    "question": "¿Cuál es el mecanismo fisiopatológico en la genesis de la nefropatía congestiva?",
+                    "questionType": "text",
+                    "questionPic": "",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- El incremento de las presiones en las cavidades cardíacas derechas aumentan la poscarga renal y la presión intrarenal. Eso produce la activación del sistema renina-angiotensina-aldosterona por descenso del la perfusión renal y caída de la TFG, con incremento en la retención de sodio y agua. ",
+                        "b- La nefropatía congestiva se origina por una disminución en la actividad del sistema renina-angiotensina-aldosterona debido a un aumento en la perfusión renal.",
+                        "c- La nefropatía congestiva es causada por un exceso de filtración glomerular, lo que resulta en una pérdida excesiva de sodio y agua."
+                    ],
+                    "correctAnswer": "1",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "La exploración del paciente congestivo a través de ecografía pulmonar, FOCUS y VExUs permite:",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Evaluar únicamente la función renal, excluyendo la evaluación de la congestión cardíaca.",
+                        "b- Determinar el tipo de tratamiento quirúrgico más adecuado para la congestión pulmonar.",
+                        "c- Valorar el grado de congestión derecha e izquierda, lo que permite optimizar el tratamiento diurético o dialítico."
+                    ],
+                    "correctAnswer": "3",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "De encontrarse una vena cava inferior con un diametro inferior de 2 cm con colapso inspiratorio mayor al 50%, ¿Cuál es el paso correcto a seguir?",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Ajustar la dosis de diuréticos según los hallazgos, para mejorar el vaciamiento del ventrículo izquierdo.",
+                        "b- Yugular interna derecha, Femoral, Yugular interna izquierda, Subclavias.",
+                        "c- Suspender el estudio ya que se descarta la congestión vascular."
+                    ],
+                    "correctAnswer": "3",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "34"
+                }
+            ],
+            "appLocale": {
+                "landingHeaderText": "<questionLength> preguntas",
+                "question": "Pregunta",
+                "startQuizBtn": "Comenzar",
+                "resultFilterAll": "Todas",
+                "resultFilterCorrect": "Correcto",
+                "resultFilterIncorrect": "Incorrecto",
+                "prevQuestionBtn": "Previa",
+                "nextQuestionBtn": "Siguiente",
+                "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
+            }
+        }
+    },
+    {
+        "id": "m3_v3",
+        "generatedQuestions": {
+            "quizNumber": "Glomerulonefritis rápidamente progresivas",
+            "quizTitle": "Módulo 3 - Video 3",
+            "quizSynopsis": "",
+            "nrOfQuestions": "3",
+            "questions": [
+                {
+                    "question": "¿Cuál es la presentación clínica característica de las glomerulonefritis rápidamente evolutivas?",
+                    "questionType": "text",
+                    "questionPic": "",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Se presentan como un síndrome nefrítico que se instaura en el plazo de días o semanas.",
+                        "b- Se presentan como un síndrome nefrótico con edema generalizado y proteinuria masiva.",
+                        "c- Se presentan como una insuficiencia renal crónica con una progresión lenta a lo largo de varios meses."
+                    ],
+                    "correctAnswer": "1",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "En un paciente masculino de 65 años sin antecedentes previos de relevancia, que ingresa a UTI por cuadro de dos semanas de evolución de fiebre no mayor de 38 grados, astenia, adinamia y poliartralgias de igual tiempo presentación asociado a deterioro del ritmo diurético en las últimas 48 hs; evidenciadose en laboratorio de Cr 14 mg/dl, U 256 mg/dl, Hto 34%, 10-15 hematies por campo en el sedimento urinario y proteinuria ++. ¿Cuál sería la conducta a seguir?",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Administrar diuréticos de asa y repetir los estudios de laboratorio en 48 horas.",
+                        "b- Iniciar tratamiento empírico con antibióticos de amplio espectro y esperar la mejoría clínica antes de realizar más estudios.",
+                        "c- Solicitud ecografía renal para descartar signos de enfermedad renal crónica, sedimento urinario para búsqueda de eritrocitos dismórficos, realización de relación de proteinuria/creatininuria o proteinuria de 24 hs, solicitud de dosaje de ANCA y realización de anticuerpos antimembrana basal glomerular."
+                    ],
+                    "correctAnswer": "3",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "Ante un paciente con síndrome riñón-pulmón y presencia de anticuerpos antimembrana basal circulantes, ¿Qué tratamiento instauraría?",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Iniciar tratamiento con inhibidores de la ECA y bloqueadores de los canales de calcio para controlar la presión arterial y mejorar la función renal.",
+                        "b- Inicio de pulsos de metilprednisolona seguidos de ciclofosfamida endovenosa, plantear inicio de plasmaferesis con recambio de plasma fresco congelado.",
+                        "c- Administración de anticoagulantes y monitoreo de la función renal y pulmonar cada 48 horas."
+                    ],
+                    "correctAnswer": "2",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "34"
+                }
+            ],
+            "appLocale": {
+                "landingHeaderText": "<questionLength> preguntas",
+                "question": "Pregunta",
+                "startQuizBtn": "Comenzar",
+                "resultFilterAll": "Todas",
+                "resultFilterCorrect": "Correcto",
+                "resultFilterIncorrect": "Incorrecto",
+                "prevQuestionBtn": "Previa",
+                "nextQuestionBtn": "Siguiente",
+                "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
+            }
+        }
+    },
+    {
+        "id": "m4_v1",
+        "generatedQuestions": {
+            "quizNumber": "Coma Mixedematoso",
+            "quizTitle": "Módulo 4 - Video 1",
+            "quizSynopsis": "",
+            "nrOfQuestions": "3",
+            "questions": [
+                {
+                    "question": "¿Cuál de estos pacientes presenta mayor grado de sospecha de un coma mixedematoso?",
+                    "questionType": "text",
+                    "questionPic": "",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Paciente femenina que presenta bocio y se encuentra en estado de coma asociado a hipertermia, taquicardia y alcalosis metabólica.",
+                        "b- Paciente masculino sin antecedente de tiroideopatía que presenta somnolencia asociada a bradicardia, hipertensión, y alcalosis respiratoria.",
+                        "c- Paciente femenina con cicatriz a nivel cervical anterior, que presenta confusión asociada a hipotensión, hiponatremia y acidosis respiratoria.",
+                        "d- Paciente masculino con antecedente de hipotiroidismo, que presenta excitación psicomotrz asociada a hipotermia, hipernatremia y acidosis metabólica."
+                    ],
+                    "correctAnswer": "3",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "Ante la sospecha de coma mixedematoso lo más correcto sería:",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Solicitar dosaje de T4 y TSH y luego iniciar tratamiento con hormona tiroidea antes que otras medidas terapéuticas.",
+                        "b- Solicitar dosaje de T4, TSH y cortisol, realizar medidas de sostén hemodinámico e iniciar tratamiento empíricamente con hidrocortisona y hormona tiroidea.",
+                        "c- Solicitar dosaje de T4 y TSH e iniciar tratamiento empírico solo con hidrocortisona hasta tener los resultados de laboratorio.",
+                        "c- Solicitar dosaje de T4, TSH y cortisol y realizar medidas de sostén hemodinámico hasta tener los resultados de laboratorio."
+                    ],
+                    "correctAnswer": "2",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "Marque la incorrecta respecto al tratamiento con hormonas tiroideas del coma mixedematoso:",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- La vía de administración de preferencia es la endovenosa dado que la vía oral presenta absorción errática.",
+                        "b- Se puede utilizar indistintamente levotiroxina, liotironina o una combinación de ambas.",
+                        "c- En caso de administración endovenosa es preferible la infusión continua y en caso de utilizarse la vía oral conviene las múltiples dosis.",
+                        "c- En pacientes mayores o cardiópatas es preferible la T3 a la T4 dado que presenta menor riesgo de arritmias."
+                    ],
+                    "correctAnswer": "4",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "34"
+                }
+            ],
+            "appLocale": {
+                "landingHeaderText": "<questionLength> preguntas",
+                "question": "Pregunta",
+                "startQuizBtn": "Comenzar",
+                "resultFilterAll": "Todas",
+                "resultFilterCorrect": "Correcto",
+                "resultFilterIncorrect": "Incorrecto",
+                "prevQuestionBtn": "Previa",
+                "nextQuestionBtn": "Siguiente",
+                "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
+            }
+        }
+    },
+    {
+        "id": "m4_v2",
+        "generatedQuestions": {
+            "quizNumber": "Crisis Tirotóxica",
+            "quizTitle": "Módulo 4 - Video 2",
+            "quizSynopsis": "",
+            "nrOfQuestions": "3",
+            "questions": [
+                {
+                    "question": "¿Qué es la crisis tirotóxica?",
+                    "questionType": "text",
+                    "questionPic": "",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Es una emergencia por disminución de Hans tiroides.",
+                        "b- Es una emergencia endocrinológica por exceso de hormonas tiroideas.",
+                        "c- Es un aumento excesivo de anticuerpos antitiroideos.",
+                        "d- Todas son correctas."
+                    ],
+                    "correctAnswer": "2",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "¿Cuáles son los síntomas principales de la crisis tirotóxica?",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Alteración del nivel de conciencia.",
+                        "b- Fiebre alta.",
+                        "c- Taquicardia.",
+                        "c- Todas son correctas."
+                    ],
+                    "correctAnswer": "4",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "¿Qué tratamientos se utilizan para manejar una crisis tirotóxica?",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Soporte vital.",
+                        "b- Beta-bloqueantes.",
+                        "c- Antitiroideos.",
+                        "c- Todas son correctas."
+                    ],
+                    "correctAnswer": "4",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "34"
+                }
+            ],
+            "appLocale": {
+                "landingHeaderText": "<questionLength> preguntas",
+                "question": "Pregunta",
+                "startQuizBtn": "Comenzar",
+                "resultFilterAll": "Todas",
+                "resultFilterCorrect": "Correcto",
+                "resultFilterIncorrect": "Incorrecto",
+                "prevQuestionBtn": "Previa",
+                "nextQuestionBtn": "Siguiente",
+                "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
+            }
+        }
+    },
+    {
+        "id": "m4_v3",
+        "generatedQuestions": {
+            "quizNumber": "Cetoacidosis Diabética y Estado Hiperosmolar",
+            "quizTitle": "Módulo 4 - Video 3",
+            "quizSynopsis": "",
+            "nrOfQuestions": "3",
+            "questions": [
+                {
+                    "question": "¿Cuál de estos criterios es indicación de ingreso a Cuidados Intensivos en CAD?",
+                    "questionType": "text",
+                    "questionPic": "",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Taquicardia y taquipnea.",
+                        "b- Glucemia de 280mg/dl.",
+                        "c- Inestabilidad hemodinámica.",
+                        "d- Aliento cetónico.",
+                        "e- Ninguna es correcta."
+                    ],
+                    "correctAnswer": "3",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "¿Cuáles son los criterios de diagnóstico de SHH?",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Cetonuria positiva.",
+                        "b- Glucemia >600mg/dl.",
+                        "c- Osmolaridad =/< 300 mosm/l.",
+                        "d- Alteración del sensorio.",
+                        "e- B y D son correctas"
+                    ],
+                    "correctAnswer": "5",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "La indicación de infundir Bicarbonato en CAD es",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- pH 7.20.",
+                        "b- ph 6.9 y Co3H <9.",
+                        "c- Acidosis con TA 110/60.",
+                        "d- pH 7,35 con hipotensión marcada o coma profunda.",
+                        "e- B y D son correctas"
+                    ],
+                    "correctAnswer": "2",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "34"
+                }
+            ],
+            "appLocale": {
+                "landingHeaderText": "<questionLength> preguntas",
+                "question": "Pregunta",
+                "startQuizBtn": "Comenzar",
+                "resultFilterAll": "Todas",
+                "resultFilterCorrect": "Correcto",
+                "resultFilterIncorrect": "Incorrecto",
+                "prevQuestionBtn": "Previa",
+                "nextQuestionBtn": "Siguiente",
+                "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
+            }
+        }
+    },
+    {
+        "id": "m4_v4",
+        "generatedQuestions": {
+            "quizNumber": "Nutrición Enteral Paciente Crítico",
+            "quizTitle": "Módulo 4 - Video 4",
+            "quizSynopsis": "",
+            "nrOfQuestions": "3",
+            "questions": [
+                {
+                    "question": "¿Qué caracteriza a la nutrición enteral precoz según las guías de práctica clínica?",
+                    "questionType": "text",
+                    "questionPic": "",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Se inicia dentro de las 72 horas de la admisión del paciente.",
+                        "b- Se inicia dentro de las 48 horas de la admisión del paciente.",
+                        "c- Se inicia solo cuando el paciente está completamente estable hemodinámicamente."
+                    ],
+                    "correctAnswer": "2",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "¿Qué se debe considerar antes de comenzar con la nutrición enteral en un paciente crítico?",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- La estabilidad hemodinámica y la posibilidad de síndrome de realimentación.",
+                        "b- La presencia de ruidos intestinales.",
+                        "c- La tolerancia del paciente a la fórmula de nutrición enteral utilizada."
+                    ],
+                    "correctAnswer": "1",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "¿Cuál es el rango recomendado para el aporte proteico en pacientes críticos según las guías ESPEN?",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- 0.8 a 1.0 gramos por kilogramo por día.",
+                        "b- 1.3 a 2.0 gramos por kilogramo por día.",
+                        "c- 2.5 a 3.0 gramos por kilogramo por día."
+                    ],
+                    "correctAnswer": "2",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "34"
+                }
+            ],
+            "appLocale": {
+                "landingHeaderText": "<questionLength> preguntas",
+                "question": "Pregunta",
+                "startQuizBtn": "Comenzar",
+                "resultFilterAll": "Todas",
+                "resultFilterCorrect": "Correcto",
+                "resultFilterIncorrect": "Incorrecto",
+                "prevQuestionBtn": "Previa",
+                "nextQuestionBtn": "Siguiente",
+                "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
+            }
+        }
+    },
+    {
+        "id": "m4_v5",
+        "generatedQuestions": {
+            "quizNumber": "Nutrición Parental Paciente Crítico",
+            "quizTitle": "Módulo 4 - Video 5",
+            "quizSynopsis": "",
+            "nrOfQuestions": "3",
+            "questions": [
+                {
+                    "question": "¿Cuál es una de las indicaciones generales para iniciar nutrición parenteral en un paciente crítico?",
+                    "questionType": "text",
+                    "questionPic": "",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Pacientes con infecciones virales simples.",
+                        "b- Pacientes que no pueden utilizar su aparato digestivo para cubrir los requerimientos nutricionales",
+                        "c- Pacientes con trastornos menores de la digestión."
+                    ],
+                    "correctAnswer": "2",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "¿Cuál es la diferencia principal entre la nutrición parenteral continua y la cíclica?",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- La nutrición continua se administra en periodos de 12 a 18 horas, mientras que la cíclica en 24 horas.",
+                        "b- La nutrición continua se administra en 24 horas, mientras que la cíclica en periodos de 12 a 18 horas.",
+                        "c- La nutrición cíclica se usa solo en pacientes internados, mientras que la continua se usa en pacientes con soporte domiciliario."
+                    ],
+                    "correctAnswer": "2",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": " ¿Qué tipo de fórmula parenteral contiene macronutrientes, electrolitos, oligoelementos y vitaminas, y suele tener un costo mayor que las fórmulas industrializadas?",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Fórmulas estándar o industrializadas.",
+                        "b- Fórmulas con aporte exclusivo de glucosa.",
+                        "c- Fórmulas magistrales."
+                    ],
+                    "correctAnswer": "3",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "34"
+                }
+            ],
+            "appLocale": {
+                "landingHeaderText": "<questionLength> preguntas",
+                "question": "Pregunta",
+                "startQuizBtn": "Comenzar",
+                "resultFilterAll": "Todas",
+                "resultFilterCorrect": "Correcto",
+                "resultFilterIncorrect": "Incorrecto",
+                "prevQuestionBtn": "Previa",
+                "nextQuestionBtn": "Siguiente",
+                "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
+            }
+        }
+    },
+    {
+        "id": "m5_v2",
+        "generatedQuestions": {
+            "quizNumber": "Hemorragia digestiva | Hemorragia digestiva baja",
+            "quizTitle": "Módulo 5 - Video 1-2",
+            "quizSynopsis": "",
+            "nrOfQuestions": "3",
+            "questions": [
+                {
+                    "question": " La HDA no variceal presenta:",
+                    "questionType": "text",
+                    "questionPic": "",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Mayor mortalidad que la variceal",
+                        "b- Similar mortalidad a la variceal",
+                        "c- Depende de la ubicación de la varice",
+                        "d- Menor mortalidad que la variceal"
+                    ],
+                    "correctAnswer": "4",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "El tratamiento de elección para el sangrado variceal es:",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Escleroterapia endoscópica",
+                        "b- Ligadura endoscópica",
+                        "c- Balón de Sengstaken",
+                        "d- Ligadura masfarmacológica"
+                    ],
+                    "correctAnswer": "4",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "En la HDA con paciente con inestabilidad hemodinámica, se prefiere realizar como estudio diagnóstico/terapéutico:",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- VCC",
+                        "b- Control con GR marcados",
+                        "c- Arteriografía selectiva",
+                        "d- Tomografía computada con contraste"
+                    ],
+                    "correctAnswer": "3",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "34"
+                }
+            ],
+            "appLocale": {
+                "landingHeaderText": "<questionLength> preguntas",
+                "question": "Pregunta",
+                "startQuizBtn": "Comenzar",
+                "resultFilterAll": "Todas",
+                "resultFilterCorrect": "Correcto",
+                "resultFilterIncorrect": "Incorrecto",
+                "prevQuestionBtn": "Previa",
+                "nextQuestionBtn": "Siguiente",
+                "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
+            }
+        }
+    },
+    {
+        "id": "m6_v1",
+        "generatedQuestions": {
+            "quizNumber": "Hemorragia Subaracnoidea desde un enfoque Neurointensivo",
+            "quizTitle": "Módulo 6 - Video 1",
+            "quizSynopsis": "",
+            "nrOfQuestions": "4",
+            "questions": [
+                {
+                    "question": "Se presenta a la guardia un paciente masculino de 49 años de edad, con antecedente de hipertensión, que según refieren sus familiares comenzó con un cuadro clínico agudo hace menos de una hora. Al examen físico se encuentra vigil, con una afasia total, hemiparesia severa facio-braquio-crural derecha (no vence la gravedad con pierna ni brazo), pupilas intermedias isocóricas y reactivas, obedece órdenes, no impresiona alteraciones visuales ni sensitivas. No presenta otros antecedentes de relevancia y al momento del examen posee una glucemia de 110 y una TA de 175/100 mmHg. Se realiza la TC de encéfalo que evidencia un acv isquémico en el territorio izquierdo. Marque la correcta:",
+                    "questionType": "text",
+                    "questionPic": "",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Posee un NIHSS entre 5 y 10. Solicito estudios vasculares y con el resultado se definirá si trombolisis o trombectomía mecánica.",
+                        "b- Posee un NIHSS entre 5 y 10. Podría iniciar trombolíticos si no tiene ninguna contraindicación.",
+                        "c- Posee un NIHSS mayor a 10. Sospecho oclusión de gran vaso, solicito estudio vascular, y según el resultado se iniciará trombolisis y trombectomía mecánica.",
+                        "d- Posee un NIHSS mayor a 25. Dada la extensión del acv, no es pasible de trombolisis. Solicito estudio vascular para evaluar posibilidad de trombectomía mecánica."
+                    ],
+                    "correctAnswer": "3",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "25"
+                },
+                {
+                    "question": "Se presenta en guardia un paciente masculino de 45 años de edad sin APP de relevancia, refiriendo cefalea aguda de intensidad 8/10, de aproximadamente 8hs de evolución. Refiere que es la primera vez que le sucede y que inició  luego de realizar ejercicio físico intenso. No refiere pérdida de conocimiento ni cervicalgia a la movilización activa o pasiva. Ante la sospecha de HSA aneurismática usted indica una TC de encéfalo la cual no evidencia signos de sangrado reciente. ¿Cómo maneja el caso a continuación? ",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Impresiona primer episodio de migraña, le da el alta con AINEs orales y pautas de alarma.",
+                        "b- Impresiona primer episodio de migraña, decide internarlo en guardia para manejo de cefalea con AINEs EV.",
+                        "c- Continúa la sospecha de HSA. Indica punción lumbar de urgencia.",
+                        "d- Continúa la sospecha de HSA. Solicita angioRM de urgencia."
+                    ],
+                    "correctAnswer": "3",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "25"
+                },
+                {
+                    "question": "Con respecto al riesgo de resangrado, marque la opción incorrecta:",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- La obliteración del aneurisma es el único método eficaz para prevenir el resangrado.",
+                        "b- El ácido tranexámico ha mostrado reducir de manera significativa la tasa de resangrado.",
+                        "c- Se debe realizar reducción gradual de la TA en casos de HTA severa, evitando la hipotensión y con monitoreo constante de estado neurológico.",
+                        "d- En pacientes anticoagulados está indicada la reversión de urgencia."
+                    ],
+                    "correctAnswer": "2",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "25"
+                },
+                {
+                    "question": "¿Cuál de las siguientes opciones no es predictora para la detección de vasoespasmo en pacientes con HSA?",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Deterioro neurológico focal o caída de 2 puntos del GCS durante al menos 1 hs. No atribuible a otras causas.",
+                        "b- Nuevo infarto cerebral en TC o RMN posterior  6 semanas desde el evento hemorrágico. No atribuible a otras causas.",
+                        "c- Velocidad media de FSC >o= a 120 cm/s e índice de Lindegaard >o= a 3 en ACM.",
+                        "d- AngioTC que evidencie defecto de relleno vascular, en pacientes con examen neurológico limitado y elevación de lecturas del doppler transcraneal."
+                    ],
+                    "correctAnswer": "2",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "25"
+                }
+            ],
+            "appLocale": {
+                "landingHeaderText": "<questionLength> preguntas",
+                "question": "Pregunta",
+                "startQuizBtn": "Comenzar",
+                "resultFilterAll": "Todas",
+                "resultFilterCorrect": "Correcto",
+                "resultFilterIncorrect": "Incorrecto",
+                "prevQuestionBtn": "Previa",
+                "nextQuestionBtn": "Siguiente",
+                "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
+            }
+        }
+    },
+    {
+        "id": "m7_v1",
+        "generatedQuestions": {
+            "quizNumber": "Síndrome de Distres Respiratorio Grave",
+            "quizTitle": "Módulo 7 - Video 1",
+            "quizSynopsis": "",
+            "nrOfQuestions": "3",
+            "questions": [
+                {
+                    "question": "¿Cuál es una de las principales características del síndrome de distrés respiratorio agudo (SDRA) en cuanto a la oxigenación del paciente?",
+                    "questionType": "text",
+                    "questionPic": "",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- El nivel de PaFiO2 clasifica el distrés en leve, moderado y severo.",
+                        "b- El nivel de presión arterial sistólica clasifica el distrés en leve, moderado y severo.",
+                        "c- El nivel de saturación de oxígeno clasifica el distrés en leve, moderado y severo."
+                    ],
+                    "correctAnswer": "1",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "¿Qué tratamiento se recomienda precozmente en pacientes con SDRA moderado a severo y PaFiO2 menor a 150 mmHg?",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Colocar al paciente en decúbito supino.",
+                        "b- Colocar al paciente en decúbito prono.",
+                        "c- Aumentar el volumen corriente a más de 8 ml/kg."
+                    ],
+                    "correctAnswer": "2",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "¿Qué volumen corriente se recomienda para la ventilación mecánica protectora en pacientes con SDRA?",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- De 8 a 10 ml/kg de peso corporal.",
+                        "b- De 6 ml/kg o menos de peso corporal.",
+                        "c- De 10 a 12 ml/kg de peso corporal."
+                    ],
+                    "correctAnswer": "2",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "34"
+                }
+            ],
+            "appLocale": {
+                "landingHeaderText": "<questionLength> preguntas",
+                "question": "Pregunta",
+                "startQuizBtn": "Comenzar",
+                "resultFilterAll": "Todas",
+                "resultFilterCorrect": "Correcto",
+                "resultFilterIncorrect": "Incorrecto",
+                "prevQuestionBtn": "Previa",
+                "nextQuestionBtn": "Siguiente",
+                "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
+            }
+        }
+    },
+    {
+        "id": "m7_v2",
+        "generatedQuestions": {
+            "quizNumber": "Instrumentación de la via aérea",
+            "quizTitle": "Módulo 7 - Video 2",
+            "quizSynopsis": "",
+            "nrOfQuestions": "3",
+            "questions": [
+                {
+                    "question": "¿Qué herramienta se está incorporando lentamente en las terapias intensivas, similar a la ecografía pulmonar?",
+                    "questionType": "text",
+                    "questionPic": "",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Fibra óptica",
+                        "b- Endoscopía con endoscopios de un solo uso",
+                        "c- Radiografías de tórax"
+                    ],
+                    "correctAnswer": "2",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "¿Cuál es el score más común utilizado para guiar la intubación en pacientes con vía aérea dificultosa?",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Score de Glasgow",
+                        "b- Score de Malati",
+                        "c- Score de McCormack"
+                    ],
+                    "correctAnswer": "2",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "¿Qué debe descartarse al utilizar lidocaína en la endoscopía de pacientes ventilados?",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Las primeras muestras de secreciones",
+                        "b- Los tubos orotraqueales pequeños",
+                        "c- El uso de oxígeno durante el procedimiento"
+                    ],
+                    "correctAnswer": "1",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "34"
+                }
+            ],
+            "appLocale": {
+                "landingHeaderText": "<questionLength> preguntas",
+                "question": "Pregunta",
+                "startQuizBtn": "Comenzar",
+                "resultFilterAll": "Todas",
+                "resultFilterCorrect": "Correcto",
+                "resultFilterIncorrect": "Incorrecto",
+                "prevQuestionBtn": "Previa",
+                "nextQuestionBtn": "Siguiente",
+                "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
+            }
+        }
+    },
+    {
+        "id": "m7_v3",
+        "generatedQuestions": {
+            "quizNumber": "EPOC",
+            "quizTitle": "Módulo 7 - Video 3",
+            "quizSynopsis": "",
+            "nrOfQuestions": "3",
+            "questions": [
+                {
+                    "question": "¿Cuál es uno de los principales cambios en el tratamiento de pacientes con EPOC en terapia intensiva según las nuevas guías?",
+                    "questionType": "text",
+                    "questionPic": "",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Uso de ventilación mecánica invasiva como primera opción",
+                        "b- Inicio temprano de la triple terapia, incluyendo un corticoide inhalado",
+                        "c- Aumento de la frecuencia de rehabilitación pulmonar después del alta"
+                    ],
+                    "correctAnswer": "2",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "¿Cuál es el riesgo relativo de mortalidad cardiovascular en pacientes con EPOC en los primeros días después de una exacerbación grave?",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- 3 veces mayor en los primeros 10 días",
+                        "b- 10 veces mayor en los primeros 30 días",
+                        "c- 5 veces mayor en los primeros 5 días"
+                    ],
+                    "correctAnswer": "2",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "Según la charla, ¿qué porcentaje de muertes en pacientes con EPOC está relacionado con eventos cardiovasculares?",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- 20%",
+                        "b- 30%",
+                        "c- 40%"
+                    ],
+                    "correctAnswer": "3",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "34"
+                }
+            ],
+            "appLocale": {
+                "landingHeaderText": "<questionLength> preguntas",
+                "question": "Pregunta",
+                "startQuizBtn": "Comenzar",
+                "resultFilterAll": "Todas",
+                "resultFilterCorrect": "Correcto",
+                "resultFilterIncorrect": "Incorrecto",
+                "prevQuestionBtn": "Previa",
+                "nextQuestionBtn": "Siguiente",
+                "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
+            }
+        }
+    },
+    {
+        "id": "m8_v1",
+        "generatedQuestions": {
+            "quizNumber": "Medicina transfusional en el paciente crítico",
+            "quizTitle": "Módulo 8 - Video 1",
+            "quizSynopsis": "Medicina transfusional en el paciente crítico",
+            "nrOfQuestions": "3",
+            "questions": [
+                {
+                    "question": "¿Cuál es la donación de sangre más importante para una sangre segura según la OMS?",
+                    "questionType": "text",
+                    "questionPic": "",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Donación de reposición",
+                        "b- Donación voluntaria y no remunerada",
+                        "c- Donación con remuneración"
+                    ],
+                    "correctAnswer": "2",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "¿Cuál es el umbral de hemoglobina en el que se considera apropiado transfundir concentrado de glóbulos rojos en pacientes con anemia?",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Entre 7 y 10 g/dL",
+                        "b- Igual o mayor a 10 g/dL",
+                        "c- Menor a 8 g/dL"
+                    ],
+                    "correctAnswer": "1",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "¿Qué solución es compatible con una transfusión de glóbulos rojos?",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Dextrosa al 5%",
+                        "b- Ringer lactato",
+                        "c- Cloruro de sodio al 0.9%"
+                    ],
+                    "correctAnswer": "3",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "34"
+                }
+            ],
+            "appLocale": {
+                "landingHeaderText": "<questionLength> preguntas",
+                "question": "Pregunta",
+                "startQuizBtn": "Comenzar",
+                "resultFilterAll": "Todas",
+                "resultFilterCorrect": "Correcto",
+                "resultFilterIncorrect": "Incorrecto",
+                "prevQuestionBtn": "Previa",
+                "nextQuestionBtn": "Siguiente",
+                "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
+            }
+        }
+    },
+    {
+        "id": "m8_v2",
+        "generatedQuestions": {
+            "quizNumber": "Riesgo de transmisión de infecciones por vía transfusional",
+            "quizTitle": "Módulo 8 - Video 2",
+            "quizSynopsis": "Riesgo de transmisión de infecciones por vía transfusional",
+            "nrOfQuestions": "3",
+            "questions": [
+                {
+                    "question": "¿Cuál es el objetivo principal de la seguridad transfusional?",
+                    "questionType": "text",
+                    "questionPic": "",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Reducir los costos de los bancos de sangre.",
+                        "b- Minimizar el riesgo de transmitir infecciones por transfusió",
+                        "c- Incrementar la cantidad de donantes por región"
+                    ],
+                    "correctAnswer": "2",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "¿Qué es el proceso de autoexclusión en la donación de sangre?",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Una etapa donde se descartan componentes sanguíneos no compatibles.",
+                        "b- Un proceso donde el donante reflexiona sobre si su sangre es segura para ser utilizada",
+                        "c- Una técnica para procesar la sangre antes de realizar pruebas de laboratorio"
+                    ],
+                    "correctAnswer": "2",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "¿Cuál es uno de los métodos para reducir el periodo de ventana en la detección de infecciones en componentes sanguíneos?",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Usar pruebas moleculares para detectar ácidos nucleicos (pruebas NAT)",
+                        "b- Realizar entrevistas más largas a los donantes",
+                        "c- Aumentar la cantidad de pruebas serológicas obligatorias"
+                    ],
+                    "correctAnswer": "1",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "34"
+                }
+            ],
+            "appLocale": {
+                "landingHeaderText": "<questionLength> preguntas",
+                "question": "Pregunta",
+                "startQuizBtn": "Comenzar",
+                "resultFilterAll": "Todas",
+                "resultFilterCorrect": "Correcto",
+                "resultFilterIncorrect": "Incorrecto",
+                "prevQuestionBtn": "Previa",
+                "nextQuestionBtn": "Siguiente",
+                "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
+            }
+        }
+    },
+    {
+        "id": "m8_v3",
+        "generatedQuestions": {
+            "quizNumber": "Miastenia Gravis",
+            "quizTitle": "Módulo 8 - Video 3",
+            "quizSynopsis": "Miastenia Gravis",
+            "nrOfQuestions": "2",
+            "questions": [
+                {
+                    "question": "En la Miastenia Gravis la principal acción del anticuerpo antireceptor colinérgico en la union neuromuscular es:",
+                    "questionType": "text",
+                    "questionPic": "",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Bloqueo del receptor colinergico postsináptico",
+                        "b- Aumento de la degradación e internalizacion del receptor",
+                        "c- Lísis postsináptica a través del complemento",
+                        "d- Bloqueo presináptico de la liberación de la Acetilcolina",
+                        "e- Alteracion del agrupamiento de receptores de Acetilcolina"
+                    ],
+                    "correctAnswer": "3",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "50"
+                },
+                {
+                    "question": "Un paciente con diagnóstico de miastenia gravis ingresa a la unidad de terapia intensiva en crisis miasténica. Hasta este momento, el paciente estaba recibiendo tratamiento con piridostigmina 60 mg cada 4 horas y prednisona 10 mg diarios. ¿Cuál es la conducta terapéutica inicial más adecuada en este caso?",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Aumentar la dosis de piridostigmina a 90 mg cada 4 horas.",
+                        "b- Discontinuar la piridostigmina y aumentar la dosis de prednisona",
+                        "c- Discontinuar la prednisona y administrar plasmaféresis",
+                        "d- Mantener la dosis de piridostigmina y aumentar la prednisona",
+                        "e- Considerar el uso de ventilación mecánica si es necesario y agregar inmunoglobulina intravenosa"
+                    ],
+                    "correctAnswer": "5",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "50"
+                }
+            ],
+            "appLocale": {
+                "landingHeaderText": "<questionLength> preguntas",
+                "question": "Pregunta",
+                "startQuizBtn": "Comenzar",
+                "resultFilterAll": "Todas",
+                "resultFilterCorrect": "Correcto",
+                "resultFilterIncorrect": "Incorrecto",
+                "prevQuestionBtn": "Previa",
+                "nextQuestionBtn": "Siguiente",
+                "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
+            }
+        }
+    },
+    {
+        "id": "m8_v4",
+        "generatedQuestions": {
+            "quizNumber": "Síndrome de Guillain-Barré",
+            "quizTitle": "Módulo 8 - Video 4",
+            "quizSynopsis": "Síndrome de Guillain-Barré",
+            "nrOfQuestions": "2",
+            "questions": [
+                {
+                    "question": "Un paciente con síndrome de Guillain-Barré en asistencia respiratoria mecánica completó un ciclo de tratamiento con inmunoglobulina intravenosa hace dos semanas y no ha mostrado mejoría clínica significativa. ¿Cuál es la conducta más adecuada en este momento?",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Iniciar un segundo ciclo de inmunoglobulina intravenosa",
+                        "b- Administrar corticosteroides a altas dosis",
+                        "c- Iniciar tratamiento con plasmaféresis como terapia adicional",
+                        "d- Continuar con soporte ventilatorio y manejo de cuidados intensivos, esperando la recuperación espontánea",
+                        "e- Iniciar tratamiento con rituximab."
+                    ],
+                    "correctAnswer": "4",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "50"
+                },
+                {
+                    "question": "En un paciente con síndrome de Guillain-Barré que requiere asistencia respiratoria mecánica (ARM), ¿cuál de los siguientes factores se asocia con un mayor riesgo de ventilación mecánica prolongada?",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Edad mayor de 40 años",
+                        "b- Variante clínica de Miller Fisher",
+                        "c- Variante axonal en estudios electrofisiológicos",
+                        "d- Inicio de la debilidad en las extremidades inferiores",
+                        "e- Ausencia de mejoría a las 2 semanas de culminado el tratamiento con plasmaferesis"
+                    ],
+                    "correctAnswer": "3",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "50"
+                }
+            ],
+            "appLocale": {
+                "landingHeaderText": "<questionLength> preguntas",
+                "question": "Pregunta",
+                "startQuizBtn": "Comenzar",
+                "resultFilterAll": "Todas",
+                "resultFilterCorrect": "Correcto",
+                "resultFilterIncorrect": "Incorrecto",
+                "prevQuestionBtn": "Previa",
+                "nextQuestionBtn": "Siguiente",
+                "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
+            }
+        }
+    },
+    {
+        "id": "m8_v5",
+        "generatedQuestions": {
+            "quizNumber": "Manejo de Crisis Epilépticas en UTI",
+            "quizTitle": "Módulo 8 - Video 5",
+            "quizSynopsis": "Manejo de Crisis Epilépticas en UTI",
+            "nrOfQuestions": "3",
+            "questions": [
+                {
+                    "question": "¿Cuál es la definición de crisis epiléptica prolongada?",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Una crisis que dura menos de 5 minutos pero requiere intervención farmacológica.",
+                        "b- Una crisis que dura más de 5 minutos sin intervención farmacológica",
+                        "c- Una crisis que ocurre varias veces en un periodo de 24 horas."
+                    ],
+                    "correctAnswer": "1",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": "Según la ILAE, ¿cuál es el tiempo T1 para iniciar el tratamiento del estatus epiléptico tónico-clónico generalizado?",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- 10 minutos.",
+                        "b- 5 minutos.",
+                        "c- 30 minutos."
+                    ],
+                    "correctAnswer": "2",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "33"
+                },
+                {
+                    "question": " ¿Qué opción es recomendada como primera línea para tratar un estatus epiléptico convulsivo en la fase inicial (5-20 minutos)?",
+                    "questionType": "text",
+                    "answerSelectionType": "single",
+                    "answers": [
+                        "a- Fenobarbital intravenoso.",
+                        "b- Benzodiacepinas.",
+                        "c- Levetiracetam intravenoso."
+                    ],
+                    "correctAnswer": "2",
+                    "messageForCorrectAnswer": "Correcto!",
+                    "messageForIncorrectAnswer": "Incorrecto",
+                    "explanation": "",
+                    "point": "34"
+                }
+            ],
+            "appLocale": {
+                "landingHeaderText": "<questionLength> preguntas",
+                "question": "Pregunta",
+                "startQuizBtn": "Comenzar",
+                "resultFilterAll": "Todas",
+                "resultFilterCorrect": "Correcto",
+                "resultFilterIncorrect": "Incorrecto",
+                "prevQuestionBtn": "Previa",
+                "nextQuestionBtn": "Siguiente",
+                "resultPageHeaderText": "Has completado <correctIndexLength> de <questionLength> preguntas."
+            }
+        }
+    }
+]
