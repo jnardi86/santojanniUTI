@@ -88,6 +88,17 @@ const EditProfileForm = ({setShowEdit}) => {
                     />
                 </div>
                 <div className='flex flex-col items-start justify-start w-full px-6 py-2'>
+                    <label htmlFor="lastmane" className='text-White font-poppins text-lg font-regular'>CUIL:</label>
+                    <input
+                        type="text"
+                        id="cuil"
+                        name="cuil"
+                        value={userProfile?.cuil || ''}
+                        onChange={handleChange}
+                        className='w-[300px] tablet:w-[520px] bg-White rounded-e-2xl text-start py-2'
+                    />
+                </div>
+                <div className='flex flex-col items-start justify-start w-full px-6 py-2'>
                     <label htmlFor="hospital" className='text-White font-poppins text-lg font-regular'>Hospital:</label>
                     <input
                         type="text"

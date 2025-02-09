@@ -38,6 +38,12 @@ const UserProfileData = ({handleEditProfile}) => {
                     </div>
                 </div>
                 <div className='flex flex-col items-start justify-start w-full px-6 py-2'>
+                    <h6 className='text-White font-poppins text-lg font-regular'>CUIL</h6>
+                    <div className='w-[300px] tablet:w-[520px] bg-White rounded-e-2xl text-start px-2 py-2'>
+                        <p className='font-poppins text-lg font-regular text-Blue'>{userProfile?.cuil ? userProfile?.cuil : 'CUIL'}</p>
+                    </div>
+                </div>
+                <div className='flex flex-col items-start justify-start w-full px-6 py-2'>
                     <h6 className='text-White font-poppins text-lg font-regular'>Hospital</h6>
                     <div className='w-[300px] tablet:w-[520px] bg-White rounded-e-2xl text-start px-2 py-2'>
                         <p className='font-poppins text-lg font-regular text-Blue'>{userProfile?.hospital ? userProfile?.hospital : 'Hospital'}</p>
